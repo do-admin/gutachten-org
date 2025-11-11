@@ -33,7 +33,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
         <div className="flex items-center gap-6 mq1125:hidden">
           <div className="h-10 rounded-num-8 bg-cadetblue flex items-center py-num-0 px-num-16 box-border gap-2">
             <div className="relative leading-[100%] font-semibold">
-              Useful Life
+              Nutzungsdauer
             </div>
             <Image
               className="w-3 relative max-h-full"
@@ -46,21 +46,21 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
           </div>
           <div className="h-10 rounded-num-8 flex items-center justify-center py-num-0 px-num-16 box-border">
             <div className="relative leading-[100%] font-medium">
-              Property Valuation
+              Immobilienbewertung
             </div>
           </div>
           <div className="h-10 rounded-num-8 flex items-center justify-center py-num-0 px-num-16 box-border">
-            <div className="relative leading-[100%] font-medium">Counselor</div>
+            <div className="relative leading-[100%] font-medium">Ratgeber</div>
           </div>
           <div className="h-10 rounded-num-8 flex items-center justify-center py-num-0 px-num-16 box-border">
             <div className="relative leading-[100%] font-medium">
-              For Business Customers
+              Für Geschäftskunden
             </div>
           </div>
         </div>
         <button className="cursor-pointer [border:none] py-2 px-num-18 bg-gutachten-accent h-12 rounded-num-8 flex items-center justify-center box-border hover:bg-chocolate">
           <div className="relative text-num-14 leading-[100%] font-semibold font-inter text-dark-neutral text-left">
-            Free Initial Assesment
+            Kostenlose Ersteinschätzung
           </div>
         </button>
       </div>
