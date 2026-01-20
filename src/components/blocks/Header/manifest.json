@@ -1,0 +1,363 @@
+{
+  "name": "Header",
+  "version": "1.0.0",
+  "description": "Header component with navigation, logo, CTA button, and mobile menu support. Supports both default (complex) and simple design variants.",
+  "props": {
+    "style": {
+      "type": "enum",
+      "values": ["default", "simple"],
+      "required": false,
+      "default": "default",
+      "description": "Style variant: 'default' for complex header with dropdowns, 'simple' for simpler design"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["light", "dark"],
+      "required": false,
+      "default": "light",
+      "description": "Color variant of the header"
+    },
+    "logo": {
+      "type": "object",
+      "required": false,
+      "description": "Logo configuration - supports both image-based (light/dark) and icon-based (icon/text) logos",
+      "properties": {
+        "light": {
+          "type": "string",
+          "required": false,
+          "description": "Path to logo for light mode (image-based)"
+        },
+        "dark": {
+          "type": "string",
+          "required": false,
+          "description": "Path to logo for dark mode (image-based)"
+        },
+        "icon": {
+          "type": "LucideIcon",
+          "required": false,
+          "description": "Lucide icon component for icon-based logo (simple style)"
+        },
+        "text": {
+          "type": "string",
+          "required": false,
+          "description": "Text to display with icon (simple style)"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "required": false,
+          "description": "ARIA label for the logo link"
+        }
+      }
+    },
+    "logoClassName": {
+      "type": "string",
+      "required": false,
+      "default": "h-4 md:h-6 w-auto"
+    },
+    "navigation": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of navigation items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "href": {
+            "type": "string",
+            "required": true
+          },
+          "children": {
+            "type": "array",
+            "required": false,
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "href": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ctaButton": {
+      "type": "object",
+      "required": false,
+      "description": "Call-to-action button configuration",
+      "properties": {
+        "text": {
+          "type": "string",
+          "required": true
+        },
+        "href": {
+          "type": "string",
+          "required": true
+        },
+        "variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "outline",
+            "secondary",
+            "ghost",
+            "accent",
+            "link",
+            "destructive"
+          ],
+          "required": false
+        },
+        "size": {
+          "type": "enum",
+          "values": ["default", "sm", "lg", "icon"],
+          "required": false
+        },
+        "onClick": {
+          "type": "function",
+          "required": false,
+          "description": "Optional click handler for CTA button"
+        }
+      }
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "enableSmoothScroll": {
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Enable smooth scroll for hash links (useful for simple style)"
+    },
+    "position": {
+      "type": "enum",
+      "values": ["fixed", "sticky"],
+      "required": false,
+      "description": "Header position - 'fixed' (default) or 'sticky' (simple style)"
+    },
+    "useContainer": {
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Use Container component wrapper (simple style)"
+    },
+    "scrollEffects": {
+      "type": "object",
+      "required": false,
+      "description": "Scroll effects configuration",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "required": true
+        },
+        "shadowThreshold": {
+          "type": "number",
+          "required": false,
+          "default": 10
+        },
+        "blurEnabled": {
+          "type": "boolean",
+          "required": false
+        }
+      }
+    },
+    "mobileMenu": {
+      "type": "object",
+      "required": false,
+      "description": "Mobile menu configuration",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "required": true
+        },
+        "animationDuration": {
+          "type": "number",
+          "required": false
+        }
+      }
+    },
+    "textStyles": {
+      "type": "object",
+      "required": false,
+      "description": "Text styling configuration",
+      "properties": {
+        "primary": {
+          "type": "object",
+          "properties": {
+            "color": {
+              "type": "string",
+              "required": false
+            },
+            "size": {
+              "type": "enum",
+              "values": ["xs", "sm", "base", "lg", "xl", "2xl"],
+              "required": false
+            },
+            "weight": {
+              "type": "enum",
+              "values": [
+                "thin",
+                "extralight",
+                "light",
+                "normal",
+                "medium",
+                "semibold",
+                "bold",
+                "extrabold",
+                "black"
+              ],
+              "required": false
+            }
+          }
+        },
+        "secondary": {
+          "type": "object",
+          "properties": {
+            "color": {
+              "type": "string",
+              "required": false
+            },
+            "size": {
+              "type": "enum",
+              "values": ["xs", "sm", "base", "lg", "xl", "2xl"],
+              "required": false
+            },
+            "weight": {
+              "type": "enum",
+              "values": [
+                "thin",
+                "extralight",
+                "light",
+                "normal",
+                "medium",
+                "semibold",
+                "bold",
+                "extrabold",
+                "black"
+              ],
+              "required": false
+            }
+          }
+        },
+        "hover": {
+          "type": "object",
+          "properties": {
+            "color": {
+              "type": "string",
+              "required": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "requires": [
+    "ui/button",
+    "ui/section",
+    "next/link",
+    "next/image",
+    "lucide-react",
+    "lib/types/navigation"
+  ],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "next@^14.0.0",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Basic Header (Default Style)",
+      "description": "Complex header with logo, navigation, and dropdowns",
+      "props": {
+        "style": "default",
+        "variant": "light",
+        "logo": {
+          "light": "/images/logo-dark.png",
+          "dark": "/images/logo-light.png"
+        },
+        "navigation": [
+          {
+            "name": "Home",
+            "href": "/"
+          },
+          {
+            "name": "Services",
+            "href": "/services"
+          }
+        ],
+        "ctaButton": {
+          "text": "Kontakt",
+          "href": "/kontakt"
+        },
+        "mobileMenu": {
+          "enabled": true
+        },
+        "scrollEffects": {
+          "enabled": true,
+          "shadowThreshold": 10,
+          "blurEnabled": true
+        }
+      }
+    },
+    {
+      "name": "Simple Header",
+      "description": "Simple header style with icon logo, smooth scroll navigation, and sticky positioning",
+      "props": {
+        "style": "simple",
+        "logo": {
+          "icon": "Building2",
+          "text": "Immoverde",
+          "ariaLabel": "Immoverde Homepage"
+        },
+        "navigation": [
+          {
+            "name": "Leistungen",
+            "href": "#services"
+          },
+          {
+            "name": "Bewertung",
+            "href": "#bewertung"
+          },
+          {
+            "name": "Referenzen",
+            "href": "#referenzen"
+          },
+          {
+            "name": "Über uns",
+            "href": "#about"
+          },
+          {
+            "name": "FAQ",
+            "href": "#faq"
+          },
+          {
+            "name": "Kontakt",
+            "href": "#bewertung"
+          }
+        ],
+        "ctaButton": {
+          "text": "Kostenlose Bewertung",
+          "href": "#bewertung",
+          "size": "sm"
+        },
+        "enableSmoothScroll": true,
+        "position": "sticky",
+        "useContainer": true
+      }
+    }
+  ]
+}

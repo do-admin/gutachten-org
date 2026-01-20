@@ -1,0 +1,43 @@
+{
+  "faq_title": "FAQ zum Nutzungsdauergutachten in {{city_name}}",
+  "faq_items": [
+    {
+      "id": "28145998-45c6-4eca-ba20-eabe970132f6",
+      "question": "Was ist ein Nutzungsdauergutachten?",
+      "answer": "Ein Nutzungsdauergutachten (auch Restnutzungsdauergutachten genannt) ist ein Gutachten zur Ermittlung der voraussichtlichen verbleibenden Nutzungsdauer einer Immobilie oder eines Gebäudes. Es wird insbesondere dann erstellt, wenn Zweifel an der technischen oder wirtschaftlichen Lebensdauer eines Gebäudes bestehen oder wenn diese von der üblichen amtlichen Schätzung abweicht."
+    },
+    {
+      "id": "aa115ec2-e877-4f0b-bb6f-49a810ce2d9f",
+      "question": "Wann wird ein Nutzungsdauergutachten benötigt?",
+      "answer": "Ein Nutzungsdauergutachten ist besonders relevant bei steuerlichen Abschreibungen (§ 7 EStG), Immobilienbewertungen – insbesondere im Ertragswertverfahren –, Finanzierungen und Krediten zur Risikoabschätzung sowie Sanierungs- oder Umbauplanungen."
+    },
+    {
+      "id": "7c6c3549-d46a-487b-baf3-09be0471cfbf",
+      "question": "Was sind Inhalte eines Nutzungsdauergutachtens in {{city_name}}?",
+      "answer": "Ein typisches Gutachten enthält: Bestandsaufnahme des baulichen Zustands; Bewertung der Bauqualität und Bauweise; Feststellung von Schäden, Mängeln oder Modernisierungen; individuelle Einschätzung der Restnutzungsdauer (in Jahren); Dokumentation durch Fotos, Pläne und technische Daten."
+    },
+    {
+      "id": "ab6a9d45-bca6-4721-a856-e9f5b2b1c7cb",
+      "question": "Was kostet ein Restnutzungsdauergutachten in {{city_name}}?",
+      "answer": "Die Kosten Die Kosten für ein Restnutzungsdauergutachten in {{city_name}} richten sich bei uns nach der Objektgröße (Wohn- und Nutzfläche) und starten ab 950,81 EUR brutto. Zusätzliche Kosten können optional anfallen, wenn z.B. eine Vor-Ort-Außenbesichtigung durchgeführt wird (177,31 EUR brutto) oder eine Vor-Ort-Innen- und Außenbesichtigung notwendig ist (ab 474,81 EUR brutto). Wenn es besonders schnell gehen muss, bieten wir zudem einen Expresszuschlag in Höhe von 236,81 EUR brutto an. Darüber hinaus bieten wir eine kostenlose Ersteinschätzung an, um vorab abzuschätzen, ob ein Gutachten sinnvoll ist - so entstehen zunächst keine Kosten, bis klar ist, dass tatsächlich ein Vorteil durch das Gutachten erzielt werden kann. Alle Details finden Sie auf der Unterseite Preisliste Restnutzungsdauergutachten."
+    },
+    {
+      "id": "ad165f25-53e1-4d7b-8c46-3a3821ef48c2",
+      "question": "In welchen Stadtteilen von {{city_name}} bieten Sie Restnutzungsdauergutachten an?",
+      "answer": "Wenn Sie ein Restnutzungsdauergutachten in {{city_name}} benötigen, sind wir in den folgenden Stadtteilen für Sie da: {{list_of_city_districts}}"
+    },
+    {
+      "id": "b826987a-8108-4de8-a577-3fa137aad4f7",
+      "question": "Bieten Sie auch Restnutzungsdauergutachten in der Umgebung von {{city_name}} an?",
+      "answer": "Unsere Gutachter arbeiten nicht nur in {{city_name}}, sondern auch im Umland. Gerne sind wir unter anderem in folgenden Regionen für Sie da: {{list_of_surrounding_cities}}"
+    }
+  ],
+  "meta": {
+    "placeholders": {
+      "city_name": "Name of the city (e.g., Hamburg, Berlin, Essen)",
+      "list_of_city_districts": "Comma-separated or bullet list of all districts for the city",
+      "list_of_surrounding_cities": "Comma-separated list of nearby towns/regions"
+    },
+    "notes": "CITY GENERIC = rendered via template; CITY SPECIFIC = uses placeholders to be filled per city page."
+  }
+}

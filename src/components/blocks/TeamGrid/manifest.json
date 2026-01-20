@@ -1,0 +1,38 @@
+{
+  "id": "b070efa3-da7a-4586-8c0f-694777ee192d",
+  "name": "TeamGrid",
+  "description": "Stellt Teammitglieder in einem responsiven Kartenraster mit Bildern, Rollen und Zusatzinformationen dar.",
+  "props": {
+    "id": "d84b3aa2-d154-40db-8eac-418651115ce9",
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Überschrift des Abschnitts"
+    },
+    "subtitle": {
+      "type": "string",
+      "description": "Optionaler Untertitel"
+    },
+    "description": {
+      "type": "string",
+      "description": "Einleitender Beschreibungstext"
+    },
+    "members": {
+      "type": "array",
+      "required": true,
+      "description": "Liste der Teammitglieder inklusive Bild- und Rollendaten"
+    },
+    "columns": {
+      "type": "number",
+      "description": "Anzahl der Spalten im Desktop-Layout"
+    },
+    "sectionId": {
+      "type": "string",
+      "description": "HTML-Anker für den Abschnitt"
+    },
+    "variant": {
+      "type": "string",
+      "description": "Layout-Variante, z. B. Hintergrundfarbe"
+    }
+  }
+}

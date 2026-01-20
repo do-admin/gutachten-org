@@ -1,0 +1,152 @@
+{
+  "name": "TaxSavingsShowcase",
+  "version": "1.0.0",
+  "description": "Showcase component displaying property tax savings examples with images, property details, and statistics",
+  "props": {
+    "eyebrow": {
+      "type": "string",
+      "required": false,
+      "default": "echte Praxisbeispiele und überzeugende Ergebnisse.",
+      "description": "Eyebrow text displayed above the title"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Steuerersparnis mit verkürzter Nutzungsdauer",
+      "description": "Main heading for the showcase section"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "default": "Unsere Gutachten schaffen messbare Vorteile: Immobilienbesitzer sparen durch die reduzierte Nutzungsdauer jedes Jahr tausende Euro an Steuern. Ob Eigentumswohnung, Einfamilienhaus, Mehrfamilienhaus oder Gewerbeobjekt – wir zeigen Ihnen, wie Sie durch gezielte Abschreibungen Ihre Steuerlast deutlich senken können.",
+      "description": "Description text displayed below the title"
+    },
+    "ctaText": {
+      "type": "string",
+      "required": false,
+      "default": "Steuerersparnis berechnen",
+      "description": "Text for the call-to-action button"
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": false,
+      "default": "#",
+      "description": "URL for the call-to-action button"
+    },
+    "properties": {
+      "type": "array",
+      "required": false,
+      "description": "Array of property cards to display",
+      "items": {
+        "type": "object",
+        "properties": {
+          "image": {
+            "type": "string",
+            "required": true,
+            "description": "URL or path to the property image"
+          },
+          "propertyType": {
+            "type": "string",
+            "required": true,
+            "description": "Type of property (e.g., Mehrfamilienhaus)"
+          },
+          "buildingValue": {
+            "type": "string",
+            "required": true,
+            "description": "Building value as formatted string"
+          },
+          "taxSavings": {
+            "type": "string",
+            "required": true,
+            "description": "Tax savings amount per year as formatted string"
+          },
+          "remainingUsefulLife": {
+            "type": "string",
+            "required": true,
+            "description": "Remaining useful life of the property"
+          },
+          "features": {
+            "type": "array",
+            "required": true,
+            "description": "Array of property features",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            }
+          },
+          "stats": {
+            "type": "array",
+            "required": true,
+            "description": "Array of property statistics",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "required": true
+                },
+                "value": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "Additional CSS classes for the component"
+    }
+  },
+  "requires": ["react", "lucide-react", "lib/utils"],
+  "npm": {
+    "dependencies": [
+      "react@^18.0.0",
+      "lucide-react@^0.0.0",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Default Tax Savings Showcase",
+      "description": "Display property tax savings examples with default data",
+      "props": {
+        "eyebrow": "echte Praxisbeispiele und überzeugende Ergebnisse.",
+        "title": "Steuerersparnis mit verkürzter Nutzungsdauer",
+        "description": "Unsere Gutachten schaffen messbare Vorteile: Immobilienbesitzer sparen durch die reduzierte Nutzungsdauer jedes Jahr tausende Euro an Steuern.",
+        "ctaText": "Steuerersparnis berechnen",
+        "ctaLink": "#",
+        "properties": [
+          {
+            "image": "https://api.builder.io/api/v1/image/assets/TEMP/9a3db212a476ef20ae9111a7bd87581b78c1b28f?width=763",
+            "propertyType": "Mehrfamilienhaus",
+            "buildingValue": "8.413.000 €",
+            "taxSavings": "3.350 € / Jahr",
+            "remainingUsefulLife": "23 Jahre",
+            "features": [
+              { "text": "Modernisierung der Heizungsanlage: 2016" },
+              { "text": "keine Außendämmung vorhanden" }
+            ],
+            "stats": [
+              { "label": "Bj. 1996", "value": "1904" },
+              { "label": "Einheiten", "value": "42" },
+              { "label": "m2", "value": "4206,6" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

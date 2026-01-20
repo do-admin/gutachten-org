@@ -1,0 +1,186 @@
+{
+  "name": "Footer",
+  "version": "1.0.0",
+  "description": "Flexible footer component with branding, navigation sections, contact info, and legal links",
+  "props": {
+    "brandName": {
+      "type": "string",
+      "required": true,
+      "description": "Brand or company name"
+    },
+    "brandIcon": {
+      "type": "LucideIcon",
+      "required": false,
+      "description": "Optional brand icon"
+    },
+    "brandDescription": {
+      "type": "string",
+      "required": false,
+      "description": "Optional brand description text"
+    },
+    "sections": {
+      "type": "array",
+      "required": true,
+      "description": "Array of footer sections with links or contacts",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "links": {
+            "type": "array",
+            "required": false,
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "required": true
+                },
+                "href": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            }
+          },
+          "contacts": {
+            "type": "array",
+            "required": false,
+            "items": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "LucideIcon",
+                  "required": true
+                },
+                "content": {
+                  "type": "union",
+                  "values": ["string", "ReactNode"],
+                  "required": true
+                },
+                "href": {
+                  "type": "string",
+                  "required": false
+                }
+              }
+            }
+          },
+          "customContent": {
+            "type": "ReactNode",
+            "required": false
+          }
+        }
+      }
+    },
+    "legalLinks": {
+      "type": "array",
+      "required": false,
+      "description": "Legal links displayed in the bottom section",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "required": true
+          },
+          "href": {
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    },
+    "copyrightText": {
+      "type": "string",
+      "required": false,
+      "description": "Custom copyright text"
+    },
+    "showYear": {
+      "type": "boolean",
+      "default": true
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "bg-primary"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "text-primary-foreground"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "border-primary-foreground/20"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "topSectionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "bottomSectionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "brandClassName": {
+      "type": "string",
+      "required": false
+    },
+    "sectionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "linkClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableScrollTo": {
+      "type": "boolean",
+      "default": true
+    },
+    "onLinkClick": {
+      "type": "function",
+      "required": false,
+      "description": "Custom link click handler"
+    }
+  },
+  "requires": ["ui/section", "next/link", "lucide-react"],
+  "npm": {
+    "dependencies": ["lucide-react@^0.263", "next@^14.0.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Company Footer",
+      "description": "Standard company footer with navigation, contact info, and legal links",
+      "props": {
+        "brandName": "Immoverde",
+        "brandDescription": "Ihr Partner für Immobilienverwaltung und -verkauf in Hannover",
+        "sections": [
+          {
+            "title": "Navigation",
+            "links": [
+              { "label": "Leistungen", "href": "#services" },
+              { "label": "Bewertung", "href": "#bewertung" },
+              { "label": "Referenzen", "href": "#referenzen" },
+              { "label": "Über uns", "href": "#about" }
+            ]
+          }
+        ],
+        "legalLinks": [
+          { "label": "Impressum", "href": "/impressum" },
+          { "label": "Datenschutz", "href": "/datenschutz" }
+        ]
+      }
+    }
+  ]
+}

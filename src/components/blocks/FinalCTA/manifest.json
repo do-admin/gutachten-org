@@ -1,0 +1,165 @@
+{
+  "name": "FinalCTA",
+  "version": "1.0.0",
+  "description": "Final call-to-action section component with customizable buttons and card variants",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the CTA section"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Optional description text below the title"
+    },
+    "buttons": {
+      "type": "array",
+      "required": true,
+      "description": "Array of button configurations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "required": true
+          },
+          "href": {
+            "type": "string",
+            "required": true
+          },
+          "variant": {
+            "type": "enum",
+            "values": [
+              "default",
+              "destructive",
+              "outline",
+              "secondary",
+              "ghost",
+              "link",
+              "accent"
+            ],
+            "default": "secondary"
+          },
+          "size": {
+            "type": "enum",
+            "values": ["default", "sm", "lg", "icon"],
+            "default": "lg"
+          },
+          "icon": {
+            "type": "LucideIcon",
+            "required": false
+          },
+          "onClick": {
+            "type": "function",
+            "required": false
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "cta"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "secondary"],
+      "default": "secondary"
+    },
+    "cardVariant": {
+      "type": "enum",
+      "values": ["default", "primary", "accent", "secondary"],
+      "default": "primary"
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl", "2xl", "3xl", "4xl", "6xl", "full"],
+      "default": "2xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "default": "center"
+    },
+    "padding": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl"],
+      "default": "lg"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "contentClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "descriptionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "buttonsWrapperClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableScrollTo": {
+      "type": "boolean",
+      "default": true
+    },
+    "scrollToSelector": {
+      "type": "string",
+      "default": "#bewertung"
+    }
+  },
+  "requires": ["ui/section", "ui/card", "ui/button", "lucide-react"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Primary CTA with Two Buttons",
+      "description": "Final call-to-action with primary styling and two action buttons",
+      "props": {
+        "title": "Bereit für den nächsten Schritt?",
+        "description": "Lassen Sie uns gemeinsam Ihre Immobilienziele erreichen. Wir beraten Sie gerne – unverbindlich und kostenlos.",
+        "buttons": [
+          {
+            "text": "Kostenlose Bewertung starten",
+            "href": "#bewertung",
+            "variant": "secondary",
+            "size": "lg"
+          },
+          {
+            "text": "Beratungstermin sichern",
+            "href": "#bewertung",
+            "variant": "outline",
+            "size": "lg"
+          }
+        ],
+        "cardVariant": "primary"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "SmoothScrollButton",
+  "version": "1.0.0",
+  "description": "Smooth scroll button component that scrolls to a target element on the page with customizable styling and behavior",
+  "props": {
+    "targetId": {
+      "type": "string",
+      "required": true,
+      "description": "ID of the target element to scroll to (without the #)"
+    },
+    "children": {
+      "type": "React.ReactNode",
+      "required": true,
+      "description": "Button text or content"
+    },
+    "icon": {
+      "type": "LucideIcon",
+      "required": false,
+      "description": "Lucide icon component to display"
+    },
+    "iconPosition": {
+      "type": "enum",
+      "values": ["left", "right"],
+      "required": false,
+      "default": "left",
+      "description": "Position of the icon relative to text"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "button", "link", "ghost"],
+      "required": false,
+      "default": "default",
+      "description": "Visual variant of the button"
+    },
+    "size": {
+      "type": "enum",
+      "values": ["sm", "md", "lg"],
+      "required": false,
+      "default": "md",
+      "description": "Size variant of the button"
+    },
+    "scrollOffset": {
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "description": "Offset in pixels from the target element"
+    },
+    "scrollBehavior": {
+      "type": "enum",
+      "values": ["smooth", "auto", "instant"],
+      "required": false,
+      "default": "smooth",
+      "description": "Scroll behavior type"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Title attribute for the button"
+    },
+    "ariaLabel": {
+      "type": "string",
+      "required": false,
+      "description": "ARIA label for accessibility"
+    }
+  },
+  "requires": ["next/link", "lucide-react", "lib/utils"],
+  "npm": {
+    "dependencies": [
+      "next@^14.0.0",
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Basic Smooth Scroll Button",
+      "description": "Simple button that scrolls to a target element",
+      "props": {
+        "targetId": "contact",
+        "children": "Scroll to Contact"
+      }
+    },
+    {
+      "name": "Button with Icon",
+      "description": "Smooth scroll button with icon",
+      "props": {
+        "targetId": "services",
+        "variant": "button",
+        "icon": "ArrowDown",
+        "iconPosition": "right",
+        "children": "Learn More"
+      }
+    }
+  ]
+}

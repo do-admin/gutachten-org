@@ -1,0 +1,131 @@
+{
+  "name": "TrustBlock",
+  "description": "A trust block component displaying logos in a grid layout with titles and descriptions",
+  "version": "1.0.0",
+  "category": "content",
+  "tags": ["trust", "logos", "partners", "certifications"],
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the trust block section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Optional description text"
+    },
+    "logos": {
+      "type": "array",
+      "required": true,
+      "description": "Array of logo items with images, titles, and optional descriptions",
+      "items": {
+        "type": "object",
+        "properties": {
+          "image": {
+            "type": "object",
+            "required": true,
+            "properties": {
+              "src": {
+                "type": "string",
+                "required": true
+              },
+              "alt": {
+                "type": "string",
+                "required": true
+              },
+              "width": {
+                "type": "number",
+                "default": 200
+              },
+              "height": {
+                "type": "number",
+                "default": 200
+              }
+            }
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "trust-block"
+    },
+    "columns": {
+      "type": "number",
+      "default": 5,
+      "enum": [2, 3, 4, 5, 6],
+      "description": "Number of columns in the grid"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "borderClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Optional border classes applied to each logo card (default variant)"
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "descriptionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "gridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "logoCardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "logoImageClassName": {
+      "type": "string",
+      "required": false
+    },
+    "logoTitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "logoDescriptionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "default": true
+    },
+    "animationDelay": {
+      "type": "number",
+      "default": 0.1
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "bg-gradient-to-b from-green-50/30 to-white"
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "name": "Hero",
+  "version": "1.0.0",
+  "description": "Hero section component with customizable layout, buttons, badges, and optional image",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading text for the hero section"
+    },
+    "highlightText": {
+      "type": "string",
+      "required": false,
+      "description": "Text within the title to highlight with accent color"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "description": "Description text below the title"
+    },
+    "buttons": {
+      "type": "array",
+      "required": true,
+      "description": "Array of button configurations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "required": true
+          },
+          "href": {
+            "type": "string",
+            "required": true
+          },
+          "variant": {
+            "type": "enum",
+            "values": [
+              "default",
+              "destructive",
+              "outline",
+              "secondary",
+              "ghost",
+              "link",
+              "accent"
+            ]
+          },
+          "size": {
+            "type": "enum",
+            "values": ["default", "sm", "lg", "icon"],
+            "default": "lg"
+          },
+          "icon": {
+            "type": "LucideIcon",
+            "required": false
+          },
+          "onClick": {
+            "type": "function",
+            "required": false
+          }
+        }
+      }
+    },
+    "trustBadges": {
+      "type": "array",
+      "required": false,
+      "description": "Array of trust badge configurations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "required": true
+          },
+          "icon": {
+            "type": "LucideIcon",
+            "required": false
+          },
+          "variant": {
+            "type": "enum",
+            "values": ["default", "secondary", "destructive", "outline"],
+            "default": "secondary"
+          }
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "required": false,
+      "properties": {
+        "src": {
+          "type": "string",
+          "required": true
+        },
+        "alt": {
+          "type": "string",
+          "required": true
+        },
+        "width": {
+          "type": "number",
+          "default": 1200
+        },
+        "height": {
+          "type": "number",
+          "default": 800
+        },
+        "priority": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "hero"
+    },
+    "layout": {
+      "type": "enum",
+      "values": ["default", "centered", "image-left"],
+      "default": "default"
+    },
+    "imagePosition": {
+      "type": "enum",
+      "values": ["right", "left"],
+      "default": "right"
+    },
+    "paddingTop": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl"],
+      "default": "md"
+    },
+    "paddingBottom": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl"],
+      "default": "xl"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "contentClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "highlightClassName": {
+      "type": "string",
+      "required": false
+    },
+    "descriptionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "buttonsWrapperClassName": {
+      "type": "string",
+      "required": false
+    },
+    "badgesWrapperClassName": {
+      "type": "string",
+      "required": false
+    },
+    "imageWrapperClassName": {
+      "type": "string",
+      "required": false
+    },
+    "imageClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "default": true
+    },
+    "imageAnimationDelay": {
+      "type": "number",
+      "default": 0.2
+    },
+    "enableScrollTo": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "requires": [
+    "ui/section",
+    "ui/button",
+    "ui/badge",
+    "next/image",
+    "lucide-react"
+  ],
+  "npm": {
+    "dependencies": ["lucide-react@^0.263", "next@^14.0.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Hero with Image and Trust Badges",
+      "description": "Full-featured hero section with image on the right and trust badges",
+      "props": {
+        "title": "Immoverde Hannover – Immobilien sicher verwalten & erfolgreich verkaufen",
+        "highlightText": "Immobilien sicher verwalten & erfolgreich verkaufen",
+        "description": "Kostenlose Online-Bewertung in 2 Minuten oder Termin mit unserem Maklerteam vereinbaren.",
+        "buttons": [
+          {
+            "text": "Kostenlose Bewertung starten",
+            "href": "#bewertung"
+          },
+          {
+            "text": "Beratung anfragen",
+            "href": "#bewertung",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/assets/hero-house.png",
+          "alt": "Moderne Immobilienverwaltung in Hannover",
+          "priority": true
+        }
+      }
+    }
+  ]
+}

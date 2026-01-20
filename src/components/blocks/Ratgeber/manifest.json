@@ -1,0 +1,77 @@
+{
+  "name": "Ratgeber",
+  "version": "1.0.0",
+  "description": "Blog/article listing component with featured articles and article cards",
+  "category": "content",
+  "tags": ["blog", "articles", "content", "ratgeber", "list"],
+  "componentType": "display",
+  "dependencies": [],
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Ratgeber",
+      "description": "Main title for the ratgeber section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Subtitle text below the title"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Description text below the subtitle"
+    },
+    "showFeatured": {
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Whether to show the featured article section"
+    },
+    "showAllArticles": {
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Whether to show all articles grid"
+    },
+    "articlesPerRow": {
+      "type": "number",
+      "required": false,
+      "default": 3,
+      "description": "Number of articles per row (2, 3, or 4)"
+    },
+    "categoryFilter": {
+      "type": "string",
+      "required": false,
+      "description": "Filter articles by category"
+    },
+    "maxArticles": {
+      "type": "number",
+      "required": false,
+      "description": "Maximum number of articles to display"
+    }
+  },
+  "examples": [
+    {
+      "name": "Basic Ratgeber",
+      "description": "Simple ratgeber with default settings",
+      "code": {
+        "type": "Ratgeber",
+        "title": "Ratgeber",
+        "subtitle": "Praktische Tipps und Anleitungen",
+        "description": "Entdecken Sie hilfreiche Artikel zu verschiedenen Themen"
+      }
+    },
+    {
+      "name": "Filtered Ratgeber",
+      "description": "Ratgeber filtered by category",
+      "code": {
+        "type": "Ratgeber",
+        "title": "Finanz-Ratgeber",
+        "categoryFilter": "finanzen",
+        "maxArticles": 6
+      }
+    }
+  ]
+}

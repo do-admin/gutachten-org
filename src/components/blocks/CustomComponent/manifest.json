@@ -1,0 +1,70 @@
+{
+  "name": "CustomComponent",
+  "version": "1.0.0",
+  "description": "Flexible component wrapper that dynamically loads custom components from the custom component registry with support for client, server, and hybrid component types",
+  "props": {
+    "componentName": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the custom component to load from the registry"
+    },
+    "componentType": {
+      "type": "enum",
+      "values": ["client", "server", "hybrid"],
+      "required": false,
+      "default": "client",
+      "description": "Type of component to load"
+    },
+    "props": {
+      "type": "object",
+      "required": false,
+      "default": {},
+      "description": "Props to pass to the loaded component"
+    },
+    "serverData": {
+      "type": "object",
+      "required": false,
+      "default": {},
+      "description": "Server-side data to merge with props"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "Additional CSS classes for the wrapper"
+    },
+    "importPath": {
+      "type": "string",
+      "required": false,
+      "description": "Optional import path for dynamic component loading"
+    },
+    "renderMode": {
+      "type": "enum",
+      "values": ["immediate", "lazy", "dynamic"],
+      "required": false,
+      "default": "immediate",
+      "description": "Rendering mode for the component"
+    }
+  },
+  "requires": [
+    "lib/custom-component-registry",
+    "lib/component-schemas",
+    "react"
+  ],
+  "npm": {
+    "dependencies": ["react@^18.0.0"],
+    "devDependencies": []
+  },
+  "category": "interactive",
+  "examples": [
+    {
+      "name": "Basic Custom Component",
+      "description": "Load a custom component from the registry",
+      "props": {
+        "componentName": "ExampleCustomComponent",
+        "componentType": "client",
+        "props": {}
+      }
+    }
+  ]
+}

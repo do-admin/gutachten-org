@@ -1,0 +1,160 @@
+{
+  "name": "CardLayout",
+  "version": "1.0.0",
+  "description": "Flexible card grid component with multiple layout variants. Displays cards in a responsive grid with icons, titles, and descriptions. Perfect for showcasing features, benefits, or content items.",
+  "props": {
+    "id": {
+      "type": "string",
+      "required": false,
+      "description": "Optional unique identifier for the component. Used for stable component references in programmatic overrides."
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Main heading for the card layout section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "cards": {
+      "type": "array",
+      "required": true,
+      "description": "Array of card items to display in the grid",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          },
+          "icon": {
+            "type": "string",
+            "required": false,
+            "description": "Lucide icon name"
+          },
+          "iconClassName": {
+            "type": "string",
+            "required": false
+          },
+          "iconImage": {
+            "type": "string",
+            "required": false,
+            "description": "Path to icon image"
+          },
+          "iconImageAlt": {
+            "type": "string",
+            "required": false
+          },
+          "iconImageClassName": {
+            "type": "string",
+            "required": false
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "required": false,
+      "default": "card-layout"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["icon-top", "cta", "step", "link", "feature"],
+      "required": false,
+      "default": "icon-top",
+      "description": "Layout variant: 'icon-top' (icon at top-left, title, description), 'cta' (with CTA button), 'step' (numbered steps), 'link' (icon top-right), 'feature' (horizontal icon + content with shadcn UI)"
+    },
+    "columns": {
+      "type": "number",
+      "required": false,
+      "default": 3,
+      "description": "Number of columns in the grid (2, 3, or 4)"
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": [
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "2xl",
+        "3xl",
+        "4xl",
+        "5xl",
+        "6xl",
+        "full"
+      ],
+      "required": false,
+      "default": "6xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "required": false,
+      "default": "left"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleContainerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "gridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardTitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardDescriptionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "backgroundClassName": {
+      "type": "string",
+      "required": false,
+      "default": "bg-white"
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "animationDelay": {
+      "type": "number",
+      "required": false,
+      "default": 0.1
+    }
+  },
+  "category": "content",
+  "tags": ["cards", "grid", "layout", "content", "features"]
+}

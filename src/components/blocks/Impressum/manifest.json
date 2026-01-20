@@ -1,0 +1,161 @@
+{
+  "name": "Impressum",
+  "version": "1.0.0",
+  "description": "Legal notice component (Impressum) with company information, legal details, and customizable sections according to German TMG requirements",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Impressum",
+      "description": "Main title of the legal notice page"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "default": "Angaben gemäß § 5 TMG",
+      "description": "Subtitle text below the title"
+    },
+    "companyInfo": {
+      "type": "object",
+      "required": false,
+      "default": {},
+      "description": "Company information",
+      "properties": {
+        "name": {
+          "type": "string",
+          "required": false
+        },
+        "legalForm": {
+          "type": "string",
+          "required": false
+        },
+        "address": {
+          "type": "string",
+          "required": false
+        },
+        "city": {
+          "type": "string",
+          "required": false
+        },
+        "postalCode": {
+          "type": "string",
+          "required": false
+        },
+        "country": {
+          "type": "string",
+          "required": false
+        },
+        "phone": {
+          "type": "string",
+          "required": false
+        },
+        "email": {
+          "type": "string",
+          "required": false
+        },
+        "website": {
+          "type": "string",
+          "required": false
+        },
+        "taxId": {
+          "type": "string",
+          "required": false
+        },
+        "vatId": {
+          "type": "string",
+          "required": false
+        },
+        "commercialRegister": {
+          "type": "string",
+          "required": false
+        },
+        "court": {
+          "type": "string",
+          "required": false
+        },
+        "ceo": {
+          "type": "string",
+          "required": false
+        },
+        "authorizedRepresentatives": {
+          "type": "array",
+          "required": false,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of legal notice sections",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "content": {
+            "type": "string",
+            "required": true
+          },
+          "subsections": {
+            "type": "array",
+            "required": false,
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "required": true
+                },
+                "content": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "default": ""
+    }
+  },
+  "requires": ["blocks/Heading", "lucide-react"],
+  "npm": {
+    "dependencies": ["lucide-react@^0.263"],
+    "devDependencies": []
+  },
+  "category": "legal",
+  "examples": [
+    {
+      "name": "Basic Impressum",
+      "description": "Legal notice page with company information",
+      "props": {
+        "companyInfo": {
+          "name": "Immoverde Hannover GmbH",
+          "legalForm": "GmbH",
+          "address": "Musterstraße 1",
+          "city": "Hannover",
+          "postalCode": "30159",
+          "country": "Deutschland",
+          "phone": "+49 511 123456",
+          "email": "info@immoverde.de",
+          "website": "https://www.immoverde.de",
+          "vatId": "DE123456789"
+        }
+      }
+    }
+  ]
+}

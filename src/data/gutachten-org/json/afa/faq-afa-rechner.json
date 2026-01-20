@@ -1,0 +1,221 @@
+{
+    "faq_groups": [
+        {
+            "group_name": "Grundsätzliche Fragen zur AfA (Definition, Zweck, Berechtigung)",
+            "faqs": [
+                {
+                    "question": "Was bedeutet AfA eigentlich und warum ist sie für Immobilienbesitzer so wichtig?",
+                    "answer": "AfA (Absetzung für Abnutzung) bezeichnet die steuerliche Abschreibung abnutzbarer Wirtschaftsgüter, wie beispielsweise Immobilien. Diese ermöglicht, die Anschaffungs- oder Herstellungskosten eines Gebäudes über dessen Nutzungsdauer hinweg steuerlich geltend zu machen. Immobilienbesitzer können somit die jährlichen Abschreibungen als Betriebsausgaben ansetzen, was ihre Steuerlast mindert. Da Immobilien im Allgemeinen eine lange Nutzungsdauer haben, stellt die AfA eine wichtige Möglichkeit dar, die Investitionskosten über Jahre hinweg steuerlich zu berücksichtigen. Für Vermieter kann es zu erheblichen Steuerersparnissen führen und die Liquidität langfristig entlasten."
+                },
+                {
+                    "question": "Wer kann überhaupt eine AfA für Immobilien geltend machen? (Z.B. Vermieter, Selbstnutzer)",
+                    "answer": "AfA kann grundsätzlich von allen Steuerpflichtigen geltend gemacht werden, die eine abnutzbare Immobilie besitzen und diese zur Erzielung von Einkünften nutzen. Dazu zählen insbesondere Vermieter, die ihre Immobilien zur Miete oder Pachtung anbieten. Auch Unternehmen, die Immobilien im Betriebsvermögen halten, können AfA in Anspruch nehmen. Selbstnutzer einer Immobilie, die diese für eigene Wohnzwecke nutzen, können in der Regel keine AfA geltend machen, es sei denn, sie vermieten gelegentlich Teile der Immobilie oder generieren daraus Einkünfte. Bitte beachten Sie jedoch, dass für bestimmte steuerliche Vorteile bei Selbstnutzern besondere Bedingungen gelten."
+                },
+                {
+                    "question": "Welchen Unterschied gibt es zwischen \"Abschreibung\" und \"AfA\"?",
+                    "answer": "Der Begriff „Abschreibung“ beschreibt allgemein den Wertverlust eines Vermögensgegenstandes, der aufgrund von Nutzung oder Zeitablauf eintritt. „AfA\" = Absetzung für Abnutzung, ist die Form der steuerlichen Abschreibung, die speziell im Einkommenssteuerrecht angewendet wird, um den steuerpflichtigen Gewinn zu mindern. Die AfA ist also eine spezifische Methode der Abschreibung, die steuerliche Auswirkungen hat. Während „Abschreibung“ allgemein für den Wertverlust von Wirtschaftsgütern verwendet wird, ist die AfA nur dann relevant, wenn es um die steuerliche Absetzung von Kosten geht. In der Praxis wird der Begriff „Abschreibung“ häufig als Synonym für AfA verwendet, auch wenn er in einem weiteren Kontext angewendet wird."
+                },
+                {
+                    "question": "Warum kann nur das Gebäude, aber nicht der Grund und Boden abgeschrieben werden?",
+                    "answer": "Grund und Boden sind unbegrenzt nutzbar und unterliegen daher keinem Wertverlust im herkömmlichen Sinne, was bedeutet, dass sie nicht abgeschrieben werden können. Das Einkommensteuergesetz (EStG) sieht vor, dass nur abnutzbare Wirtschaftsgüter wie Gebäude über die AfA steuerlich abgeschrieben werden können. Während das Gebäude durch Alterung, Abnutzung und Reparaturbedarf an Wert verliert, bleibt der Boden selbst grundsätzlich von dieser Abnutzung unberührt. Deshalb wird beim Kauf einer Immobilie der Kaufpreis zwischen dem abnutzbaren Gebäude und dem nicht-abnutzbaren Boden aufgeteilt, wobei nur der Anteil für das Gebäude abschreibbar ist. Diese Regelung sorgt für eine steuerlich gerechte Behandlung der Investitionen in Immobilien."
+                },
+                {
+                    "question": "Kann ich auch eine selbstgenutzte Immobilie abschreiben? Wenn ja, unter welchen Bedingungen?",
+                    "answer": "In der Regel können selbstgenutzte Immobilien nicht abgeschrieben werden, da sie keine Einkünfte generieren. Es gibt jedoch Ausnahmen, wenn Teile der Immobilie beispielsweise für berufliche Zwecke genutzt werden, etwa ein Arbeitszimmer. In diesem Fall kann die AfA für den Anteil der Immobilie geltend gemacht werden, der beruflich oder betrieblich genutzt wird. Auch bei Vermietung von Teilen der Immobilie oder bei einem Umzug, bei dem die Immobilie zwischenzeitlich vermietet wird, kann AfA für die genutzten Teile der Immobilie angesetzt werden. Die selbstgenutzte Immobilie bleibt jedoch in der Regel von der AfA ausgeschlossen, wenn sie ausschließlich für den privaten Gebrauch dient."
+                },
+                {
+                    "question": "Ist die AfA nur für Kaufobjekte relevant oder auch für Immobilien, die ich selbst gebaut habe?",
+                    "answer": "AfA ist nicht nur für gekaufte Immobilien relevant, sondern auch für selbst gebaute oder selbst hergestellte Immobilien. Bei Neubauten können die Baukosten, einschließlich der Material- und Arbeitskosten, als Grundlage für die AfA genommen werden. Die AfA wird auf die Herstellungskosten des Gebäudes angewendet, die sich über die Nutzungsdauer des Gebäudes verteilen. Wichtig ist, dass auch bei selbstgebauten Immobilien alle notwendigen Kosten (z. B. für Baumaterialien und Arbeitsleistung) korrekt erfasst und in die Berechnung der AfA einbezogen werden. Der Steuerpflichtige kann dann jährlich einen Teil dieser Kosten als steuerliche Abschreibung geltend machen."
+                },
+                {
+                    "question": "Wann beginnt die AfA-Berechnung bei einem Immobilienkauf bzw. Neubau?",
+                    "answer": "Die AfA-Berechnung beginnt grundsätzlich im Jahr der Fertigstellung oder im Jahr der erstmaligen Nutzung der Immobilie. Bei einem Immobilienkauf beginnt die AfA, wenn das Gebäude fertiggestellt und zur Nutzung bereit ist, was in der Regel dem Übergang von Nutzen und Lasten entspricht. Bei Neubauten startet die AfA, sobald das Gebäude zum ersten Mal genutzt wird, auch wenn es noch nicht vollständig abgeschlossen ist, solange es seiner Bestimmung entsprechend verwendet wird. Wenn eine Immobilie unterjährig gekauft oder fertiggestellt wird, erfolgt die AfA-Berechnung anteilig auf den verbleibenden Zeitraum des Jahres. In diesem Fall wird die jährliche AfA auf die Monate des Erwerbsjahres verteilt."
+                },
+                {
+                    "question": "Was ist der Hauptvorteil der AfA für meine Steuererklärung?",
+                    "answer": "Der Hauptvorteil der AfA für die Steuererklärung ist die Minderung der Steuerlast durch jährliche Abschreibungen. Indem die AfA als Betriebsausgabe geltend gemacht wird, reduziert sie den zu versteuernden Gewinn, was zu einer niedrigeren Steuerzahlung führt. Für Immobilienbesitzer, die Einkünfte aus Vermietung und Verpachtung erzielen, kann die AfA eine erhebliche steuerliche Entlastung darstellen. Sie ermöglicht es, die hohen Investitionskosten über viele Jahre hinweg steuerlich abzusetzen, anstatt sie auf einmal als Aufwand zu buchen. Dies führt zu einer besseren Liquidität und verbessert die wirtschaftliche Situation des Eigentümers."
+                },
+                {
+                    "question": "Gibt es eine Bagatellgrenze für die AfA bei Immobilien?",
+                    "answer": "Für Immobilien gibt es keine spezifische Bagatellgrenze, da die AfA in der Regel auf den gesamten Wert des Gebäudes angewendet wird. Allerdings gibt es im Steuerrecht für geringwertige Wirtschaftsgüter (GWG) spezielle Regelungen, bei denen keine AfA berechnet werden muss, wenn die Anschaffungskosten eine bestimmte Grenze (aktuell 800€ netto) nicht überschreiten. Für Immobilien gilt dies jedoch nicht, da diese in der Regel über längere Zeiträume abgeschrieben werden und somit keine GWG-Regelung angewendet werden kann. Bei der AfA für Immobilien geht es um die planmäßige Abschreibung der Anschaffungskosten, die nach den entsprechenden AfA‑Tabellen berechnet wird. Ein gewisser Anteil des Kaufpreises für das Grundstück kann jedoch auch nicht abgeschrieben werden, da nur das Gebäude abnutzbar ist."
+                },
+                {
+                    "question": "Wo ist die AfA gesetzlich geregelt? (Immobilien im EStG)",
+                    "answer": "Die AfA für Immobilien ist im Einkommensteuergesetz (EStG), insbesondere in §7, geregelt. Dieser Paragraph beschreibt, wie die AfA zu berechnen ist, welche Wirtschaftsgüter abgeschrieben werden können und welche Regeln für die Nutzungsdauer und den Prozentsatz gelten. Für Immobilien gelten die allgemeinen Vorschriften der AfA, jedoch gibt es spezielle Regelungen für Gebäude, die vor 1925 gebaut wurden oder als denkmalgeschützt gelten. Darüber hinaus werden die AfA‑Tabellen des Bundesfinanzministeriums regelmäßig aktualisiert, um eine praxisgerechte Berechnung der Abschreibung für verschiedene Wirtschaftsgüter, einschließlich Immobilien, zu ermöglichen. Diese Tabellen dienen als Orientierungshilfe bei der Ermittlung der Abschreibungsdauer und der Abschreibungssätze."
+                }
+            ]
+        },
+        {
+            "group_name": "Fragen zu den AfA-Arten und -Sätzen",
+            "faqs": [
+                {
+                    "question": "Was ist der Unterschied zwischen linearer und degressiver AfA bei Immobilien?",
+                    "answer": "Die lineare AfA verteilt die Anschaffungskosten gleichmäßig über die Nutzungsdauer, während die degressive AfA in den ersten Jahren höhere Abschreibungen ermöglicht und später sinkt. Die lineare AfA ist Standard, die degressive kann für Neubauten genutzt werden, um Steuervorteile schneller zu realisieren."
+                },
+                {
+                    "question": "Welche AfA-Sätze gelten für Immobilien je nach Baujahr (z.B. vor 1925, nach 1925, ab 2023)?",
+                    "answer": "Für Wohngebäude mit Baujahr zwischen 1925 und 2022 gilt ein linearer AfA-Satz von 2 % pro Jahr (Nutzungsdauer 50 Jahre). Ab Baujahr 2023 beträgt der lineare Satz 3 % pro Jahr (Nutzungsdauer 33 Jahre und 4 Monate). Für Gebäude vor 1925 gelten besondere Regelungen, meist längere Nutzungsdauer und abweichende Sätze."
+                },
+                {
+                    "question": "Was ist die „Degressive AfA“ und wann kann ich sie für Neubauten nutzen?",
+                    "answer": "Die degressive AfA erlaubt in den ersten Jahren höhere Abschreibungen als die lineare AfA. Sie kann für Neubauten genutzt werden, wenn steuerliche Vorteile durch eine schnellere Abschreibung erzielt werden sollen. Sie ist besonders interessant bei hohen Anfangsinvestitionen."
+                },
+                {
+                    "question": "Kann ich von der degressiven zur linearen AfA wechseln und umgekehrt und wann ist das sinnvoll?",
+                    "answer": "Ja, ein Wechsel ist grundsätzlich möglich, aber nur einmal während der AfA-Laufzeit zulässig. Der Wechsel ist sinnvoll, wenn sich die steuerliche Situation oder der zu versteuernde Gewinn ändert, sodass eine Anpassung der Abschreibungsart vorteilhaft ist."
+                },
+                {
+                    "question": "Gibt es spezielle Sonderabschreibungen für bestimmte Immobilien (z.B. Denkmalimmobilien, geförderter Wohnungsbau)?",
+                    "answer": "Ja, für Denkmalimmobilien oder geförderten Wohnungsbau gibt es Sonderabschreibungen. Diese ermöglichen zusätzliche steuerliche Vorteile über die normale AfA hinaus, z. B. höhere jährliche Abschreibungen oder kürzere Abschreibungszeiträume."
+                },
+                {
+                    "question": "Wie hoch ist die Sonder-AfA für denkmalgeschützte Immobilien und wie lange kann ich diese nutzen?",
+                    "answer": "Die Sonder-AfA für denkmalgeschützte Immobilien beträgt bis zu 9 % der Anschaffungskosten über 8 Jahre, plus 7 % über die folgenden 4 Jahre, insgesamt also 12 Jahre. Sie kann zusätzlich zur regulären AfA geltend gemacht werden."
+                },
+                {
+                    "question": "Wie werden Modernisierungskosten abgeschrieben - gelten dafür andere Regeln als für den Gebäudewert?",
+                    "answer": "Modernisierungskosten können in der Regel über die Restnutzungsdauer des Gebäudes abgeschrieben werden. Es gelten grundsätzlich dieselben Regeln wie für den Gebäudewert, jedoch können bestimmte Maßnahmen unter Sonderabschreibungen fallen, z. B. energetische Modernisierungen."
+                },
+                {
+                    "question": "Was ist die „Sonderabschreibung für Mietwohnungsneubau“ und welche Voraussetzungen gibt es dafür?",
+                    "answer": "Die Sonderabschreibung für Mietwohnungsneubau erlaubt zusätzlich zur linearen AfA bis zu 5 % der Anschaffungskosten pro Jahr für maximal 4 Jahre. Voraussetzung ist der Bau neuer Mietwohnungen in bestimmten Fördergebieten oder unter bestimmten gesetzlichen Bedingungen."
+                },
+                {
+                    "question": "Welche AfA-Sätze gelten für gewerblich genutzte Immobilien?",
+                    "answer": "Für gewerblich genutzte Immobilien gelten meist lineare AfA-Sätze von 3 % pro Jahr über eine Nutzungsdauer von 33 Jahren, ab 2023. Bei Sonderfällen oder kürzeren Restnutzungsdauern kann die AfA angepasst werden."
+                },
+                {
+                    "question": "Gibt es eine Möglichkeit, die Nutzungsdauer der Immobilie zu verkürzen, um schneller abzuschreiben?",
+                    "answer": "Ja, durch ein Restnutzungsdauergutachten kann die tatsächliche Restnutzungsdauer festgestellt werden. Ist diese kürzer als die gesetzliche Vorgabe, kann die jährliche AfA entsprechend höher angesetzt werden, wodurch die Steuerlast schneller sinkt."
+                }
+            ]
+        },
+        {
+            "group_name": "Fragen zur AfA‑Berechnung",
+            "faqs": [
+                {
+                    "question": "Wie berechne ich die jährliche AfA für mein Vermietungsobjekt? Welche Formel wird verwendet?",
+                    "answer": "Formel: (Gebäudepreis plus anrechenbare Nebenkosten) geteilt durch Nutzungsdauer = jährlicher Abschreibungsbetrag. Beispiel: Eine Immobilie kostet 360.000 Euro, wovon 80.000 Euro auf das Grundstück entfallen. Die Kaufnebenkosten liegen bei 40.000 Euro. Damit ergibt sich ein anrechenbarer Betrag von 320.000 Euro. Bei einer Nutzungsdauer von 50 Jahren beträgt die jährliche Abschreibung 2 Prozent, also 6.400 Euro."
+                },
+                {
+                    "question": "Welche Kosten gehören zur Bemessungsgrundlage der AfA (Anschaffungskosten, Herstellungskosten, Nebenkosten)?",
+                    "answer": "Für die AfA zählt nicht nur der Kaufpreis des Gebäudes, sondern auch alle erwerbsbezogenen Nebenkosten, die auf das Gebäude entfallen, wie zum Beispiel: Notargebühren und Grundbuchkosten, Grunderwerbsteuer, Maklerprovision, Kosten für ein Notaranderkonto, Reise-, Telefon- und Verwaltungskosten im Zusammenhang mit dem Kauf, Bewertungs- und Gutachterkosten, etwa bei einer Zwangsversteigerung. Der Grundstückswert wird bei der Berechnung immer herausgerechnet."
+                },
+                {
+                    "question": "Wie muss ich den Kaufpreis einer Immobilie auf Grund und Boden und Gebäude aufteilen, um die AfA zu berechnen?",
+                    "answer": "Der Grundstückswert muss vom Gesamtkaufpreis abgezogen werden. Die AfA kann nur auf den Gebäudewert angewendet werden. Die Kaufnebenkosten werden anteilig auf das Gebäude aufgeschlagen und erhöhen die Bemessungsgrundlage."
+                },
+                {
+                    "question": "Was passiert, wenn ich die Immobilie unterjährig kaufe oder fertigstelle - wie wird die AfA dann berechnet?",
+                    "answer": "Die AfA wird anteilig für das Jahr berechnet, in dem die Immobilie erworben oder fertiggestellt wurde. Dabei wird nur der Zeitraum berücksichtigt, in dem die Immobilie steuerlich genutzt werden kann."
+                },
+                {
+                    "question": "Welche Rolle spielt die Nutzungsdauer bei der AfA-Berechnung und wie wird sie festgelegt?",
+                    "answer": "Die Nutzungsdauer bestimmt die Höhe der jährlichen Abschreibung. Gesetzlich wird für Wohngebäude mit Baujahr 1925-2022 eine Nutzungsdauer von 50 Jahren angesetzt, ab Baujahr 2023 33 Jahre. Eine kürzere tatsächliche Restnutzungsdauer kann durch ein Gutachten nachgewiesen werden, um die AfA zu erhöhen."
+                },
+                {
+                    "question": "Können Reparaturen und Instandhaltungskosten auch abgeschrieben werden, oder sind sie sofort abzugsfähig?",
+                    "answer": "Reparaturen und Instandhaltungskosten sind in der Regel sofort abzugsfähig als Werbungskosten. Sie werden nicht über die AfA abgeschrieben, es sei denn, es handelt sich um Herstellungs- oder Modernisierungskosten, die den Gebäudewert erhöhen."
+                },
+                {
+                    "question": "Was ist, wenn der Kaufpreis ungewöhnlich niedrig oder hoch war? Hat das Einfluss auf die AfA-Grundlage?",
+                    "answer": "Die AfA-Grundlage orientiert sich am tatsächlichen Kaufpreis für das Gebäude inklusive anrechenbarer Nebenkosten. Ein ungewöhnlich hoher oder niedriger Preis kann die Bemessungsgrundlage entsprechend erhöhen oder verringern. In besonderen Fällen prüft das Finanzamt die Angemessenheit."
+                },
+                {
+                    "question": "Wie wirkt sich eine nachträgliche Werterhöhung (z.B. durch Anbau) auf die AfA aus?",
+                    "answer": "Werterhöhungen durch Modernisierung oder Anbau erhöhen die Bemessungsgrundlage für die AfA. Die zusätzlichen Kosten können über die Restnutzungsdauer des Gebäudes abgeschrieben werden."
+                },
+                {
+                    "question": "Kann ich auch Anschaffungsnebenkosten wie Grunderwerbsteuer, Notarkosten oder Maklerprovision abschreiben?",
+                    "answer": "Ja, diese Nebenkosten können anteilig auf das Gebäude aufgeschlagen werden und erhöhen die Bemessungsgrundlage für die AfA."
+                },
+                {
+                    "question": "Wie funktioniert die AfA-Berechnung, wenn ich die Immobilie erbe oder geschenkt bekomme?",
+                    "answer": "Bei Erbschaft oder Schenkung wird der Wert des Gebäudes zum Zeitpunkt der Übertragung als Bemessungsgrundlage genommen. Die AfA wird dann entsprechend der gesetzlichen Nutzungsdauer oder Restnutzungsdauer berechnet."
+                }
+            ]
+        },
+        {
+            "group_name": "Fragen zum AfA‑Rechner (Funktionsweise, Nutzung, Präzision)",
+            "faqs": [
+                {
+                    "question": "Wie funktioniert ein Online-AfA-Rechner und welche Daten muss ich eingeben?",
+                    "answer": "Ein Online-AfA-Rechner berechnet die jährliche Abschreibung für eine Immobilie auf Basis der eingegebenen Daten. Typische Eingaben sind: Kaufpreis der Immobilie, Grundstücksanteil, Nebenkosten, Baujahr, Nutzungsdauer und ggf. Modernisierungskosten. Der Rechner wendet die gesetzlichen AfA-Sätze an und zeigt die jährliche Abschreibung an."
+                },
+                {
+                    "question": "Sind die Ergebnisse eines AfA-Rechners verbindlich für das Finanzamt?",
+                    "answer": "Nein, die Ergebnisse eines Online-AfA-Rechners sind unverbindlich. Sie dienen lediglich der Orientierung. Das Finanzamt prüft die AfA-Bemessungsgrundlage auf Basis offizieller Unterlagen, Kaufpreisaufteilung und ggf. Gutachten."
+                },
+                {
+                    "question": "Welche AfA-Rechner im Internet sind seriös und zuverlässig?",
+                    "answer": "Seriöse AfA-Rechner werden von steuerlichen Fachportalen, Immobiliensachverständigen oder offiziellen Finanzseiten angeboten. Sie basieren auf den aktuellen gesetzlichen Vorgaben und berücksichtigen die üblichen AfA-Sätze. Prüfen Sie, ob die Quelle vertrauenswürdig ist und ob der Rechner regelmäßig aktualisiert wird."
+                },
+                {
+                    "question": "Kann ein einfacher Online-Rechner die komplexen Besonderheiten meiner Immobilie berücksichtigen (z.B. Denkmal)?",
+                    "answer": "Ein einfacher Online-Rechner kann in der Regel nur Standardfälle abbilden. Spezielle Eigenschaften wie Denkmalschutz, Sonderabschreibungen oder ungewöhnliche Modernisierungskosten können oft nicht korrekt berücksichtigt werden. Hier empfiehlt sich ein Steuerberater oder Gutachter."
+                },
+                {
+                    "question": "Wie genau sind die Ergebnisse eines AfA-Rechners im Vergleich zu einer Berechnung durch einen Steuerberater oder Gutachter?",
+                    "answer": "AfA-Rechner liefern eine ungefähre Berechnung. Ein Steuerberater oder Gutachter berücksichtigt individuelle Besonderheiten, Sonderabschreibungen und rechtlich relevante Details, sodass die Berechnung genauer und für das Finanzamt belastbar ist."
+                },
+                {
+                    "question": "Für welche Arten von Immobilien ist ein AfA-Rechner besonders gut geeignet, für welche weniger?",
+                    "answer": "Gut geeignet sind einfache Wohnimmobilien ohne Sonderabschreibungen oder komplexe Modernisierungen. Weniger geeignet sind Denkmalschutzobjekte, gewerblich genutzte Immobilien, Immobilien mit gemischter Nutzung oder solche mit umfangreichen Sonderkosten."
+                },
+                {
+                    "question": "Kann ein AfA-Rechner auch die steuerliche Auswirkung auf mein zu versteuerndes Einkommen simulieren?",
+                    "answer": "Einige erweiterte AfA-Rechner bieten die Simulation der steuerlichen Auswirkung, indem sie die AfA mit Einkünften aus Vermietung und Verpachtung verknüpfen. Für eine präzise Berechnung empfiehlt sich jedoch die Beratung durch einen Steuerberater."
+                },
+                {
+                    "question": "Was sollte ich tun, wenn der AfA-Rechner ein unerwartetes oder ungünstiges Ergebnis liefert?",
+                    "answer": "Prüfen Sie zunächst alle Eingaben auf Korrektheit. Wenn das Ergebnis weiterhin ungewöhnlich erscheint, sollten Sie einen Steuerberater oder Immobiliensachverständigen hinzuziehen, um die AfA korrekt und Finanzamt-sicher zu berechnen."
+                }
+            ]
+        },
+        {
+            "group_name": "Häufige Probleme und Fallstricke bei der AfA",
+            "faqs": [
+                {
+                    "question": "Was passiert, wenn das Finanzamt meine Kaufpreisteilung für die AfA nicht akzeptiert?",
+                    "answer": "In diesem Fall sollte man ein offiziell anerkanntes Wertgutachten vorlegen. Finanzgerichte haben bestätigt, dass Grundstückseigentümer ihr Aufteilungsverfahren frei wählen dürfen, solange es sachlich begründet ist. Ein Gutachter erstellt eine rationale Aufteilung, die weder offensichtlich unrealistisch noch rechtlich missbräuchlich ist. Ohne Gutachten kann das Finanzamt auf die eigene pauschale Berechnungsgrundlage zurückgreifen, die oft ungünstiger ist. Man kann nach Vorlage eines Gutachtens ggf. Einspruch einlegen, damit die vom Gutachter ermittelte AfA-Grundlage anerkannt wird."
+                },
+                {
+                    "question": "Kann eine zu aggressive AfA-Berechnung zu Problemen bei einer späteren Steuerprüfung führen?",
+                    "answer": "Ja. Wenn das Finanzamt oder ein Prüfer die Abschreibung als übertrieben ansieht, können Nachzahlungen und Zinsen gefordert werden. Ein zu niedriger angesetzter Bodenwert oder ungerechtfertigte Kürzungen der Nutzungsdauer können aufgedeckt werden. Im Extremfall kann der Prüfer die AfA teilweise schätzen oder sogar Steuerstrafen verhängen. Deshalb sollte man konservativ rechnen und alle Annahmen gut dokumentieren. Vor allem bei komplizierten Konstellationen empfiehlt sich ein sachverständiger Rat."
+                },
+                {
+                    "question": "Welche Dokumente muss ich für die AfA-Geltendmachung beim Finanzamt einreichen?",
+                    "answer": "Für die AfA-Geltendmachung sollten Sie Kaufvertrag, Kaufpreisteilung, Grundbuchauszug, Bauunterlagen, Rechnungen über Nebenkosten sowie ggf. ein Restnutzungsdauergutachten vorlegen. Diese Unterlagen dokumentieren den Gebäudeanteil, die Kosten und die Restnutzungsdauer und sind Voraussetzung, damit das Finanzamt die Abschreibung anerkennt."
+                },
+                {
+                    "question": "Was ist der „fiktive AfA-Verbrauch“ bei einer zuvor selbstgenutzten und später vermieteten Immobilie?",
+                    "answer": "Der fiktive AfA-Verbrauch bezeichnet den Anteil der Abschreibung, der rechnerisch bereits entstanden wäre, wenn die Immobilie von Beginn an vermietet gewesen wäre. Für die steuerliche Berechnung bei Umwandlung in eine Vermietung wird dieser Wert berücksichtigt, um die korrekte Restnutzungsdauer und den Ansatz der AfA zu bestimmen."
+                },
+                {
+                    "question": "Kann ich die AfA für ein leerstehendes Vermietungsobjekt geltend machen?",
+                    "answer": "Ja, die AfA kann grundsätzlich auch für leerstehende vermietbare Objekte angesetzt werden, da sie den Wertverlust des Gebäudes abbildet. Wichtig ist, dass das Objekt als Vermietungsimmobilie verfügbar ist und der Eigentümer die Absicht zur Vermietung hat."
+                },
+                {
+                    "question": "Was ist der „Erinnerungswert“ bei der AfA und wann kommt er zum Tragen?",
+                    "answer": "Der Erinnerungswert bezeichnet den minimalen Restwert eines Gebäudes, der am Ende der Abschreibungsdauer steuerlich angesetzt wird. Auch wenn die Immobilie vollständig abgeschrieben ist, verbleibt dieser Wert in der Bilanz, um eine gewisse Wertbasis zu erhalten. Er wird insbesondere bei der linearen Abschreibung berücksichtigt."
+                },
+                {
+                    "question": "Wie wirkt sich ein Immobilienverkauf nach der Abschreibung auf meine Steuerlast aus?",
+                    "answer": "Der Verkauf nach Abschreibung kann zu einem steuerpflichtigen Gewinn führen, der als Veräußerungsgewinn gilt. Hierbei wird der Verkaufspreis abzüglich Restbuchwert, Anschaffungskosten und AfA berechnet. Der Gewinn unterliegt der Einkommenssteuer, wobei ggf. Freibeträge oder Steuerstundungen berücksichtigt werden können."
+                },
+                {
+                    "question": "Gibt es eine Reinvestitionsfrist, wenn ich eine Immobilie verkaufe und eine neue kaufe, um die AfA fortzusetzen?",
+                    "answer": "Nein, eine direkte Reinvestitionsfrist wie bei der Sonderabschreibung nach § 6b EStG gibt es bei der regulären AfA nicht. Die neue Immobilie beginnt mit der normalen AfA-Berechnung, unabhängig vom Verkauf der alten Immobilie. Sonderregelungen gelten nur bei speziellen Steuerbefreiungen oder bei Denkmalschutzimmobilien."
+                },
+                {
+                    "question": "Was ist bei der AfA zu beachten, wenn die Immobilie in einer Erbengemeinschaft oder als GbR gehalten wird?",
+                    "answer": "Bei gemeinschaftlichem Eigentum wird die AfA anteilig auf die jeweiligen Miteigentümer verteilt, entsprechend ihrer Beteiligung. Jeder Eigentümer muss seine Anteile in der Steuererklärung angeben. Es empfiehlt sich, die AfA-Verteilung schriftlich und nachvollziehbar zu dokumentieren, um spätere Streitigkeiten oder Nachfragen des Finanzamtes zu vermeiden."
+                },
+                {
+                    "question": "Welche Fehler werden bei der AfA-Berechnung am häufigsten gemacht und wie kann ich sie vermeiden?",
+                    "answer": "Häufige Fehler sind: falsche Kaufpreisteilung zwischen Grundstück und Gebäude, zu aggressive Abschreibungssätze, unvollständige Dokumentation, fehlendes Gutachten bei Restnutzungsdauerverkürzung oder falsche Berechnung bei Gemeinschaftseigentum. Diese Fehler lassen sich vermeiden, indem man konservativ rechnet, alle Unterlagen vollständig einreicht und ggf. ein sachverständiges Gutachten erstellt, das die AfA-Berechnung rechtlich absichert."
+                }
+            ]
+        }
+    ]
+}

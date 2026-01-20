@@ -1,0 +1,37 @@
+{
+  "id": "a69c795a-849b-448b-8d18-7ce5f3ac9f9d",
+  "name": "ServiceOffers",
+  "description": "Responsive service offers section with featured card and service grid",
+  "inputs": [
+    {
+      "id": "e9598a78-d097-43ff-8cd0-a137d72d06ab",
+      "name": "title",
+      "type": "string",
+      "defaultValue": "Unsere Angebote"
+    },
+    {
+      "id": "e97e820a-79f3-4355-abd8-3623bb9ffec0",
+      "name": "subtitle",
+      "type": "string",
+      "defaultValue": "Unsere zertifizierten & erfahrenen Sachverständigen erstellen Ihre Gutachten und Dokumente"
+    },
+    {
+      "id": "3c2bd85b-5053-49b0-ae9a-8a5a6185fee1",
+      "name": "moreInfoText",
+      "type": "string",
+      "defaultValue": "Mehr erfahren"
+    },
+    {
+      "id": "53324e7c-0350-4424-be89-24c13e4b3166",
+      "name": "moreInfoLink",
+      "type": "string",
+      "defaultValue": "#"
+    },
+    {
+      "id": "8c7e5868-208c-44ca-833f-ec1a76b8e3b0",
+      "name": "cards",
+      "type": "array",
+      "defaultValue": []
+    }
+  ]
+}

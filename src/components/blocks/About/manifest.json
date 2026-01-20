@@ -1,0 +1,129 @@
+{
+  "name": "About",
+  "version": "1.0.0",
+  "description": "About section component with highlights showcasing company information, statistics, and key metrics",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the about section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "description": {
+      "type": "array",
+      "required": true,
+      "description": "Array of paragraph strings for the description content",
+      "items": {
+        "type": "string"
+      }
+    },
+    "highlights": {
+      "type": "array",
+      "required": true,
+      "description": "Array of highlight items with icons, values, and labels",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "LucideIcon",
+            "required": true,
+            "description": "Lucide icon component"
+          },
+          "value": {
+            "type": "string",
+            "required": true,
+            "description": "Numeric or text value to display"
+          },
+          "label": {
+            "type": "string",
+            "required": true,
+            "description": "Label text for the highlight"
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "about"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "secondary"],
+      "default": "secondary"
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl", "2xl", "3xl", "4xl", "6xl", "full"],
+      "default": "4xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "default": "center"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "highlightCardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "default": true
+    },
+    "animationDelay": {
+      "type": "number",
+      "default": 0.1
+    }
+  },
+  "requires": ["ui/section", "ui/card", "lucide-react"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Company About Section",
+      "description": "Standard about section with company information and highlights",
+      "props": {
+        "title": "Über Immoverde",
+        "subtitle": "Immoverde verbindet lokale Expertise mit digitalem Marketing - für schnelle, transparente Ergebnisse in Hannover und Umgebung.",
+        "description": [
+          "Als etablierter Partner im hannoverschen Immobilienmarkt kombinieren wir jahrelange Erfahrung mit modernsten digitalen Tools. Ob Verkauf, Vermietung oder Verwaltung – wir bieten Ihnen einen umfassenden Service aus einer Hand.",
+          "Unser Team kennt den lokalen Markt genau und weiß, worauf es ankommt. Persönliche Betreuung, transparente Kommunikation und messbare Erfolge sind unsere Grundprinzipien."
+        ]
+      }
+    }
+  ]
+}

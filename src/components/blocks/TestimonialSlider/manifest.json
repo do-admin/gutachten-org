@@ -1,0 +1,155 @@
+{
+  "name": "TestimonialSlider",
+  "version": "1.0.0",
+  "description": "Horizontales Karussell für Kundenstimmen mit optionalen Steuerelementen und konfigurierbaren Texten.",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Überschrift des Abschnitts"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optionaler Untertitel unterhalb der Überschrift"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Zusätzlicher Beschreibungstext über der Rezensionenliste"
+    },
+    "reviews": {
+      "type": "array",
+      "required": true,
+      "description": "Liste der angezeigten Rezensionen",
+      "items": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "required": true
+          },
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "role": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "controls": {
+      "type": "object",
+      "required": false,
+      "description": "Konfiguration für Navigations-Buttons",
+      "properties": {
+        "previousLabel": {
+          "type": "string",
+          "required": false,
+          "default": "Vorherige Bewertungen"
+        },
+        "nextLabel": {
+          "type": "string",
+          "required": false,
+          "default": "Nächste Bewertungen"
+        },
+        "showDesktopArrows": {
+          "type": "boolean",
+          "required": false,
+          "default": true
+        },
+        "showMobileArrows": {
+          "type": "boolean",
+          "required": false,
+          "default": true
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "required": false,
+      "description": "Individuelle ID für den Abschnitt"
+    },
+    "ariaLabel": {
+      "type": "string",
+      "required": false,
+      "description": "Accessible Name für die Liste"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "headerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "listClassName": {
+      "type": "string",
+      "required": false
+    },
+    "reviewCardClassName": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "requires": ["lib/utils", "lucide-react"],
+  "npm": {
+    "dependencies": ["lucide-react@^0.446.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Standard Bewertungen",
+      "description": "Karussell mit Standardtexten und Desktop-/Mobilsteuerung.",
+      "props": {
+        "title": "Was unsere Kunden sagen",
+        "reviews": [
+          {
+            "message": "Reibungslose professionelle Abwicklung. Kann ich jedem empfehlen.",
+            "name": "Christian H.",
+            "role": "Privatinvestor"
+          },
+          {
+            "message": "100% Empfehlung! Schnelle, unkomplizierte und vor allem transparente Erstellung des Gutachtens.",
+            "name": "Angelina O.",
+            "role": "Erstkäuferin"
+          }
+        ],
+        "controls": {
+          "previousLabel": "Zurück",
+          "nextLabel": "Weiter"
+        }
+      }
+    },
+    {
+      "name": "Ohne Pfeile",
+      "description": "Bewertungen ohne sichtbare Navigation.",
+      "props": {
+        "title": "Erfolgreiche Projekte",
+        "controls": {
+          "showDesktopArrows": false,
+          "showMobileArrows": false
+        },
+        "reviews": [
+          {
+            "message": "Exzellente Zusammenarbeit vom ersten Termin bis zur Übergabe.",
+            "name": "Kristin W.",
+            "role": "Projektentwicklerin"
+          },
+          {
+            "message": "Schnell, freundlich und sehr gründlich. Jederzeit wieder.",
+            "name": "Andreas M.",
+            "role": "Privatinvestor"
+          }
+        ]
+      }
+    }
+  ]
+}

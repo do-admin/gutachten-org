@@ -1,0 +1,38 @@
+{
+  "type": "TaxTopicSection",
+  "category": "content",
+  "displayName": "Tax Topic Section",
+  "description": "Component for displaying tax and financial information with key figures, deductions, and practical advice",
+  "icon": "Calculator",
+  "previewImage": "/previews/tax-topic-section.png",
+  "version": "1.0.0",
+  "status": "stable",
+  "tags": ["tax", "finance", "deduction", "calculation", "money"],
+  "useCases": [
+    "Tax information for property owners",
+    "Financial planning content",
+    "Deduction explanations",
+    "Tax optimization guides"
+  ],
+  "features": [
+    "Structured layout for tax content",
+    "Key figures prominently displayed",
+    "Tax benefits and deductions highlighted",
+    "Practical tips section",
+    "Warning/info boxes",
+    "Color-coded for financial context",
+    "Responsive design"
+  ],
+  "configurable": {
+    "title": "The tax topic title",
+    "subtitle": "Brief explanation of the topic",
+    "description": "Detailed description of the tax concept",
+    "keyFigures": "Important amounts, percentages, or limits",
+    "whatIsTaxDeductible": "List of deductible items",
+    "whatIsNotDeductible": "List of non-deductible items",
+    "practicalAdvice": "Practical tips for optimization",
+    "warnings": "Important warnings or pitfalls",
+    "icon": "Optional icon name",
+    "accentColor": "Color theme for the section"
+  }
+}

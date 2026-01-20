@@ -1,0 +1,1096 @@
+{
+  "score": 74,
+  "analysedurl": "https://monkfish.hero-pages.com/",
+  "thumbnailurl": "https://thumbnails.seobility.net/thumbs/https%3A%2F%2Fmonkfish.hero-pages.com%2F_8760104c38179cf1d89355dbf1d28ae99477958aba002de71bf9a9d2ccaebd5c.jpg?width=230",
+  "quickfacts": {
+    "loadtime": "0.08",
+    "filesize": "27.00",
+    "words": 234,
+    "mediafiles": 6,
+    "internallinks": 12,
+    "externallinks": 0
+  },
+  "medialist": {
+    "images": [
+      {
+        "id": "16919b05-9724-4fb5-8f3d-3567a94c8eb5",
+        "src": "/images/monk_light_x2.webp",
+        "alt": "monkfish equity",
+        "title": "",
+        "is_empty_src": false,
+        "is_hash_src": false
+      },
+      {
+        "id": "05fe7b58-e1a5-42f5-bd3c-2ccb0df3e5bc",
+        "src": "/images/monk_icn_light_os.webp",
+        "alt": "monkfish icon",
+        "title": "",
+        "is_empty_src": false,
+        "is_hash_src": false
+      },
+      {
+        "id": "db50a19b-a340-4ac4-ada7-6197f2b2ae8f",
+        "src": "/images/team-photo_malte.webp",
+        "alt": "Teammitglied: Malte",
+        "title": "",
+        "is_empty_src": false,
+        "is_hash_src": false
+      },
+      {
+        "id": "704253aa-bb9c-4620-869d-459c45d0df08",
+        "src": "/images/team-photo_rolf.webp",
+        "alt": "Teammitglied: Rolf",
+        "title": "",
+        "is_empty_src": false,
+        "is_hash_src": false
+      },
+      {
+        "id": "93113b6c-75b1-49c2-a6d9-069e2b0ee790",
+        "src": "/images/team-photo_stephan_2.webp",
+        "alt": "Teammitglied: Stephan",
+        "title": "",
+        "is_empty_src": false,
+        "is_hash_src": false
+      },
+      {
+        "id": "14a2a7fa-745f-4452-8785-b05118a9b7f9",
+        "src": "/images/team-photo_peter.webp",
+        "alt": "Teammitglied: Peter",
+        "title": "",
+        "is_empty_src": false,
+        "is_hash_src": false
+      }
+    ],
+    "videos": [],
+    "audio": []
+  },
+  "linklist": [
+    {
+      "id": "81ba7cc0-124a-4a0f-b720-7188f82d3ac3",
+      "link": "https://monkfish.hero-pages.com/",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "monkfish equity",
+      "anchortype": "imgalt",
+      "isanchorlink": false,
+      "has_image_as_children": true
+    },
+    {
+      "id": "6dcedaa1-9d64-4b61-98ea-26461da41811",
+      "link": "https://monkfish.hero-pages.com/we-are",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "we are",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "a0fdbca7-aa88-4a0a-94a2-01a9f529e74b",
+      "link": "https://monkfish.hero-pages.com/we-did",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "we did",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "1e100733-8f9f-45cf-8f97-bfb36b515677",
+      "link": "https://monkfish.hero-pages.com/we-offer",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "we offer",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "d34cbed6-fbd6-4434-afe3-333a9f9f5c35",
+      "link": "https://monkfish.hero-pages.com/we-look-for",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "we look for",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "0fbf48a6-192a-44ab-9985-73017add09ca",
+      "link": "https://monkfish.hero-pages.com/we-are",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "Malte",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "72506774-9c93-4149-b9fe-93510a930327",
+      "link": "https://monkfish.hero-pages.com/we-are",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "Rolf",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "18786715-7a46-42f2-8459-840cc6d55579",
+      "link": "https://monkfish.hero-pages.com/we-are",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "Stephan",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "c1faf368-7d69-4c90-8c14-eec9f63f17f1",
+      "link": "https://monkfish.hero-pages.com/we-are",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "Peter",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "05b07021-680c-4f73-a540-f60909cda84d",
+      "link": "https://monkfish.hero-pages.com/we-look-for",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "We look for",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "ca549b98-05c0-4e25-9e86-40f515d23bb8",
+      "link": "https://monkfish.hero-pages.com/we-offer",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "We offer you",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    },
+    {
+      "id": "f8e38a62-9744-4398-9382-e4c764f923d2",
+      "link": "https://monkfish.hero-pages.com/privacy-legal",
+      "target_blank": false,
+      "nofollow": false,
+      "internal": true,
+      "subdomain": false,
+      "anchor": "Privacy & Legal",
+      "anchortype": "text",
+      "isanchorlink": false,
+      "has_image_as_children": false
+    }
+  ],
+  "groupresults": {
+    "meta": {
+      "score": 98,
+      "points": 507,
+      "maxpoints": 515
+    },
+    "pagequality": {
+      "score": 44,
+      "points": 159,
+      "maxpoints": 360
+    },
+    "structure": {
+      "score": 91,
+      "points": 156,
+      "maxpoints": 170
+    },
+    "links": {
+      "score": 75,
+      "points": 60,
+      "maxpoints": 80
+    },
+    "server": {
+      "score": 100,
+      "points": 110,
+      "maxpoints": 110
+    },
+    "extern": {
+      "score": 0,
+      "points": 0,
+      "maxpoints": 100
+    }
+  },
+  "hints": [
+    {
+      "id": "6df881d6-f863-4ca0-933f-c3ab08e0c01d",
+      "text": "The page title should be better suited to the content of the page.",
+      "priority": 2
+    }
+  ],
+  "keywords": [
+    {
+      "id": "abe342bc-f42c-408e-bec1-72064d8f43a6",
+      "keyword": "entrepreneurs",
+      "score": 61
+    },
+    {
+      "id": "1d124745-e906-45f1-9e1a-00ded54450e8",
+      "keyword": "Monkfish",
+      "score": 59
+    },
+    {
+      "id": "56c579d7-d15b-4a6d-959a-c98edbb19bee",
+      "keyword": "Monkfish Equity",
+      "score": 54
+    },
+    {
+      "id": "86e8b725-6ec8-48cd-b0e3-bed738e312ff",
+      "keyword": "four entrepreneurs",
+      "score": 53
+    },
+    {
+      "id": "69527a56-ce80-4f61-991e-6515df12f9cb",
+      "keyword": "startup",
+      "score": 51
+    },
+    {
+      "id": "cbb745ec-4268-40d4-a9a5-32f20c783ac8",
+      "keyword": "Equity",
+      "score": 48
+    },
+    {
+      "id": "040f5d32-dba9-4c89-9426-2d0c0962c00e",
+      "keyword": "exciting European startup teams",
+      "score": 47
+    },
+    {
+      "id": "6c35123d-c936-4dbe-b298-a72ca232c48f",
+      "keyword": "European",
+      "score": 46
+    },
+    {
+      "id": "2dac138c-13b0-4ef4-ba12-878716de788c",
+      "keyword": "teams",
+      "score": 46
+    },
+    {
+      "id": "7e280daa-c01a-437d-a636-31b08217d437",
+      "keyword": "four",
+      "score": 46
+    },
+    {
+      "id": "6bac022d-3197-4c3c-8e1a-9f417b3e7c97",
+      "keyword": "back",
+      "score": 46
+    },
+    {
+      "id": "f9a7dc75-2ead-46fd-b38e-3f3fd802528f",
+      "keyword": "exciting",
+      "score": 46
+    },
+    {
+      "id": "7c7e4da7-add8-405e-95cb-0cc3d430bb15",
+      "keyword": "early",
+      "score": 46
+    },
+    {
+      "id": "f08069dc-8f00-4cb9-9ac8-14b87df3c6ef",
+      "keyword": "days",
+      "score": 46
+    },
+    {
+      "id": "38fc2a07-8bec-4cbf-9337-53575766cf30",
+      "keyword": "know",
+      "score": 43
+    },
+    {
+      "id": "780564ca-dee5-4bff-b425-ffaaca96b83d",
+      "keyword": "experiences",
+      "score": 39
+    },
+    {
+      "id": "e7ce1848-9bde-430e-a3ea-bcf0a9f169d1",
+      "keyword": "ideas",
+      "score": 39
+    },
+    {
+      "id": "dad6fab6-c209-470e-8d28-2313b7ef471a",
+      "keyword": "network",
+      "score": 39
+    },
+    {
+      "id": "92f93202-b0b4-4d44-9a3f-f1532f80fe9c",
+      "keyword": "founders",
+      "score": 39
+    },
+    {
+      "id": "069c7706-5006-4310-b144-09846e2793f1",
+      "keyword": "importantly",
+      "score": 39
+    }
+  ],
+  "robots": "",
+  "httptags": [
+    {
+      "id": "4c2e661a-4b06-43f0-8a99-0d58ecd308a1",
+      "type": "accept-ranges",
+      "value": "bytes"
+    },
+    {
+      "id": "111e6a04-4c2d-4bf4-9ce8-2c907e9ffb9a",
+      "type": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "id": "441c6ce0-e024-405c-b709-9d05995c3842",
+      "type": "age",
+      "value": "57824"
+    },
+    {
+      "id": "e920cbea-09ea-41db-9002-93f939c71a13",
+      "type": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "id": "dbd8e778-0a7c-4e1a-a18e-404bf0c2c368",
+      "type": "content-disposition",
+      "value": "inline"
+    },
+    {
+      "id": "43a0108a-9697-46d1-801c-87bea0a7348b",
+      "type": "content-encoding",
+      "value": "br"
+    },
+    {
+      "id": "8bbf53a1-641e-466e-9b40-4bbee4b94dfe",
+      "type": "content-type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "id": "1ecb609b-aa88-4ce9-badb-4161d36c57c0",
+      "type": "date",
+      "value": "Tue, 11 Nov 2025 12:04:35 GMT"
+    },
+    {
+      "id": "f64a1e61-d6a5-46d2-9f08-c35907fa8d12",
+      "type": "etag",
+      "value": "&quot;7d99cb980553f8cacec12993699fb899&quot;"
+    },
+    {
+      "id": "0bb286f0-0293-4995-acea-0c479f2d3644",
+      "type": "last-modified",
+      "value": "Mon, 10 Nov 2025 20:00:51 GMT"
+    },
+    {
+      "id": "90861430-d48d-4caf-9803-bcaf341d66a8",
+      "type": "server",
+      "value": "Vercel"
+    },
+    {
+      "id": "756245bd-4e6a-4164-8010-6a09b2641018",
+      "type": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "id": "529bbe94-dc1b-4fd3-a5ea-2e8384f93f32",
+      "type": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "id": "8125b82e-6d8a-40c6-82a6-ab59f68e298c",
+      "type": "x-vercel-id",
+      "value": "fra1::p5hpz-1762862675862-7f4aa725d2eb"
+    },
+    {
+      "id": "54c901bf-146e-4f2a-8c6b-bdd3549a2927",
+      "type": "content-length",
+      "value": "6242"
+    },
+    {
+      "id": "1d891a81-0c20-425e-8d73-3a8d8265e781",
+      "type": "statuscode",
+      "value": "200"
+    },
+    {
+      "id": "252a289e-06b3-44db-9a69-0eefc997c737",
+      "type": "http_version",
+      "value": "HTTP/2"
+    }
+  ],
+  "metatags": [
+    {
+      "id": "a5f3888f-a262-4fbb-bf8b-f63c7dfac012",
+      "name": "viewport",
+      "value": "width=device-width, initial-scale=1"
+    },
+    {
+      "id": "063be6c0-23aa-4d53-97c0-1a898b7a0dd2",
+      "name": "next-size-adjust",
+      "value": ""
+    },
+    {
+      "id": "f7c7d549-065e-4cb2-a25a-0c45685991e0",
+      "name": "description",
+      "value": "Four entrepreneurs that back the most exciting European startup teams in their early days."
+    },
+    {
+      "id": "100e5b5a-b32d-4d61-ac30-26afa7ac78b4",
+      "name": "lang",
+      "value": "en"
+    },
+    {
+      "id": "c7bb52c4-3eee-4903-b8c4-718bee58fef6",
+      "name": "charset",
+      "value": "utf-8"
+    }
+  ],
+  "headingstructure": [
+    {
+      "id": "434cdd68-c778-4c54-b7fa-4aa187d366da",
+      "headinglevel": 1,
+      "content": "We are",
+      "duplicate": false,
+      "empty": false
+    },
+    {
+      "id": "1863b496-017a-4d2e-95bb-edeeae38859c",
+      "headinglevel": 2,
+      "content": "We know what life is like.",
+      "duplicate": false,
+      "empty": false
+    },
+    {
+      "id": "2c5a5ff3-6fc8-4f0a-b45f-93028444964b",
+      "headinglevel": 2,
+      "content": "We look for",
+      "duplicate": false,
+      "empty": false
+    },
+    {
+      "id": "1738d6df-4cdc-4da1-8e7b-2bd3ef1d21b2",
+      "headinglevel": 2,
+      "content": "We offer you",
+      "duplicate": false,
+      "empty": false
+    },
+    {
+      "id": "3db72598-d660-4901-80fb-4982ef53114b",
+      "headinglevel": 2,
+      "content": "Let´s talk",
+      "duplicate": false,
+      "empty": false
+    }
+  ],
+  "backlinks": [],
+  "facebookpop": {
+    "shareslikescomments": 0
+  },
+  "factors": {
+    "meta": {
+      "title_content": {
+        "factorname": "Title",
+        "score": 100,
+        "impact": "100",
+        "messages": [
+          {
+            "id": "5de12a82-7674-463f-8bd5-fee3472cc181",
+            "text": "monkfish equity – freedom for entrepreneurs",
+            "text_label": "monkfish equity – freedom for entrepreneurs",
+            "priority": -1
+          },
+          {
+            "id": "ba6ea1e7-d9e6-4469-8cfa-8976bea1ce8f",
+            "text": "The length of the page title is perfect. (<strong>395</strong> pixels out of <strong>580</strong> max pixel length)",
+            "text_label": "title_sizeok",
+            "priority": 0
+          },
+          {
+            "id": "03ee0814-4b85-46e1-a14c-1c7e5f2ee2d7",
+            "text": "There are no duplicate words in the title",
+            "text_label": "title_norepeats",
+            "priority": 0
+          }
+        ]
+      },
+      "description": {
+        "factorname": "Meta description",
+        "score": 100,
+        "impact": "100",
+        "messages": [
+          {
+            "id": "62cbd0dc-4772-4985-a752-31e3678063ad",
+            "text": "Four entrepreneurs that back the most exciting European startup teams in their early days.",
+            "text_label": "Four entrepreneurs that back the most exciting European startup teams in their early days.",
+            "priority": -1
+          },
+          {
+            "id": "98b5948d-0a2f-48f8-bdae-6e65a9e64903",
+            "text": "The length of the meta description is perfect.  (<strong>555</strong> pixels out of <strong>1000</strong> max pixel length)",
+            "text_label": "description_perfect",
+            "priority": 0
+          }
+        ]
+      },
+      "crawlable": {
+        "factorname": "Crawlability",
+        "score": 100,
+        "impact": "-2000",
+        "messages": [
+          {
+            "id": "03487d09-e149-4fd2-abd6-d5d80d62eca7",
+            "text": "There are no problems in accessing the website.",
+            "text_label": "crawlable_perfect",
+            "priority": 0
+          }
+        ]
+      },
+      "canonical": {
+        "factorname": "Canonical URL",
+        "score": 100,
+        "impact": "-50",
+        "messages": [
+          {
+            "id": "1d7b6afa-4751-4664-a137-fff32b3b1ca9",
+            "text": "No canonical link is specified.",
+            "text_label": "canonical_missing",
+            "priority": 0
+          }
+        ]
+      },
+      "lang": {
+        "factorname": "Language",
+        "score": 100,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "0bdb5295-fce8-4e03-8ba0-d1e57b6a7cc6",
+            "text": "The following language is defined by HTML: <strong>en</strong>",
+            "text_label": "lang_isprovided",
+            "priority": 0
+          },
+          {
+            "id": "c580ca95-c715-4e36-b189-186e9dc0b0ea",
+            "text": "Language detected in text: <strong>en</strong>",
+            "text_label": "lang_detected",
+            "priority": -1
+          },
+          {
+            "id": "a9c281ed-e83e-4fa1-ae49-4dabdec50e91",
+            "text": "Language defined in HTML: <strong>en</strong>",
+            "text_label": "lang_given_html",
+            "priority": -1
+          },
+          {
+            "id": "b6939850-3680-4d0b-8674-8d6ee8307c03",
+            "text": "Server location: <strong>South Africa</strong>",
+            "text_label": "lang_servercountry",
+            "priority": -1
+          }
+        ]
+      },
+      "alternatelinkhrefs": {
+        "factorname": "Alternate/<wbr>Hreflang Links",
+        "score": 100,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "2e79779c-8622-493f-9bfe-6f1a510fa4d5",
+            "text": "There are no alternate links specified on this page.",
+            "text_label": "lang_alternatelink_nonused",
+            "priority": 0
+          }
+        ]
+      },
+      "metatags": {
+        "factorname": "Other meta tags",
+        "score": 100,
+        "impact": "30",
+        "messages": [
+          {
+            "id": "726af5fe-5dc3-43d8-b631-ad9e458c76ca",
+            "text": "There is no rel next meta tag on this page.",
+            "text_label": "metatags_relprevnext_nonext",
+            "priority": 0
+          },
+          {
+            "id": "0dde3f29-9405-4e0c-9db6-151e79298545",
+            "text": "There is no rel prev meta tag on this page.",
+            "text_label": "metatags_relprevnext_noprev",
+            "priority": 0
+          }
+        ]
+      },
+      "domain": {
+        "factorname": "Domain",
+        "score": 85,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "c5c5c44b-64e7-48a4-b6ef-06e3105ab950",
+            "text": "This page is hosted on a subdomain. Use a top level domain for better SEO results.",
+            "text_label": "domain_subdomain",
+            "priority": 1
+          },
+          {
+            "id": "f2452fd3-913f-403f-8955-aedd3f0949cf",
+            "text": "The domain does not contain non-latin characters.",
+            "text_label": "domain_noumlaut",
+            "priority": 0
+          }
+        ]
+      },
+      "url_dynamic": {
+        "factorname": "Page URL",
+        "score": 100,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "667f7721-ac29-4020-81ec-46cabc62eb69",
+            "text": "No parameters were found in the URL.",
+            "text_label": "url_dynamic_noparameters",
+            "priority": 0
+          },
+          {
+            "id": "aa3873e0-264e-4410-9901-c708496c1f47",
+            "text": "No session ID was found in the URL.",
+            "text_label": "url_dynamic_nosession",
+            "priority": 0
+          },
+          {
+            "id": "1cce031b-6d58-48a1-8db1-01639936b75e",
+            "text": "The URL does not have too many subdirectories.",
+            "text_label": "url_dynamic_okslashes",
+            "priority": 0
+          }
+        ]
+      },
+      "encodingmeta": {
+        "factorname": "Charset encoding",
+        "score": 100,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "73dcb45e-48d5-45e3-88d7-37b1fc3ee395",
+            "text": "The charset encoding (<strong>UTF-8</strong>) is set correctly.",
+            "text_label": "encodingmeta_perfect",
+            "priority": 0
+          }
+        ]
+      },
+      "doctype": {
+        "factorname": "Doctype",
+        "score": 100,
+        "impact": "20",
+        "messages": [
+          {
+            "id": "ddec568a-7992-4d76-8582-9f15089b3d6b",
+            "text": "The doctype <strong>HTML 5</strong> is set correctly.",
+            "text_label": "doctype_mentioned",
+            "priority": 0
+          },
+          {
+            "id": "e196b5c2-0c16-47ba-aa29-059e29c26a59",
+            "text": "The doctype is placed at first in the HTML code.",
+            "text_label": "doctype_rightpos",
+            "priority": 0
+          }
+        ]
+      },
+      "favicon": {
+        "factorname": "Favicon",
+        "score": 100,
+        "impact": "15",
+        "messages": [
+          {
+            "id": "4c8ee26f-1079-4c81-a317-ab8961f844f6",
+            "text": "The favicon is linked correctly.",
+            "text_label": "favicon_perfect",
+            "priority": 0
+          }
+        ]
+      }
+    },
+    "pagequality": {
+      "text": {
+        "factorname": "Content",
+        "score": 0,
+        "impact": "150",
+        "messages": [
+          {
+            "id": "2a8010df-b6bf-4121-9baf-6c9c2af6a204",
+            "text": "There are only <strong>234</strong> words on this page. Use at least 250 words to provide useful information.",
+            "text_label": "text_fartoshort",
+            "priority": 3
+          },
+          {
+            "id": "ac342e65-202b-4cc8-a782-7b8d81ad3f40",
+            "text": "<strong>43.2</strong>% of the text are stop words.",
+            "text_label": "text_stopwordratio",
+            "priority": 0
+          },
+          {
+            "id": "633df706-de41-43e4-b2bc-e20bb94bbf30",
+            "text": "Some words from the page title are not used within the pages content",
+            "text_label": "text_wordsunused_title",
+            "priority": 2
+          },
+          {
+            "id": "b3317ebc-9966-4749-b826-5dc8a179450c",
+            "text": "The page contains a listing, which indicates a good text layout.",
+            "text_label": "textstructure_has_content_ul",
+            "priority": 0
+          },
+          {
+            "id": "877de5fd-6bfe-427a-ac49-d96e1eb29c00",
+            "text": "<strong>4</strong> paragraphs were found on this page.",
+            "text_label": "text_enoughblocks",
+            "priority": 0
+          },
+          {
+            "id": "b7b77401-3c33-4fbb-96f8-00bb7b07d369",
+            "text": "No placeholders texts or images were found.",
+            "text_label": "blinds_ok",
+            "priority": 0
+          },
+          {
+            "id": "071a11de-543d-4aff-bcbd-348558ce8e51",
+            "text": "There are no duplicates on the site.",
+            "text_label": "textblock_duplicates_ok",
+            "priority": 0
+          },
+          {
+            "id": "b28d1117-8aca-4928-832c-a23740e28ec1",
+            "text": "The average number of words per sentence of <strong>17.22</strong> words is good.",
+            "text_label": "text_avgsentencesize_ok",
+            "priority": 0
+          }
+        ]
+      },
+      "frames": {
+        "factorname": "Frames",
+        "score": 100,
+        "impact": "-200",
+        "messages": [
+          {
+            "id": "b3e21cfe-d01a-4774-bab8-8fc26cd90da5",
+            "text": "This page does not use a frameset.",
+            "text_label": "frames_perfect",
+            "priority": 0
+          }
+        ]
+      },
+      "mobile": {
+        "factorname": "Mobile optimization",
+        "score": 70,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "b91374f2-cb79-4671-b508-3837d83f686d",
+            "text": "A viewport \"<strong>width=device-width, initial-scale=1</strong>\" is provided.",
+            "text_label": "mobile_viewport_ok",
+            "priority": 0
+          },
+          {
+            "id": "13f37b9a-75bc-46d4-8c2b-35a8990d8bcb",
+            "text": "No Apple touch icon is specified.",
+            "text_label": "mobile_appletouch_missing",
+            "priority": 2
+          }
+        ]
+      },
+      "bold_tags": {
+        "factorname": "Bold and strong tags",
+        "score": 60,
+        "impact": "40",
+        "messages": [
+          {
+            "id": "ee7d9497-2116-4d1b-8751-8bd149cd65a8",
+            "text": "The amount of tags is very high (<strong>14</strong>). We recommend using a maximum of <strong>6</strong> tags for this page.",
+            "text_label": "boldtags_many_tags",
+            "priority": 2
+          }
+        ]
+      },
+      "img_alt": {
+        "factorname": "Image SEO",
+        "score": 100,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "082af43a-453e-4942-9b5a-bba51bc0be48",
+            "text": "Alt text (alternative text) is correctly used on all found images.",
+            "text_label": "img_altperfect",
+            "priority": 0
+          }
+        ]
+      },
+      "socialshare": {
+        "factorname": "Social Networks",
+        "score": 0,
+        "impact": "20",
+        "messages": [
+          {
+            "id": "dcafd397-bf8e-4f65-85fc-54950d4ba781",
+            "text": "There are only a few social sharing widgets on the page. Make your website popular in social networks with social sharing widgets.",
+            "text_label": "socialshare_no_plugin",
+            "priority": 1
+          }
+        ]
+      },
+      "textstructure": {
+        "factorname": "Additional markup",
+        "score": 100,
+        "impact": "0",
+        "messages": [
+          {
+            "id": "480fb375-b62e-4cc6-8bff-85cb34cf8536",
+            "text": "No additional page markup was found.",
+            "text_label": "textstructure_none",
+            "priority": 0
+          }
+        ]
+      },
+      "https": {
+        "factorname": "HTTPS",
+        "score": 100,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "deee0d1d-e439-4af6-babc-2b4eae554279",
+            "text": "This website uses HTTPS to protect privacy and integrity of the exchanged data.",
+            "text_label": "https_used",
+            "priority": 0
+          },
+          {
+            "id": "5d591535-6393-4fd8-a0bd-d57b0fe63a28",
+            "text": "All included files are also transferred via HTTPS.",
+            "text_label": "https_allisperfect",
+            "priority": 0
+          }
+        ]
+      },
+      "ads": {
+        "factorname": "Ads",
+        "score": 100,
+        "impact": "-40",
+        "messages": [
+          {
+            "id": "74e2f703-953b-4103-a439-624bf57f07f2",
+            "text": "No ads were found on this page.",
+            "text_label": "ads_none",
+            "priority": 0
+          }
+        ]
+      }
+    },
+    "structure": {
+      "h1": {
+        "factorname": "H1 heading",
+        "score": 86,
+        "impact": "100",
+        "messages": [
+          {
+            "id": "40840366-ae4a-4840-9204-3304fbe674bc",
+            "text": "We are",
+            "text_label": "We are",
+            "priority": -1
+          },
+          {
+            "id": "b5325081-88af-4458-8334-cae34780e08f",
+            "text": "The H1 heading is too short (<strong>6</strong> characters). It should be at least 20 Characters long.",
+            "text_label": "h1_toshort",
+            "priority": 1
+          }
+        ]
+      },
+      "headlinestructure": {
+        "factorname": "Headings",
+        "score": 100,
+        "impact": "70",
+        "messages": [
+          {
+            "id": "68373f8e-ff78-4ff6-92fd-ecf493663170",
+            "text": "The heading structure is perfect.",
+            "text_label": "headlinestructure_perfect",
+            "priority": 0
+          }
+        ]
+      }
+    },
+    "links": {
+      "link_internal": {
+        "factorname": "Internal links",
+        "score": 100,
+        "impact": "60",
+        "messages": [
+          {
+            "id": "8daea64a-1616-45f0-aa08-7aebad1fbf37",
+            "text": "The number of internal links is ok.",
+            "text_label": "link_internal_countok",
+            "priority": 0
+          },
+          {
+            "id": "70d3bf3d-a78a-4c9d-a05c-a2240b2fe5ff",
+            "text": "Every linktext is unique.",
+            "text_label": "link_internal_textunique",
+            "priority": 0
+          },
+          {
+            "id": "514ae398-8f40-4fd2-bd3f-b9ff6d22f302",
+            "text": "None of the anchor texts is too long.",
+            "text_label": "link_internal_nottolong",
+            "priority": 0
+          },
+          {
+            "id": "05d0008a-cbda-4827-9511-4731ec818ce6",
+            "text": "All internal links are not using dynamic parameters.",
+            "text_label": "url_dynamic_internalstatic",
+            "priority": 0
+          }
+        ]
+      },
+      "link_external": {
+        "factorname": "External links",
+        "score": 0,
+        "impact": "20",
+        "messages": [
+          {
+            "id": "f36786c8-ede6-416e-a682-10dbf9538b7e",
+            "text": "There are no external links on this page.",
+            "text_label": "link_external_none",
+            "priority": 2
+          }
+        ]
+      }
+    },
+    "server": {
+      "redirects": {
+        "factorname": "HTTP redirects",
+        "score": 100,
+        "impact": "-150",
+        "messages": [
+          {
+            "id": "0981318f-776e-40da-81d3-3555fb5da7ad",
+            "text": "The checked page does not redirect to another URL.",
+            "text_label": "redirect_notaredirect",
+            "priority": -1
+          }
+        ]
+      },
+      "header": {
+        "factorname": "HTTP header",
+        "score": 100,
+        "impact": "60",
+        "messages": [
+          {
+            "id": "a4d9ec5c-a69c-48ed-b645-43e3435d60c2",
+            "text": "No X-Powered HTTP header is sent.",
+            "text_label": "header_noxpowered",
+            "priority": 0
+          },
+          {
+            "id": "27c2364b-6dcf-4dbe-b3b9-d3a02fa6598e",
+            "text": "The web server transmits the web page (HTML) in compressed form.",
+            "text_label": "gzip_perfect",
+            "priority": 0
+          }
+        ]
+      },
+      "performance": {
+        "factorname": "Performance",
+        "score": 100,
+        "impact": "50",
+        "messages": [
+          {
+            "id": "70531229-821e-461f-8a56-73ee68d3cf0b",
+            "text": "The page response time is excellent with <strong>0.08</strong> seconds.",
+            "text_label": "performance_html_slow_perfect",
+            "priority": 0
+          },
+          {
+            "id": "9b5a84a7-fe98-4484-ba0a-ae47750a3038",
+            "text": "The file size of the HTML document is fine (<strong>27</strong> kB).",
+            "text_label": "performance_htmlok",
+            "priority": 0
+          }
+        ]
+      }
+    },
+    "extern": {
+      "urlbacklinks": {
+        "factorname": "Backlinks",
+        "score": 0,
+        "impact": "100",
+        "messages": [
+          {
+            "id": "7452967f-b2f2-43ce-9893-fd68a7076435",
+            "text": "We didn't find any backlinks to this page.",
+            "text_label": "seokicks_nolinks",
+            "priority": 3
+          }
+        ]
+      },
+      "blacklists": {
+        "factorname": "Blacklists",
+        "score": 100,
+        "impact": "0",
+        "messages": [
+          {
+            "id": "b5f84951-3c12-4c49-a9a3-1f8d124f4418",
+            "text": "This website is not classified \"for adult only\".",
+            "text_label": "blacklist_notadult",
+            "priority": 0
+          }
+        ]
+      },
+      "socialpopularity": {
+        "factorname": "Facebook popularity",
+        "score": 0,
+        "impact": "0",
+        "messages": [
+          {
+            "id": "6ade0b4b-2e96-43ce-85b7-74a4eff122c3",
+            "text": "This value is no longer determined.",
+            "text_label": "socialpopulairy_perfect",
+            "priority": 0
+          }
+        ]
+      },
+      "seokicks": {
+        "factorname": "Backlinks",
+        "score": 0,
+        "impact": "100",
+        "messages": [
+          {
+            "id": "21cdeb1a-94b8-422f-b3df-caff8fbd3dfc",
+            "text": "We didn't find any backlinks to this page.",
+            "text_label": "seokicks_nolinks",
+            "priority": 3
+          }
+        ]
+      }
+    }
+  }
+}

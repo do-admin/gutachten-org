@@ -1,0 +1,292 @@
+{
+  "name": "ApplicationProcess",
+  "version": "1.0.0",
+  "description": "Application/hiring process flow component with timeline, step cards, and contact person section",
+  "props": {
+    "eyebrow": {
+      "type": "string",
+      "required": true,
+      "description": "Small text above the title (e.g., 'BEWERBUNGSPROZESS')"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the process section (e.g., 'So funktioniert's!')"
+    },
+    "steps": {
+      "type": "array",
+      "required": true,
+      "description": "Array of process step items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step": {
+            "type": "string",
+            "required": true,
+            "description": "Step number (e.g., '1', '2', '3')"
+          },
+          "title": {
+            "type": "string",
+            "required": true,
+            "description": "Step title"
+          },
+          "description": {
+            "type": "string",
+            "required": true,
+            "description": "Step description text"
+          },
+          "icon": {
+            "type": "object",
+            "required": true,
+            "description": "Icon image configuration",
+            "properties": {
+              "src": {
+                "type": "string",
+                "required": true
+              },
+              "alt": {
+                "type": "string",
+                "required": true
+              },
+              "width": {
+                "type": "number",
+                "required": false,
+                "default": 40
+              },
+              "height": {
+                "type": "number",
+                "required": false,
+                "default": 40
+              }
+            }
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "contactPerson": {
+      "type": "object",
+      "required": false,
+      "description": "Contact person information section",
+      "properties": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "email": {
+          "type": "string",
+          "required": true
+        },
+        "image": {
+          "type": "object",
+          "required": true
+        },
+        "linkedinUrl": {
+          "type": "string",
+          "required": false,
+          "description": "LinkedIn profile or company page URL"
+        },
+        "linkedinImage": {
+          "type": "object",
+          "required": false,
+          "description": "LinkedIn icon image configuration",
+          "properties": {
+            "src": {
+              "type": "string",
+              "required": true
+            },
+            "alt": {
+              "type": "string",
+              "required": true
+            },
+            "width": {
+              "type": "number",
+              "required": false,
+              "default": 40
+            },
+            "height": {
+              "type": "number",
+              "required": false,
+              "default": 40
+            }
+          }
+        },
+        "joinUrl": {
+          "type": "string",
+          "required": false,
+          "description": "Join.com company page URL"
+        },
+        "joinImage": {
+          "type": "object",
+          "required": false,
+          "description": "Join.com icon image configuration",
+          "properties": {
+            "src": {
+              "type": "string",
+              "required": true
+            },
+            "alt": {
+              "type": "string",
+              "required": true
+            },
+            "width": {
+              "type": "number",
+              "required": false,
+              "default": 40
+            },
+            "height": {
+              "type": "number",
+              "required": false,
+              "default": 40
+            }
+          }
+        }
+      }
+    },
+    "questionText": {
+      "type": "string",
+      "required": false,
+      "description": "Optional question text above contact section"
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "application-process"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "secondary"],
+      "default": "default"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "bg-white",
+      "description": "Background color using Tailwind classes"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for section"
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "eyebrowClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "timelineClassName": {
+      "type": "string",
+      "required": false
+    },
+    "stepsGridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "stepCardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "contactSectionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "questionTextClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "default": true
+    },
+    "animationDelay": {
+      "type": "number",
+      "default": 0.1
+    },
+    "enableHoverEffect": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "requires": ["ui/section", "ui/card", "ui/button", "next/image"],
+  "npm": {
+    "dependencies": ["clsx@^2.0.0", "tailwind-merge@^2.0.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Hiring Process Flow",
+      "description": "Display application/hiring process with timeline and contact person",
+      "props": {
+        "eyebrow": "BEWERBUNGSPROZESS",
+        "title": "So funktioniert's!",
+        "questionText": "Du hast Fragen zu Deiner Bewerbung oder rund um den Bewerbungsprozess?",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Bewerbung und Erstkontakt",
+            "description": "Deine Bewerbung hat uns überzeugt. In einem ersten Gespräch finden wir heraus, ob wir zusammenpassen.",
+            "icon": {
+              "src": "/images/icons/application.svg",
+              "alt": "Application Icon"
+            }
+          },
+          {
+            "step": "2",
+            "title": "Fachgespräch",
+            "description": "Du lernst Deinen Lead kennen und erhältst mehr zu Deiner Stelle und den Verantwortlichkeiten.",
+            "icon": {
+              "src": "/images/icons/interview.svg",
+              "alt": "Interview Icon"
+            }
+          },
+          {
+            "step": "3",
+            "title": "Challenge",
+            "description": "Du bekommst von uns eine Challenge, die Du Zuhause bearbeitest und uns im Anschluss vorstellst.",
+            "icon": {
+              "src": "/images/icons/challenge.svg",
+              "alt": "Challenge Icon"
+            }
+          },
+          {
+            "step": "4",
+            "title": "Gründer- und Team-Kennenlernen",
+            "description": "Du lernst erst einen unserer Co-Founder und danach einige Mitglieder unseres Teams kennen.",
+            "icon": {
+              "src": "/images/icons/team.svg",
+              "alt": "Team Icon"
+            }
+          },
+          {
+            "step": "5",
+            "title": "Willkommen im Team!",
+            "description": "Wir machen Dir ein Angebot und Du startest bei uns. Das Team freut sich schon auf Dich!",
+            "icon": {
+              "src": "/images/icons/welcome.svg",
+              "alt": "Welcome Icon"
+            }
+          }
+        ],
+        "contactPerson": {
+          "name": "Kolja Czudnochowski",
+          "email": "personal@gutachten.org",
+          "image": {
+            "src": "/images/team/kolja.jpg",
+            "alt": "Kolja Czudnochowski"
+          },
+          "linkedinUrl": "https://www.linkedin.com/in/kolja-czudnochowski",
+          "joinUrl": "#"
+        }
+      }
+    }
+  ]
+}

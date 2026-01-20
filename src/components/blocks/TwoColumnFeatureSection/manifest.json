@@ -1,0 +1,69 @@
+{
+  "name": "TwoColumnFeatureSection",
+  "description": "A two-column layout component with text content on the left and feature cards on the right",
+  "version": "1.0.0",
+  "category": "content",
+  "tags": ["layout", "features", "two-column", "cards"],
+  "props": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the left column"
+    },
+    "paragraphs": {
+      "type": "array",
+      "required": true,
+      "description": "Array of paragraph texts for the left column",
+      "items": {
+        "type": "string"
+      }
+    },
+    "features": {
+      "type": "array",
+      "required": true,
+      "description": "Array of feature cards for the right column",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "string",
+            "description": "Icon name or image path"
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "two-column-feature-section"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "headingClassName": {
+      "type": "string",
+      "required": false
+    },
+    "paragraphClassName": {
+      "type": "string",
+      "required": false
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#F0F5F9"
+    }
+  }
+}
+

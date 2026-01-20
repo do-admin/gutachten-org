@@ -1,0 +1,121 @@
+{
+  "name": "ClientComponent",
+  "version": "1.0.0",
+  "description": "Client-side component wrapper that dynamically loads and renders components from the client component registry",
+  "props": {
+    "componentName": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the client component to load from the registry"
+    },
+    "props": {
+      "type": "object",
+      "required": false,
+      "default": {},
+      "description": "Props to pass to the loaded component"
+    },
+    "serverData": {
+      "type": "object",
+      "required": false,
+      "default": {},
+      "description": "Server-side data to merge with props"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "Additional CSS classes for the wrapper"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Title text to pass to the client component"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Subtitle text to pass to the client component"
+    },
+    "titleContainerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "CSS classes for the title/subtitle container wrapper"
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "CSS classes for the title element"
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "CSS classes for the subtitle element"
+    },
+    "cta": {
+      "type": "object",
+      "required": false,
+      "description": "Call-to-action button configuration with label, href, optional icon, variant, and styling",
+      "properties": {
+        "label": {
+          "type": "string",
+          "required": true,
+          "description": "Button text label"
+        },
+        "href": {
+          "type": "string",
+          "required": true,
+          "description": "URL or path for the button link"
+        },
+        "icon": {
+          "type": "string",
+          "required": false,
+          "description": "Lucide icon name (e.g., 'ArrowRight', 'Calculator')"
+        },
+        "external": {
+          "type": "boolean",
+          "required": false,
+          "description": "Whether the link opens in a new tab"
+        },
+        "variant": {
+          "type": "string",
+          "required": false,
+          "description": "Button visual variant",
+          "enum": [
+            "default",
+            "destructive",
+            "outline",
+            "secondary",
+            "ghost",
+            "link",
+            "accent"
+          ]
+        },
+        "className": {
+          "type": "string",
+          "required": false,
+          "description": "Additional CSS classes for the button"
+        }
+      }
+    }
+  },
+  "requires": [
+    "lib/client-component-registry",
+    "lib/component-schemas",
+    "react"
+  ],
+  "npm": {
+    "dependencies": ["react@^18.0.0"],
+    "devDependencies": []
+  },
+  "category": "interactive",
+  "examples": [
+    {
+      "name": "Basic Client Component",
+      "description": "Load a client-side component from the registry",
+      "props": {
+        "componentName": "ExampleClientComponent",
+        "props": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "name": "StickyScrollButton",
+  "version": "1.0.0",
+  "description": "Smooth scroll button component that accounts for sticky headers when scrolling to target elements. Automatically calculates sticky header height and adjusts scroll position accordingly.",
+  "props": {
+    "targetId": {
+      "type": "string",
+      "required": true,
+      "description": "ID of the target element to scroll to (without the #)"
+    },
+    "children": {
+      "type": "React.ReactNode",
+      "required": true,
+      "description": "Button text or content"
+    },
+    "icon": {
+      "type": "LucideIcon",
+      "required": false,
+      "description": "Lucide icon component to display"
+    },
+    "iconPosition": {
+      "type": "enum",
+      "values": ["left", "right"],
+      "required": false,
+      "default": "left",
+      "description": "Position of the icon relative to text"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "button", "link", "ghost"],
+      "required": false,
+      "default": "default",
+      "description": "Visual variant of the button"
+    },
+    "size": {
+      "type": "enum",
+      "values": ["sm", "md", "lg"],
+      "required": false,
+      "default": "md",
+      "description": "Size variant of the button"
+    },
+    "stickyHeaderSelector": {
+      "type": "string",
+      "required": false,
+      "default": "[data-hero-page-element-id=\"810473075558\"]",
+      "description": "CSS selector for the sticky header element"
+    },
+    "scrollBehavior": {
+      "type": "enum",
+      "values": ["smooth", "auto", "instant"],
+      "required": false,
+      "default": "smooth",
+      "description": "Scroll behavior type"
+    },
+    "disabled": {
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Whether the button is disabled"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Title attribute for the button"
+    },
+    "ariaLabel": {
+      "type": "string",
+      "required": false,
+      "description": "ARIA label for accessibility"
+    }
+  },
+  "requires": ["lucide-react", "lib/utils"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Basic Sticky Scroll Button",
+      "description": "Simple button that scrolls to a target element accounting for sticky header",
+      "props": {
+        "targetId": "section-1",
+        "children": "Scroll to Section"
+      }
+    },
+    {
+      "name": "Button with Custom Sticky Header Selector",
+      "description": "Sticky scroll button with custom sticky header selector",
+      "props": {
+        "targetId": "section-2",
+        "stickyHeaderSelector": ".my-sticky-header",
+        "variant": "button",
+        "children": "Go to Section"
+      }
+    }
+  ]
+}
+

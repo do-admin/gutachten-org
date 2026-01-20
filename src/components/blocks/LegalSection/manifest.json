@@ -1,0 +1,37 @@
+{
+  "type": "LegalSection",
+  "category": "content",
+  "displayName": "Legal Section",
+  "description": "Component for displaying legal and regulatory information with structured key facts, impacts, and requirements",
+  "icon": "Scale",
+  "previewImage": "/previews/legal-section.png",
+  "version": "1.0.0",
+  "status": "stable",
+  "tags": ["legal", "regulation", "law", "compliance", "content"],
+  "useCases": [
+    "Displaying laws and regulations",
+    "Legal compliance information",
+    "Regulatory requirements",
+    "Legal overview pages"
+  ],
+  "features": [
+    "Structured layout for legal content",
+    "Key facts highlight section",
+    "Impact and requirements sections",
+    "Icon support",
+    "Color-coded categories",
+    "Responsive design"
+  ],
+  "configurable": {
+    "abbreviation": "The short form/abbreviation of the law",
+    "fullName": "The complete official name",
+    "category": "Type of regulation (law, ordinance, directive, etc.)",
+    "description": "Brief overview of what it regulates",
+    "keyFacts": "Important facts, dates, or statistics",
+    "whatItRegulates": "Detailed explanation of scope",
+    "impactOnPropertyManagement": "How it affects property managers",
+    "keyRequirements": "Main compliance requirements",
+    "icon": "Optional icon name",
+    "accentColor": "Color theme for the section"
+  }
+}

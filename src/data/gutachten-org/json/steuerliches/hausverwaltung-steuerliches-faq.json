@@ -1,0 +1,52 @@
+[
+  {
+    "id": "05c45bde-d763-4ad9-96ae-46635a2aef17",
+    "question": "Welche steuerlichen Vorteile bietet die Vermietung einer Immobilie?",
+    "answer": "Einnahmen aus Vermietung gelten als Einkünfte aus Vermietung und Verpachtung, die versteuert werden müssen. Gleichzeitig können Werbungskosten wie Zinsen, Instandhaltung oder Verwaltungskosten abgezogen werden. Dadurch reduziert sich die Steuerlast erheblich. Besonders interessant wird es, wenn die Ausgaben in den ersten Jahren höher als die Einnahmen sind, da Verluste mit anderen Einkünften verrechnet werden können."
+  },
+  {
+    "id": "25bd4b3d-f6e0-4eb3-ae72-7283226afacd",
+    "question": "Welche Kosten kann ich bei einer vermieteten Immobilie steuerlich absetzen?",
+    "answer": "Absetzbar sind unter anderem Schuldzinsen, Grundsteuer, Notar- und Maklerkosten, Instandhaltungs- und Renovierungskosten sowie Abschreibungen. Auch Verwaltungskosten, Versicherungen und Fahrtkosten zur Immobilie zählen dazu. Sogar ein häusliches Arbeitszimmer für die Verwaltung kann ansetzbar sein. Wichtig ist, dass die Kosten eindeutig der Immobilie zugeordnet werden können."
+  },
+  {
+    "id": "2f8e27db-aaba-44f0-b17d-ee8aa6d81597",
+    "question": "Wie wirkt sich die lineare Abschreibung (AfA) auf meine Steuerlast aus?",
+    "answer": "Bei vermieteten Immobilien können die Anschaffungskosten des Gebäudes (nicht des Grundstücks) jährlich mit 2 % über 50 Jahre abgeschrieben werden. Dies mindert die steuerpflichtigen Mieteinnahmen. Die AfA ist ein reiner Buchwertverlust – real bleibt das Geld erhalten. Dadurch ergibt sich ein steuerlicher Vorteil, ohne dass tatsächlich Kosten entstehen."
+  },
+  {
+    "id": "5290c6e3-d037-4eb3-9a29-4aa25ae92f90",
+    "question": "Gibt es Sonderabschreibungen bei energetischer Sanierung oder Denkmalschutz?",
+    "answer": "Ja, bestimmte Modernisierungsmaßnahmen können zusätzlich steuerlich gefördert werden. Bei Denkmalschutzimmobilien lassen sich bis zu 100 % der Sanierungskosten über 12 Jahre abschreiben. Energetische Maßnahmen an selbstgenutzten Immobilien können teilweise als Steuerermäßigung geltend gemacht werden. Damit werden Investitionen in Erhalt und Nachhaltigkeit steuerlich besonders attraktiv."
+  },
+  {
+    "id": "ed5e4568-4812-49e2-b175-67c9f27768b9",
+    "question": "Welche Unterschiede gibt es steuerlich zwischen Eigennutzung und Vermietung?",
+    "answer": "Bei Eigennutzung können keine Werbungskosten oder Abschreibungen geltend gemacht werden. Steuerliche Vorteile ergeben sich nur über bestimmte Förderungen, z. B. energetische Sanierung. Bei Vermietung hingegen sind nahezu alle laufenden Kosten steuerlich absetzbar. Zudem können Wertverluste (AfA) genutzt werden, was die Steuerlast erheblich reduziert."
+  },
+  {
+    "id": "86af4aef-c176-456f-af2c-4ba2581060e7",
+    "question": "Wie kann ich Grunderwerbsteuer beim Immobilienkauf reduzieren oder vermeiden?",
+    "answer": "Die Grunderwerbsteuer fällt grundsätzlich auf den Kaufpreis von Grundstück und Gebäude an. Sie kann reduziert werden, indem bewegliche Güter (z. B. Einbauküche, Möbel) separat ausgewiesen werden. Bei Schenkungen und Erbschaften wird keine Grunderwerbsteuer fällig. Auch bei bestimmten gesellschaftsrechtlichen Konstruktionen („Share Deals“) lässt sie sich vermeiden, was aber komplex ist."
+  },
+  {
+    "id": "16a28979-393a-4b6b-aae8-7de70c538aa3",
+    "question": "Welche steuerlichen Aspekte muss ich bei einer Immobiliengesellschaft (z. B. GmbH & Co. KG) beachten?",
+    "answer": "Eine Immobiliengesellschaft kann steuerlich Vorteile bringen, z. B. bei der Nachfolgeplanung oder Vermögensbündelung. Die Gewinne werden jedoch je nach Gesellschaftsform unterschiedlich besteuert (Einkommensteuer oder Körperschaftsteuer). Auch hier können AfA und Werbungskosten abgesetzt werden. Gleichzeitig entstehen aber zusätzliche Kosten für Verwaltung, Buchhaltung und steuerliche Beratung."
+  },
+  {
+    "id": "9fdc7f54-4649-4d66-9e90-b63ceadaffc0",
+    "question": "Wie funktioniert die Spekulationsfrist beim Immobilienverkauf und wann fällt keine Einkommensteuer an?",
+    "answer": "Der Gewinn aus dem Verkauf einer Immobilie ist steuerfrei, wenn zwischen Kauf und Verkauf mehr als zehn Jahre liegen. Bei Eigennutzung entfällt die Steuer sogar schon vorher, wenn die Immobilie mindestens im Verkaufsjahr und den zwei Vorjahren selbst bewohnt wurde. Verkäufe innerhalb der Frist gelten als Spekulationsgeschäfte und müssen versteuert werden. Die Steuerhöhe richtet sich dann nach dem persönlichen Einkommensteuersatz."
+  },
+  {
+    "id": "1653589d-d29f-4002-9734-5da1c4720f68",
+    "question": "Welche Rolle spielt die Erbschaft- und Schenkungsteuer bei Immobilienübertragungen?",
+    "answer": "Immobilien, die vererbt oder verschenkt werden, unterliegen grundsätzlich der Erbschaft- bzw. Schenkungsteuer. Die Höhe hängt vom Verwandtschaftsgrad und den Freibeträgen ab. Ehepartner und Kinder haben hier höhere Freibeträge als entferntere Verwandte. Bei selbstgenutztem Wohnraum kann die Steuer oft komplett entfallen, wenn bestimmte Bedingungen erfüllt sind."
+  },
+  {
+    "id": "72f53e4e-b8b6-47fc-baa5-09af0b9340c5",
+    "question": "Welche steuerlichen Vorteile können durch Immobilien im Betriebsvermögen entstehen?",
+    "answer": "Werden Immobilien im Betriebsvermögen gehalten, können alle Kosten und Abschreibungen steuerlich berücksichtigt werden. Zudem lassen sich Gestaltungsmöglichkeiten nutzen, etwa über Betriebsaufspaltungen oder Pensionszusagen. Allerdings unterliegen Gewinne aus Verkäufen hier grundsätzlich der Gewerbesteuer. Daher lohnt sich die Einordnung ins Betriebsvermögen vor allem für Investoren mit langfristiger Strategie."
+  }
+]

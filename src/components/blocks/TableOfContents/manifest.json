@@ -1,0 +1,114 @@
+{
+  "name": "TableOfContents",
+  "version": "1.0.0",
+  "description": "Sticky table of contents component that automatically extracts headings from content and provides navigation with active section highlighting",
+  "props": {
+    "headings": {
+      "type": "Heading[]",
+      "required": true,
+      "description": "Array of heading objects with id, text, and level properties"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the wrapper"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Themenübersicht",
+      "description": "Title text for the table of contents"
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the title"
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the container"
+    },
+    "stickyTop": {
+      "type": "string",
+      "required": false,
+      "default": "top-24",
+      "description": "CSS class for sticky positioning (e.g., 'top-24', 'top-20')"
+    },
+    "scrollOffset": {
+      "type": "number",
+      "required": false,
+      "default": 100,
+      "description": "Offset in pixels from the target element when scrolling"
+    },
+    "activeHeadingClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Custom CSS classes for active heading links"
+    },
+    "inactiveHeadingClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Custom CSS classes for inactive heading links"
+    },
+    "ariaLabel": {
+      "type": "string",
+      "required": false,
+      "default": "Table of contents",
+      "description": "ARIA label for accessibility"
+    }
+  },
+  "requires": ["lib/extract-headings", "lib/utils"],
+  "npm": {
+    "dependencies": [
+      "next@^14.0.0",
+      "react@^18.0.0",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "navigation",
+  "examples": [
+    {
+      "name": "Basic Table of Contents",
+      "description": "Simple table of contents with default styling",
+      "props": {
+        "headings": [
+          {
+            "id": "section-1",
+            "text": "Section 1",
+            "level": 2
+          },
+          {
+            "id": "section-2",
+            "text": "Section 2",
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "Custom Styled Table of Contents",
+      "description": "Table of contents with custom title and styling",
+      "props": {
+        "headings": [
+          {
+            "id": "introduction",
+            "text": "Introduction",
+            "level": 2
+          },
+          {
+            "id": "main-content",
+            "text": "Main Content",
+            "level": 2
+          }
+        ],
+        "title": "Contents",
+        "stickyTop": "top-20",
+        "scrollOffset": 80
+      }
+    }
+  ]
+}
+

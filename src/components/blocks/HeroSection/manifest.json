@@ -1,0 +1,191 @@
+{
+  "name": "HeroSection",
+  "version": "1.0.0",
+  "description": "Hero section component with customizable layouts (centered, split, minimal), buttons, features, and optional image",
+  "props": {
+    "h1Text": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading text for the hero section"
+    },
+    "titleHighlight": {
+      "type": "string",
+      "required": false,
+      "description": "Part of h1Text to highlight in accent color"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Subtitle text below the main heading"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Description text below the subtitle"
+    },
+    "icon": {
+      "type": "string",
+      "required": false,
+      "description": "Icon name as string"
+    },
+    "image": {
+      "type": "object",
+      "required": false,
+      "description": "Image configuration",
+      "properties": {
+        "src": {
+          "type": "string",
+          "required": true
+        },
+        "alt": {
+          "type": "string",
+          "required": true
+        },
+        "width": {
+          "type": "number",
+          "required": false
+        },
+        "height": {
+          "type": "number",
+          "required": false
+        }
+      }
+    },
+    "layout": {
+      "type": "enum",
+      "values": ["centered", "split", "minimal"],
+      "required": false,
+      "default": "centered",
+      "description": "Layout variant of the hero section"
+    },
+    "background": {
+      "type": "enum",
+      "values": ["gradient", "white", "custom"],
+      "required": false,
+      "default": "gradient",
+      "description": "Background style"
+    },
+    "customBackgroundClass": {
+      "type": "string",
+      "required": false,
+      "description": "Custom background class when background is 'custom'"
+    },
+    "buttons": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of button configurations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string",
+            "required": true
+          },
+          "label": {
+            "type": "string",
+            "required": true
+          },
+          "variant": {
+            "type": "enum",
+            "values": [
+              "default",
+              "outline",
+              "secondary",
+              "destructive",
+              "ghost",
+              "accent",
+              "link"
+            ],
+            "required": false
+          },
+          "icon": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of feature items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "string",
+            "required": false
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false,
+      "default": ""
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false,
+      "default": ""
+    },
+    "descriptionClassName": {
+      "type": "string",
+      "required": false,
+      "default": ""
+    },
+    "children": {
+      "type": "React.ReactNode",
+      "required": false,
+      "description": "Additional content"
+    }
+  },
+  "requires": [
+    "blocks/Heading",
+    "ui/button",
+    "ui/card",
+    "next/link",
+    "next/image",
+    "lib/icon-utils"
+  ],
+  "npm": {
+    "dependencies": ["next@^14.0.0", "clsx@^2.0.0", "tailwind-merge@^2.0.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Centered Hero with Image",
+      "description": "Centered layout hero section with image",
+      "props": {
+        "h1Text": "Immobilienverwaltung in Hannover",
+        "titleHighlight": "Hannover",
+        "subtitle": "Professionelle Dienstleistungen",
+        "description": "Wir bieten umfassende Immobiliendienstleistungen aus einer Hand.",
+        "layout": "centered",
+        "background": "gradient",
+        "buttons": [
+          {
+            "href": "#contact",
+            "label": "Jetzt Kontakt aufnehmen",
+            "variant": "default"
+          }
+        ],
+        "image": {
+          "src": "/images/hero.jpg",
+          "alt": "Immobilienverwaltung"
+        }
+      }
+    }
+  ]
+}

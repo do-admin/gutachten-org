@@ -1,0 +1,257 @@
+{
+  "name": "FAQ",
+  "version": "1.0.0",
+  "description": "FAQ component with accordion functionality supporting grouped FAQs, anchor links, and multiple variants (default and accordion)",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Häufige Fragen",
+      "description": "Main heading for the FAQ section"
+    },
+    "underline": {
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Whether to show underline on the title"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "items": {
+      "type": "array",
+      "required": true,
+      "description": "Array of FAQ items or FAQ groups",
+      "items": {
+        "type": "object",
+        "oneOf": [
+          {
+            "properties": {
+              "id": {
+                "type": "string",
+                "required": false
+              },
+              "question": {
+                "type": "string",
+                "required": true
+              },
+              "answer": {
+                "type": "string",
+                "required": true
+              }
+            }
+          },
+          {
+            "properties": {
+              "groupName": {
+                "type": "string",
+                "required": true
+              },
+              "faqs": {
+                "type": "array",
+                "required": true,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "required": false
+                    },
+                    "question": {
+                      "type": "string",
+                      "required": true
+                    },
+                    "answer": {
+                      "type": "string",
+                      "required": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sectionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleWrapperClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "triggerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "answerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "accordionItemClassName": {
+      "type": "string",
+      "required": false
+    },
+    "accordionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "groupTitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "showTitle": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "sectionId": {
+      "type": "string",
+      "required": false,
+      "default": "faq"
+    },
+    "enableAnchorLinks": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "ariaLabel": {
+      "type": "string",
+      "required": false,
+      "default": "Häufig gestellte Fragen"
+    },
+    "ariaDescribedBy": {
+      "type": "string",
+      "required": false
+    },
+    "renderAsH1": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "accordion"],
+      "required": false,
+      "default": "default",
+      "description": "Visual variant of the FAQ component. 'default' uses shadcn/ui Accordion (single item open). 'accordion' uses custom accordion with multiple items open support."
+    },
+    "defaultOpenIds": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "IDs of FAQ items that should be open by default (for accordion variant only)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the container element (for accordion variant)"
+    },
+    "headerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the header element (for accordion variant)"
+    },
+    "itemClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for each FAQ item (for accordion variant)"
+    },
+    "questionClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the question text (for accordion variant)"
+    }
+  },
+  "requires": ["ui/accordion", "blocks/Heading", "lib/utils"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.446.0",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Simple FAQ",
+      "description": "Basic FAQ with a list of questions and answers",
+      "props": {
+        "title": "Häufige Fragen",
+        "items": [
+          {
+            "question": "Wie funktioniert die Bewertung?",
+            "answer": "Die Bewertung erfolgt kostenlos und unverbindlich in nur 2 Minuten."
+          },
+          {
+            "question": "Was kostet der Service?",
+            "answer": "Die Erstberatung ist kostenlos."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grouped FAQ",
+      "description": "FAQ with grouped questions by category",
+      "props": {
+        "title": "Häufige Fragen",
+        "items": [
+          {
+            "groupName": "Allgemeine Fragen",
+            "faqs": [
+              {
+                "question": "Wie funktioniert die Bewertung?",
+                "answer": "Die Bewertung erfolgt kostenlos und unverbindlich."
+              }
+            ]
+          },
+          {
+            "groupName": "Kosten",
+            "faqs": [
+              {
+                "question": "Was kostet der Service?",
+                "answer": "Die Erstberatung ist kostenlos."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Accordion Variant FAQ",
+      "description": "FAQ with accordion variant - supports multiple items open, two-column layout, and custom styling",
+      "props": {
+        "title": "Häufig gestellte Fragen",
+        "variant": "accordion",
+        "defaultOpenIds": ["faq-1"],
+        "items": [
+          {
+            "id": "faq-1",
+            "question": "Welche Zertifizierungen haben unsere Sachverständigen?",
+            "answer": "Unsere Partner-Sachverständigen sind nach nationalen und internationalen Standards zertifiziert."
+          },
+          {
+            "id": "faq-2",
+            "question": "Wie schnell erhalte ich meine Gutachten?",
+            "answer": "In der Regel können Sie innerhalb von 2 bis 14 Tagen mit der Fertigstellung rechnen."
+          }
+        ]
+      }
+    }
+  ]
+}

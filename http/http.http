@@ -1,0 +1,3 @@
+# Seobility API
+GET https://api.seobility.net/en/resellerapi/seocheck?apikey=fab0f946a3e826ab40262d0c8c2ec904b4e06d72
+&url=https://monkfish.hero-pages.com/

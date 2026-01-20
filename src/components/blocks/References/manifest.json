@@ -1,0 +1,170 @@
+{
+  "name": "References",
+  "version": "1.0.0",
+  "description": "References and testimonials section component with ratings, KPIs, and customer quotes",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the references section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "references": {
+      "type": "array",
+      "required": true,
+      "description": "Array of reference items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "kpis": {
+            "type": "array",
+            "required": true,
+            "description": "Key performance indicators or highlights",
+            "items": {
+              "type": "string"
+            }
+          },
+          "quote": {
+            "type": "string",
+            "required": true,
+            "description": "Customer testimonial quote"
+          },
+          "author": {
+            "type": "string",
+            "required": true,
+            "description": "Author name and location"
+          },
+          "rating": {
+            "type": "number",
+            "required": false,
+            "description": "Rating value (defaults to maxRating)"
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "referenzen"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "secondary"],
+      "default": "default"
+    },
+    "columns": {
+      "type": "enum",
+      "values": [2, 3, 4],
+      "default": 3
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": [
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "2xl",
+        "3xl",
+        "4xl",
+        "5xl",
+        "6xl",
+        "full"
+      ],
+      "default": "7xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "default": "center"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "gridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "default": true
+    },
+    "animationDelay": {
+      "type": "number",
+      "default": 0.15
+    },
+    "showRating": {
+      "type": "boolean",
+      "default": true
+    },
+    "ratingIcon": {
+      "type": "LucideIcon",
+      "default": "Star"
+    },
+    "maxRating": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "requires": ["ui/section", "ui/card", "lucide-react"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Customer Testimonials",
+      "description": "Display customer references with KPIs, quotes, and ratings",
+      "props": {
+        "title": "Erfolge & Referenzen",
+        "subtitle": "Zufriedene Kunden sind unser bester Beweis",
+        "references": [
+          {
+            "title": "Schneller Verkauf",
+            "kpis": [
+              "Verkauft in 28 Tagen",
+              "+8% über Angebotspreis",
+              "12 qualifizierte Anfragen"
+            ],
+            "quote": "Die Zusammenarbeit mit Immoverde war professionell und unkompliziert. Unser Haus war schneller verkauft als erwartet!",
+            "author": "Familie Weber, Hannover-Linden",
+            "rating": 5
+          }
+        ]
+      }
+    }
+  ]
+}

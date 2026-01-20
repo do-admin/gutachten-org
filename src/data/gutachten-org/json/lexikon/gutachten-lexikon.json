@@ -1,0 +1,797 @@
+[
+  {
+    "id": "61355b6e-ead7-470c-ac9c-45569a9e8ec6",
+    "term": "5% Abschreibung",
+    "definition": "Eine zeitlich befristete degressive Abschreibungsmöglichkeit für neue Wohngebäude, bei der in den ersten Jahren jährlich bis zu 5 % der Baukosten abgeschrieben werden können. Diese Regelung wurde im Rahmen des Wachstumschancengesetzes 2024 eingeführt, um Investitionsanreize im Wohnungsneubau zu schaffen (fünf Jahre lang 5 % vom Restwert, zusätzlich zur linearen Abschreibung kombinierbar)."
+  },
+  {
+    "id": "be99d8c0-df0e-4dd9-9768-88fa6a6e1d35",
+    "term": "§194 BauGB",
+    "definition": "Paragraph 194 des Baugesetzbuchs definiert den Verkehrswert (Marktwert) einer Immobilie. Er entspricht dem Preis, der am Wertermittlungsstichtag im gewöhnlichen Geschäftsverkehr für das Grundstück zu erzielen wäre, wobei alle Eigenschaften, rechtlichen Gegebenheiten und die Lage berücksichtigt werden und außergewöhnliche oder persönliche Umstände unberücksichtigt bleiben."
+  },
+  {
+    "id": "8f70b32d-1a6c-4ffd-891e-52fa46ab11af",
+    "term": "Abschreibung - Dauer",
+    "definition": "Ist der Zeitraum, über den eine Immobilie steuerlich abgeschrieben werden kann. Für Wohngebäude, die ab 2023 fertiggestellt wurden, beträgt die lineare AfA 3 % pro Jahr (ca. 33 Jahre), während für ältere Objekte 2 % (50 Jahre) oder 2,5 % (40 Jahre, bei Baujahr vor 1925) gelten. Die tatsächliche Nutzungsdauer eines Gebäudes kann jedoch länger sein als die steuerliche Abschreibungsdauer."
+  },
+  {
+    "id": "cf225d8b-fb48-446b-9601-0e92e0f88a33",
+    "term": "Abschreibung - Haus",
+    "definition": "Die planmäßige Wertminderung eines Gebäudes für steuerliche Zwecke (Absetzung für Abnutzung, AfA). Wohnimmobilien können jährlich mit einem bestimmten Prozentsatz vom Gebäudewert abgeschrieben werden (z.B. 2 % oder 3 % je nach Baujahr), um die Anschaffungs- bzw. Herstellungskosten über die Jahre steuerlich geltend zu machen. Nicht der gesamte Kaufpreis, sondern nur der auf das Gebäude entfallende Teil ist abnutzbar (siehe Kaufpreisaufteilung Immobilie)."
+  },
+  {
+    "id": "f2aa53f4-a4a9-4627-99bc-6836a50f8ced",
+    "term": "Abschreibung - Neubau",
+    "definition": "Die Abschreibung eines neu errichteten Gebäudes. Seit 2023 gilt für neue Wohngebäude eine höhere lineare AfA von 3 % pro Jahr (statt zuvor 2 %). Zusätzlich kann unter bestimmten Bedingungen eine degressive AfA von 5 % jährlich (für 6 Jahre) in Anspruch genommen werden, um die Anfangsjahre steuerlich stärker zu entlasten."
+  },
+  {
+    "id": "20f57fa4-43a6-47f3-b075-4e24848fac1b",
+    "term": "Abschreibung verkürzen",
+    "definition": "Die Möglichkeit, eine höhere jährliche Abschreibung anzusetzen, indem eine kürzere Restnutzungsdauer nachgewiesen wird. Vermieter können per Gutachten belegen, dass die wirtschaftliche Nutzungsdauer eines Gebäudes geringer ist als die gesetzliche Standarddauer, und so eine Abschreibung von z.B. 3 % statt 2 % erreichen. Voraussetzung ist ein schlüssiges Restnutzungsdauergutachten, das vom Finanzamt anerkannt wird."
+  },
+  {
+    "id": "1aae5655-6f08-45f8-aed7-7aa5d21ddaa5",
+    "term": "Abschreibungsdauer Immobilie",
+    "definition": "Siehe Abschreibung Dauer. Gemeint ist der Abschreibungszeitraum für Gebäude, also die Jahre, über die die Anschaffungskosten verteilt werden können. Bei Wohnimmobilien sind das typischerweise 33 bis 50 Jahre, sofern keine verkürzte Nutzungsdauer geltend gemacht wird."
+  },
+  {
+    "id": "a2f67dee-abc5-4fdc-824f-bd0f75c51457",
+    "term": "Absetzung für Abnutzung (AfA)",
+    "definition": "Steuerlicher Begriff für die Abschreibung der Kosten eines abnutzbaren Wirtschaftsguts (wie eines Gebäudes) über dessen Nutzungsdauer. Durch die AfA kann der Eigentümer jährlich einen Teil der Anschaffungskosten als Aufwand absetzen, was bei vermieteten Immobilien zu erheblichen Steuerersparnissen führt. Die AfA ist linear (gleichbleibend) oder in Sonderfällen degressiv und richtet sich nach gesetzlichen Abschreibungssätzen."
+  },
+  {
+    "id": "fec45dfc-4f75-4be0-adb2-1cd849ddc40f",
+    "term": "Abstandsfläche",
+    "definition": "Mindestabstand, den ein Gebäude zum Nachbargrundstück einhalten muss. Diese Abstandsflächen sind in den Bauordnungen geregelt und sollen ausreichend Licht, Luft und Brandschutz zwischen Gebäuden gewährleisten."
+  },
+  {
+    "id": "debfcb1a-6305-4d86-b3b8-3700faa3aded",
+    "term": "AfA Bemessungsgrundlage",
+    "definition": "Die Grundlage, auf die die Abschreibung angewendet wird, nämlich der Gebäudewert. Da der Anteil am Grundstück nicht abgeschrieben werden darf, muss der Kaufpreis in Gebäude- und Bodenwert aufgeteilt werden (siehe Kaufpreisaufteilung Immobilie). Nur der ermittelte Gebäudewert bildet die AfA-Bemessungsgrundlage für die jährliche Abschreibung."
+  },
+  {
+    "id": "3f675451-1816-490c-a74b-f98094d2f729",
+    "term": "AfA Gutachten",
+    "definition": "Ein Sachverständigengutachten zur Ermittlung einer kürzeren Restnutzungsdauer und eines niedrigeren Gebäuderestwerts, um eine höhere AfA ansetzen zu können. Ein solches Gutachten wird oft genutzt, um dem Finanzamt einen erhöhten Abschreibungsbedarf zu belegen (z.B. bei sanierungsbedürftigen Altbauten), damit eine höhere Abschreibung anerkannt wird. Die Qualität des AfA-Gutachtens ist entscheidend für dessen Finanzamt Anerkennung."
+  },
+  {
+    "id": "672fa849-9bff-4ebd-9f92-19e2884acecc",
+    "term": "AfA Immobilien",
+    "definition": "Umgangssprachlich die Abschreibung von Immobilien. Darunter versteht man insbesondere die steuerliche Abschreibung von Gebäudekosten bei vermieteten Häusern oder Wohnungen (Gebäude-AfA). Immobilieneigentümer können so jährlich einen bestimmten Prozentsatz der Herstellungs- oder Anschaffungskosten als Abnutzung absetzen und dadurch bei Vermietung Steuern sparen."
+  },
+  {
+    "id": "0c76d3bc-039b-4a02-add0-1d3aad8fd632",
+    "term": "AfA Neubau 2024",
+    "definition": "Die ab 2023/2024 geltenden neuen Abschreibungsregeln für Neubauten. Wesentliche Änderungen sind die Erhöhung der linearen AfA auf 3 % für neue Wohngebäude sowie die Einführung der degressiven AfA mit 5 % p.a. für bis zu 6 Jahre. Zusammen ermöglichen diese Maßnahmen im Wachstumschancengesetz schnellere Abschreibungen und damit Steuervorteile Immobilien in den ersten Jahren nach Fertigstellung."
+  },
+  {
+    "id": "5609fff9-0b54-48b7-80bc-a9504998c8de",
+    "term": "AfA Tabelle",
+    "definition": "Eine vom Bundesfinanzministerium veröffentlichte Übersicht der typischen Nutzungsdauern und Abschreibungssätze für verschiedene Anlagegüter. Für Immobilien (Gebäude) selbst gibt es keine detailreiche AfA-Tabelle wie für technische Anlagen; stattdessen gilt für Wohngebäude pauschal 50 bzw. 33 Jahre. Allerdings werden etwa für bestimmte Bauteile oder Betriebsvorrichtungen (z.B. Aufzüge, Heizungen) oft Tabellenwerte herangezogen, sofern sie separat abgesetzt werden."
+  },
+  {
+    "id": "db5e1d7f-0716-4786-9147-13daad9c69d1",
+    "term": "Altbau vs. Neubau",
+    "definition": "In der Immobilienbewertung und -abschreibung der Vergleich zwischen älteren Gebäuden und Neubauten. Altbauten (z.B. vor 1950 errichtet) weisen oft eine höhere Abschreibung (2,5 % p.a. bei Baujahr vor 1925) auf als neuere Gebäude (2 % bei Baujahr ab 1950) nach früherem Recht. Außerdem unterscheiden sich Alt- und Neubau in Bausubstanz, energetischem Zustand und Marktattraktivität. Neubauten haben meist geringere Instandhaltungskosten und bessere Energiekennwerte, während Altbauten teils durch Modernisierungen aufgewertet werden können."
+  },
+  {
+    "id": "7d2f68ea-e328-4d05-bdf2-408b7efb3ce8",
+    "term": "Alter der Immobilie",
+    "definition": "Das Baujahr bzw. das effektive Alter eines Gebäudes. Es beeinflusst den Immobilienwert (ältere Gebäude haben oft Abnutzungen oder geringere Energieeffizienz) und die Abschreibungsdauer. Das Alter wird in der Wertermittlung berücksichtigt, etwa durch Abzüge für Altersentwertung im Sachwertverfahren oder durch Ansätze in der Restnutzungsdauer. Ein hohes Alter kann die Restnutzungsdauer verkürzen, wird jedoch bei guter Instandhaltung und Modernisierung relativiert."
+  },
+  {
+    "id": "ce3679ad-87ce-46f7-8a5f-fefcd5bf059a",
+    "term": "Algorithmus",
+    "definition": "In der Online Immobilienbewertung ein Rechenverfahren, das auf Basis weniger Eingabedaten (z.B. Größe, Baujahr, PLZ) und vieler Vergleichsdaten automatisch einen Schätzwert ermittelt. Solche Algorithmen nutzen statistische Modelle und Marktdaten, um den Immobilienwert zu schätzen, können individuelle Objektmerkmale aber nur vereinfacht abbilden."
+  },
+  {
+    "id": "20a04bdf-c685-43d5-a8ff-cc6acb58f663",
+    "term": "Annuitätendarlehen",
+    "definition": "Ein Darlehen mit gleichbleibenden Raten (Annuitäten) über die gesamte Laufzeit. Dabei setzt sich die Rate aus Zins und Tilgung zusammen – zu Beginn ist der Zinsanteil hoch und sinkt mit der Zeit, während der Tilgungsanteil steigt."
+  },
+  {
+    "id": "72d2b656-c7a8-45cc-9dce-2c832a049f9d",
+    "term": "Baujahr",
+    "definition": "Das Jahr der Fertigstellung eines Gebäudes. Es ist ein wichtiger Indikator für Bausubstanz, Baustandard und energetischen Zustand. In der Wertermittlung wird das Baujahr herangezogen, um Alterswertminderungen oder Modernisierungsstand einzuschätzen – häufig fließt es in Form des Alter der Immobilie und der daraus resultierenden Restnutzungsdauer ein. Für die steuerliche Abschreibung war 1925 ein wichtiges Stichjahr (Gebäude bis 1924: 2,5 % AfA, ab 1925: 2 %)."
+  },
+  {
+    "id": "1c8049e1-65d3-47d3-b013-8d4cdda64e5c",
+    "term": "Baulandpreis",
+    "definition": "Der Marktpreis für unbebautes Grundstücksland in einer bestimmten Lage. Er ergibt sich aus Nachfrage und Angebot nach Baugrundstücken und wird meistens in €/m² angegeben. Bodenrichtwerte bieten eine Orientierung, doch konkrete Baulandpreise können je nach Lagequalität, Grundstückszuschnitt und Bebaubarkeit deutlich darüber oder darunter liegen."
+  },
+  {
+    "id": "378d2f3a-0f52-4089-8df5-5e896671365e",
+    "term": "Baulast",
+    "definition": "Eine freiwillige, öffentlich-rechtliche Verpflichtung eines Grundstückseigentümers gegenüber der Baubehörde. Baulasten schränken die Bebauung oder Nutzung des Grundstücks ein (z. B. Stellplatz- oder Abstandsflächenbaulast). Sie werden im Baulastenverzeichnis eingetragen und gelten auch für Rechtsnachfolger."
+  },
+  {
+    "id": "d5011eb3-909a-4d07-856c-53cffecc2c35",
+    "term": "Bausparvertrag",
+    "definition": "Ein Sparvertrag bei einer Bausparkasse, der in zwei Phasen abläuft. Zunächst spart der Kunde Guthaben an, um sich anschließend ein zinsgünstiges Bauspardarlehen zu sichern. Bausparverträge werden oft zur Immobilienfinanzierung genutzt und bieten planbare Konditionen."
+  },
+  {
+    "id": "b1398684-3357-4f3d-9800-b85d943ff6ed",
+    "term": "Bausubstanz",
+    "definition": "Die bauliche Substanz bzw. Qualität eines Gebäudes – also Materialien, Konstruktion und baulicher Zustand. Eine gute Bausubstanz (massive Bauweise, solide Statik, trockener Keller etc.) wirkt wertsteigernd, während Bauschäden oder mangelhafte Substanz den Wert mindern. Bei der Immobilienbewertung fließt die Bausubstanz in den Zustand ein; sie beeinflusst insbesondere das Sachwertverfahren und die Restnutzungsdauer."
+  },
+  {
+    "id": "5ef26bcf-44c0-4d61-8542-84dcdcc9cf0c",
+    "term": "Beleihungswert",
+    "definition": "Der von Banken vorsichtig ermittelte Wert einer Immobilie für Kreditzwecke. Der Beleihungswert liegt üblicherweise unter dem Verkehrswert, da ein Sicherheitsabschlag einkalkuliert wird. Er bildet die Grundlage für die Festlegung der Beleihungsgrenze und bestimmt somit, bis zu welchem Betrag eine Immobilie als Kreditsicherheit herangezogen werden kann. Gesetzliche Vorgaben zur Beleihungswertermittlung enthält die Beleihungswertverordnung (BelWertV)."
+  },
+  {
+    "id": "d60e52cd-1958-4cf0-9b19-6f1ca352babd",
+    "term": "Bestandsschutz",
+    "definition": "Baurechtlicher Schutz für bestehende Gebäude oder Nutzungen, die zum Zeitpunkt ihrer Errichtung genehmigt waren. Durch Bestandsschutz dürfen solche Altbauten weiter genutzt werden, selbst wenn sie heutigen Vorschriften widersprechen – allerdings nur solange keine wesentlichen Änderungen vorgenommen werden."
+  },
+  {
+    "id": "dadf6d42-567f-4c0b-b3fc-fac896d4700f",
+    "term": "Bewertungsverfahren Erklärung",
+    "definition": "Die Erläuterung der verschiedenen Verfahren zur Immobilienwertermittlung. In Deutschland werden hauptsächlich drei Verfahren angewandt: Vergleichswertverfahren, Ertragswertverfahren und Sachwertverfahren. Jedes Verfahren folgt gesetzlichen Regeln (ImmoWertV) und wird je nach Objektart gewählt (z.B. Vergleichswert bei Eigentumswohnungen, Ertragswert bei vermieteten Häusern, Sachwert bei selbstgenutzten Einfamilienhäusern). Eine Erklärung des jeweiligen Verfahrens umfasst Grundlagen, Rechenschritte und Anwendungsbereiche."
+  },
+  {
+    "id": "855c8526-3262-411b-a555-f32ba6dbc499",
+    "term": "Bodenrichtwert",
+    "definition": "Ein durchschnittlicher Lagewert für Grundstücke, ermittelt von den Gutachterausschüssen, angegeben als Wert pro Quadratmeter unbebauten Bodens in einer bestimmten Zone. Er dient als Hilfswert zur Wertermittlung und Besteuerung, ersetzt aber nicht den individuellen Verkehrswert. Bodenrichtwerte beziehen sich auf einen Stichtag und ein Gebiet mit im Wesentlichen gleichen Nutzungs- und Wertverhältnissen."
+  },
+  {
+    "id": "5825cb8c-4d25-46d5-b561-aaa94ead4955",
+    "term": "Bodenrichtwert erklären",
+    "definition": "Der Bodenrichtwert ist kein konkreter Verkehrswert für ein einzelnes Grundstück, sondern ein durchschnittlicher Lagewert. Er wird herangezogen, um über Vergleichswerte oder das Bodenwertverfahren den Grundstückswert einer Immobilie zu bestimmen und findet u.a. bei der Grundsteuer und im Sachwertverfahren Anwendung. Einfach gesagt: Er gibt Orientierung über Grundstückspreise in der Gegend."
+  },
+  {
+    "id": "cfc6e7cf-c989-47c8-b251-a8036d816ce7",
+    "term": "Bodenrichtwert Immobilienwert",
+    "definition": "Der Einfluss des Bodenrichtwerts auf den Immobilienwert. In der Bewertungspraxis wird der Bodenrichtwert genutzt, um den Bodenwert eines Objekts zu ermitteln, der wiederum Teil des Gesamtwerts ist (z.B. im Sachwertverfahren oder beim Vergleich bebaut/unbebaut). Je höher der Bodenrichtwert einer Lage, desto höher ist ceteris paribus der Wert des Grundstücksanteils einer Immobilie."
+  },
+  {
+    "id": "9cf70b12-8cdb-4744-9261-3054b67aea91",
+    "term": "Bodenrichtwert-Methode",
+    "definition": "Ein Verfahren zur Kaufpreisaufteilung oder Bodenwertermittlung, bei dem der offizielle Bodenrichtwert pro m² mit der Grundstücksfläche multipliziert wird. Auf diese Weise wird der Bodenwert ermittelt. Die Differenz zwischen Kaufpreis und Bodenwert ergibt dann den Gebäudewert. Die Bodenrichtwert-Methode wird in der Praxis (z.B. vom Finanzamt mit der BMF-Arbeitshilfe) eingesetzt, um die AfA-Bemessungsgrundlage zu bestimmen."
+  },
+  {
+    "id": "9ae19554-fcda-486d-812b-49188ee017da",
+    "term": "Bodenwert",
+    "definition": "Der Wert des reinen Grundstücks ohne Aufbauten. Er wird meist anhand von Vergleichswerten oder Bodenrichtwerten ermittelt. In Wertermittlungen nach Sach- oder Ertragswertverfahren wird der Bodenwert getrennt vom Gebäudewert berechnet und danach hinzugerechnet. Der Bodenwert hängt von Lage, Größe, Zuschnitt und baurechtlichen Gegebenheiten des Grundstücks ab."
+  },
+  {
+    "id": "55a31401-4c35-443c-b603-865d57012177",
+    "term": "Bodenwert ermitteln",
+    "definition": "Die Bestimmung des Bodenwerts eines Grundstücks. Dies geschieht entweder durch direkten Vergleich mit kürzlich verkauften ähnlichen Grundstücken (Kaufpreissammlung) oder durch Heranziehen des Bodenrichtwerts mit Anpassungen. Die Bodenwertermittlung ist in §§ 40-45 ImmoWertV geregelt und ein entscheidender Schritt im Sachwert- und im Vergleichswertverfahren."
+  },
+  {
+    "id": "355bbcc7-109d-4bcc-9c62-b29b5c6e51eb",
+    "term": "Degressive AfA 2024",
+    "definition": "Die wiedereingeführte degressive Abschreibung für Wohngebäude im Jahr 2024. Dabei können Investoren in den ersten sechs Jahren je 5 % vom jeweiligen Restbuchwert abschreiben, anstelle der linearen 3 %. Diese Maßnahme soll die Anfangsabschreibungen beschleunigen und die Bauwirtschaft stimulieren. Nach Ende der sechs Jahre kann zur linearen AfA gewechselt werden; beide Abschreibungsarten sind zudem mit der Sonder-AfA Wohnungsneubau kombinierbar."
+  },
+  {
+    "id": "6038f155-7b82-4dda-a142-acc6af604b8e",
+    "term": "Eigenbedarfskündigung",
+    "definition": "Kündigung eines Mietvertrags durch den Vermieter wegen Eigenbedarf. Dabei benötigt der Vermieter (oder nahe Angehörige) die Wohnung für sich selbst. Eine Eigenbedarfskündigung ist nur unter strengen Voraussetzungen (§ 573 BGB) und mit angemessener Kündigungsfrist zulässig; Missbrauch (vorgeschobener Eigenbedarf) kann zur Unwirksamkeit führen."
+  },
+  {
+    "id": "411efbdf-5711-47cf-b55f-b2200ca39001",
+    "term": "Eigenkapitalrendite",
+    "definition": "Die Eigenkapitalrendite ist im Immobilienkontext die Verzinsung des eingesetzten Eigenkapitals, abhängig von Mieteinnahmen, Finanzierung und Wertentwicklung. Sie wird jedoch eher in der Investmentrechnung genutzt als in der Verkehrswertermittlung."
+  },
+  {
+    "id": "0bbaa342-3544-4dad-94ef-2d8dfa144c93",
+    "term": "Energieausweis",
+    "definition": "Ein Dokument, das die energetische Qualität eines Gebäudes angibt. Es enthält Kennwerte zum Energiebedarf oder -verbrauch und eine Einstufung in Energieeffizienzklassen von A+ (sehr effizient) bis H (ineffizient). Beim Verkauf oder der Vermietung muss ein gültiger Energieausweis vorgelegt werden. Man unterscheidet Bedarfsausweis (berechneter Bedarf auf Grundlage der Bausubstanz) und Verbrauchsausweis (tatsächlicher Verbrauch der Bewohner). Wann Sie welchen Ausweis brauchen, erfahren Sie in unserem Artikel zu dem Thema."
+  },
+  {
+    "id": "fae682cf-d11e-4d38-80a8-821ceaa3ed51",
+    "term": "Energieausweis 2024",
+    "definition": "Die seit der GEG-Novelle 2024 geltenden Neuerungen beim Energieausweis. Ab 2024 müssen z.B. in Immobilienanzeigen die Effizienzklasse angegeben werden. Außerdem sind die Anforderungen an die Aussteller gestiegen und verschärfte Regeln Bedarfsausweis eingeführt worden, um realistischere Angaben zu gewährleisten. Der Energieausweis bleibt 10 Jahre gültig, muss aber bei Änderungen am Gebäude (z.B. energetische Sanierung) aktualisiert werden."
+  },
+  {
+    "id": "1500c045-d01b-4911-b605-625f1a8281e5",
+    "term": "Energieausweis Kosten",
+    "definition": "Die Gebühren für die Ausstellung eines Energieausweises. Ein Verbrauchsausweis ist meist günstiger (ca. 50-100 €), da er auf Verbrauchsdaten basiert, während ein Bedarfsausweis (der eine Gebäudebesichtigung und Berechnung erfordert) 100-300 € kosten kann. Seit 2024 können Bußgelder drohen, wenn beim Verkauf kein gültiger Ausweis vorgelegt wird – die Investition in einen korrekten Energieausweis ist daher unerlässlich."
+  },
+  {
+    "id": "a6cb8858-c74c-4267-80db-030f83b515c7",
+    "term": "Energieeffizienzklasse (A bis H)",
+    "definition": "Die Einstufung eines Gebäudes im Energieausweis nach seiner energetischen Qualität. Klasse A+ steht für einen Passivhaus-Standard (sehr geringer Energiebedarf), Klasse H für unsanierte Altbauten mit hohem Verbrauch. Diese Klassen sollen Käufern und Mietern einen schnellen Vergleich ermöglichen. Durch energetische Sanierungen lässt sich die Effizienzklasse verbessern – was nicht nur Heizkosten spart, sondern auch den Immobilienwert steigern kann."
+  },
+  {
+    "id": "bdb5dca9-a5ce-43d3-83a2-c73bbcb17050",
+    "term": "Erbschaftsteuer (Immobilien)",
+    "definition": "Steuer, die beim Erwerb von Immobilien durch Erbschaft anfällt. Je nach Verwandtschaftsverhältnis gelten unterschiedliche Steuerklassen und Freibeträge. Enge Angehörige (z. B. Ehepartner, Kinder) haben hohe Freibeträge, sodass Erbschaftsteuer oft nur bei großem Immobilienwert zum Tragen kommt."
+  },
+  {
+    "id": "d978e523-962a-4cc1-9219-80d02a7665b4",
+    "term": "Ertragswert",
+    "definition": "Der durch das Ertragswertverfahren ermittelte Wert einer Immobilie, der sich aus den zukünftig erzielbaren Überschüssen (Reinerträgen) und dem Bodenwert ergibt. Der Ertragswert setzt sich zusammen aus dem kapitalisierten Gebäudeertrag plus Bodenwert. Diese Größe ist besonders relevant bei Renditeobjekten, wo der Marktwert durch die erzielbaren Mieten bestimmt wird."
+  },
+  {
+    "id": "c5493687-f2d8-4e63-a9a8-adc0f2645472",
+    "term": "Ertragswertverfahren",
+    "definition": "Ein Wertermittlungsverfahren zur Bestimmung des Verkehrswerts von Renditeimmobilien (z.B. Mietshäuser). Dabei wird aus dem Rohertrag (Summe der Mieten) nach Abzug der Bewirtschaftungskosten ein Reinertrag ermittelt und mit einem Vervielfältiger (abhängig von Liegenschaftszins und Restnutzungsdauer) kapitalisiert. Hinzu kommt der Bodenwert. Das Ertragswertverfahren ist in §§ 27-34 ImmoWertV geregelt und wird angewandt, wenn der Ertrag (die Rendite) im Markt den Preis bestimmt."
+  },
+  {
+    "id": "e6933821-cea1-4e89-bd7c-c08db27df96b",
+    "term": "Erbschaft Gutachten Pflicht",
+    "definition": "Bei Immobilien im Nachlass ist zwar kein Gutachten gesetzlich vorgeschrieben, jedoch oft ratsam. Für die Erbschaftssteuer wird der Immobilienwert vom Finanzamt berechnet; die Erben können aber ein eigenes Verkehrswertgutachten einreichen, um einen geringeren Wert (und damit niedrigere Steuer) nachzuweisen. In Erbstreitigkeiten oder Teilungen hilft ein Gutachten zudem, einen fairen Wert festzulegen. Kurz: Pflicht ist es nicht, aber bei Erbschaft häufig sinnvoll."
+  },
+  {
+    "id": "7fece862-1fe8-46d0-9f5e-4d012159cf18",
+    "term": "Faktor",
+    "definition": "Ein Multiplikator im Ertragswertverfahren, der aus Liegenschaftszins und Restnutzungsdauer abgeleitet wird, um aus dem jährlichen Reinertrag den Barwert – Ertragswert – zu berechnen."
+  },
+  {
+    "id": "2740dd4a-cb42-4fc9-a3c9-b97d938fb345",
+    "term": "Finanzamt Anerkennung",
+    "definition": "Die Akzeptanz eines Gutachtens oder einer abweichenden Bewertung durch das Finanzamt. Beispielsweise muss ein AfA-Gutachten vom Finanzamt anerkannt werden, damit eine kürzere Nutzungsdauer steuerlich berücksichtigt wird. Finanzbehörden prüfen Gutachten auf Plausibilität und Schlüssigkeit; bei Kaufpreisaufteilung oder Erbschaftswertermittlungen kann ein vom Steuerpflichtigen beauftragtes Gutachten die steuerliche Bewertung beeinflussen, sofern es anerkannt wird."
+  },
+  {
+    "id": "35ea1924-8277-4d8b-8804-3d56ee75053f",
+    "term": "Gebäude-AfA",
+    "definition": "Die Abschreibung des Gebäudewertes (im Gegensatz zum Grund und Boden, der nicht abschreibbar ist). Dieser Begriff betont, dass nur der auf das Gebäude entfallende Teil des Immobilienkaufpreises abgeschrieben werden kann. Die Gebäude-AfA beträgt bei Wohngebäuden derzeit 3 % p.a. für Neubauten bzw. 2 % p.a. (oder 2,5 %) für ältere Gebäude. Bei gewerblichen Immobilien gelten andere Sätze. Die Grundlage der Gebäude-AfA ist die Kaufpreisaufteilung."
+  },
+  {
+    "id": "6692bd31-0a61-4a51-9a0c-0dca449c0c30",
+    "term": "Gebäudetyp",
+    "definition": "Die Art des Bauwerks, z.B. Einfamilienhaus, Mehrfamilienhaus, Reihenhaus, Bürogebäude, Halle etc. Der Gebäudetyp hat Auswirkungen auf die Bewertung: Unterschiedliche Gebäudetypen werden oft mit verschiedenen Verfahren bewertet (Wohnhäuser z.B. Sachwert oder Ertragswert, Eigentumswohnungen Vergleichswert). Auch Liegenschaftszins und Nutzungsdauer unterscheiden sich nach Objektart (für Büro, Logistik, Wohnen etc. gibt es unterschiedliche Marktrenditen)."
+  },
+  {
+    "id": "c60fa9da-aa33-41ce-bf26-a865f54e9db0",
+    "term": "Gebäudewert Abschreibung:",
+    "definition": "Der Wertanteil einer Immobilie, der der Abschreibung unterliegt – sprich der Wert des Gebäudes ohne den Grund und Boden. Um den Gebäudewert für die AfA zu bestimmen, wird der Kaufpreis zwischen Grundstücksanteil und Gebäudeanteil aufgeteilt (Kaufpreisaufteilung Immobilie). Nur der Gebäudewert darf steuerlich über die Jahre abgeschrieben werden. Ein höher angesetzter Gebäudewert erhöht folglich die jährliche AfA."
+  },
+  {
+    "id": "07a5c4f1-e13e-415f-9359-345e9ce3a981",
+    "term": "Genauigkeit",
+    "definition": "Die Präzision einer Immobilienbewertung. Sie variiert je nach Methode: Eine fundierte Gutachterbewertung hat eine hohe Genauigkeit (± wenige Prozent), während einfache Online-Rechner oder grobe Maklerschätzungen um 10-15 % vom tatsächlichen Preis abweichen können. Kostenlose Online-Bewertungen liefern also nur eine erste Orientierung, aber keine gerichtsfesten Werte. Die Genauigkeit steigt mit dem Detaillierungsgrad der Analyse und der Qualität der Vergleichsdaten."
+  },
+  {
+    "id": "9f6304cc-a2c9-41f5-b3f8-4159708f49b8",
+    "term": "Gerichtsgutachten",
+    "definition": "Ein Immobilienwertgutachten, das von einem Gericht in Auftrag gegeben oder im Gerichtsverfahren verwendet wird. Gerichtsgutachten werden meist von öffentlich bestellten und vereidigten Sachverständigen erstellt und müssen gerichtsfest sein, d.h. den formalen Anforderungen des Gerichts genügen. Typische Anlässe sind Wertermittlungen in Zwangsversteigerungen, Erbstreitigkeiten oder Scheidungsverfahren, bei denen das Gericht einen neutralen Expertenwert benötigt."
+  },
+  {
+    "id": "41b6b167-67c3-4f5f-aefd-f6bcf40ef400",
+    "term": "gerichtsfähig",
+    "definition": "Ein Gutachten oder eine Bewertung ist gerichtsfähig, wenn sie in einem Gerichtsverfahren verwendet werden kann. Das setzt Neutralität, fachliche Korrektheit und Nachvollziehbarkeit voraus. Eine einfache Maklerbewertung ist z.B. nicht gerichtsfähig – Gerichte akzeptieren in der Regel nur Sachverständigengutachten, die nach ImmoWertV erstellt wurden. Gerichtsfähig wird oft synonym zu gerichtsfest gebraucht."
+  },
+  {
+    "id": "2c8d5c75-70f3-4b14-9059-76e293c8126a",
+    "term": "gerichtsfest",
+    "definition": "Dieser Begriff bezeichnet, dass ein Dokument – hier ein Wertgutachten – vor Gericht Bestand hat. Ein gerichtsfestes Gutachten erfüllt alle formalen Kriterien und fachlichen Standards, sodass es von Richtern anerkannt wird. Sachverständigengutachten sind gerichtsfest, wohingegen Ergebnisse aus Online-Tools oder Maklerbewertungen nicht als Beweis dienen. Gerichtsfest bedeutet somit zuverlässig, unabhängig und nachprüfbar."
+  },
+  {
+    "id": "000c2918-f70f-4bc4-83a7-f48b3b6e2223",
+    "term": "Gesamtnutzungsdauer",
+    "definition": "Die voraussichtliche Gesamtlebensdauer eines Gebäudes von Neubau bis zur völligen wirtschaftlichen Entwertung. Bei Wohngebäuden wird oft von ca. 80 Jahren ausgegangen (typische Gesamtnutzungsdauer), allerdings kann diese durch gute Bauqualität oder Modernisierungen auch länger sein. Die Gesamtnutzungsdauer setzt sich aus bereits verstrichener Nutzungsdauer (Alter) und Restnutzungsdauer zusammen. Sie dient im Ertragswertverfahren zur Herleitung des Vervielfältigers und ist für die Abschreibung relevant."
+  },
+  {
+    "id": "8f6a5acf-9553-4d8d-9e78-6a71cb737683",
+    "term": "Grunddienstbarkeit (Wegerecht)",
+    "definition": "Belastung eines Grundstücks zu Gunsten einer Person oder eines anderen Grundstücks. Eine Grunddienstbarkeit wie das Wegerecht erlaubt dem Berechtigten, das fremde Grundstück auf bestimmte Weise zu nutzen (z. B. über einen Weg zu gehen). Sie wird in Abt. II des Grundbuchs eingetragen und bindet auch zukünftige Eigentümer."
+  },
+  {
+    "id": "0d6c13bd-482f-4a1a-b652-644ed80ee877",
+    "term": "Grundstücksanteil berechnen",
+    "definition": "Die Ermittlung des Wertanteils für Grund und Boden beim Immobilienkauf. Üblich ist, über den Bodenrichtwert den Bodenwert zu berechnen und diesen als Grundstücksanteil anzusetzen. Alternativ kann eine Schätzung anhand vergleichbarer Verkäufe erfolgen. Die Aufteilung in Grundstücks- und Gebäudeanteil ist wichtig für die AfA (AfA Bemessungsgrundlage) und für die Grunderwerbsteuer (die sich auf den gesamten Kaufpreis bezieht, aber für Abschreibung nur der Gebäudeanteil zählt)."
+  },
+  {
+    "id": "b7c9ba55-00e5-4a09-ba40-6043d81f8204",
+    "term": "Grundsteuerwert",
+    "definition": "Der Wert, den das Finanzamt seit der Grundsteuerreform für jedes Grundstück festlegt, um die Grundsteuer zu berechnen. Er hat den früheren Einheitswert ersetzt und wird aus Bodenrichtwert, Grundstücksfläche und ggf. statistischen Gebäudedaten ermittelt. Der Grundsteuerwert ist ein reiner Steuerwert und liegt oft unter dem Verkehrswert. Er soll die Steuerlast fair verteilen, ist jedoch nicht als Marktwertindikator gedacht (Immobilienbewertung Boden fließt hier in standardisierter Weise ein)."
+  },
+  {
+    "id": "d939f38e-bff7-42b0-b391-d36429c54225",
+    "term": "Gutachter AfA",
+    "definition": "Gemeint ist ein Sachverständiger, der ein Gutachten zur Absetzung für Abnutzung (AfA) erstellt – insbesondere um eine kürzere Abschreibungsdauer zu begründen. Siehe AfA Gutachten. Solche Gutachter sind meist erfahrene Bausachverständige oder Immobilienbewerter, die den baulichen Zustand prüfen und die Restnutzungsdauer einschätzen. Das Finanzamt prüft diese Gutachten kritisch, da ein akzeptiertes AfA-Gutachten dem Eigentümer Steuerersparnis Immobilie bringt. Wie sie den richtigen Gutachter finden, lesen Sie hier."
+  },
+  {
+    "id": "31df6627-5331-424a-86d9-29de26646193",
+    "term": "Gutachter Immobilienwert",
+    "definition": "Ein Sachverständiger, der den Wert einer Immobilie ermittelt. Umgangssprachlich oft einfach „Gutachter“ genannt, sollte es sich idealerweise um einen qualifizierten Immobiliengutachter handeln (z.B. zertifiziert oder öffentlich bestellt). Ein solcher erstellt ein Wertgutachten bzw. Verkehrswertgutachten. Wichtig: Der Begriff ist nicht geschützt – daher sollte man auf Referenzen und Qualifikationen achten."
+  },
+  {
+    "id": "e06285c5-d234-4383-80be-2cbd0bfa82f9",
+    "term": "Gutachter Immobilienwert (online)",
+    "definition": "Auch Immobilienportale bezeichnen manchmal ihre automatisierten Rechner als „Gutachter“ für den Immobilienwert. Hier ist jedoch kein Mensch, sondern ein Algorithmus am Werk. Diese Online-Gutachten liefern schnelle Schätzwerte, ersetzen aber nicht die Expertise eines echten Gutachters. (Siehe Online-Bewertung kostenlos und Genauigkeit)."
+  },
+  {
+    "id": "f5636926-37cc-4266-a65a-fb7dccbad0b4",
+    "term": "Gutachter Kosten vs kostenlos",
+    "definition": "Der Unterschied zwischen einer kostenpflichtigen Bewertung durch einen Sachverständigen und einer kostenlosen Schätzung (etwa durch einen Makler oder Online-Tool). Kostenlose Maklerbewertungen sind primär Marketing und können ungenau sein, wohingegen ein bezahltes Gutachten unabhängig und detailliert ist. Die „Kostenlos“-Variante kann indirekt teuer werden – etwa durch falsche Preisansetzung, was zu Verlusten führt. Die Investition in einen qualifizierten Gutachter bietet dagegen einen belastbaren Wert als Basis für Entscheidungen."
+  },
+  {
+    "id": "b84e815a-f114-4119-b30f-bc35ae571188",
+    "term": "Gutachter Immobilienbewertung (allgemein)",
+    "definition": "Siehe Immobiliengutachter. Ein Experte, der Immobilien professionell bewertet. Die Kosten eines solchen Gutachters richten sich nach Aufwand oder Wert der Immobilie; sie können mehrere hundert bis einige tausend Euro betragen, sind aber oft sinnvoll, wenn präzise und gerichtsfähige Ergebnisse benötigt werden."
+  },
+  {
+    "id": "e18acf3d-5032-4a9c-bd94-8245e7116604",
+    "term": "Gutachterausschuss",
+    "definition": "Ein bei den Kommunen eingerichtetes, unabhängiges Gremium aus Sachverständigen, das Kaufpreise sammelt und auswertet. Die Gutachterausschüsse veröffentlichen regelmäßig Bodenrichtwerte und erstellen auf Anfrage Gutachten. Ihre Kaufpreissammlung liefert wichtige Vergleichsdaten für Wertermittlungen. Die Arbeit des Gutachterausschusses sorgt für Transparenz auf dem Immobilienmarkt und bildet eine Grundlage für die Marktanalyse."
+  },
+  {
+    "id": "011ab048-4a30-4358-8a11-2a29455082b6",
+    "term": "Gutachterterminus",
+    "definition": "Ein Fachausdruck aus der Gutachtersprache. Damit können spezielle Begriffe gemeint sein, die Sachverständige verwenden – etwa Verkehrswert statt „Marktpreis“ oder Liegenschaftszins für „Kapitalisierungszinsfuß“. Oft weicht die Terminologie der Gutachter von der umgangssprachlichen ab (z.B. „Verkehrswert“ als gerichtsfester Begriff vs. „Verkaufspreis“ in der Alltagssprache). Gutachterterminus betont somit die präzise, definierte Sprache in Wertgutachten."
+  },
+  {
+    "id": "404a17f1-3ef6-4b95-b5b1-3cf1067de6c0",
+    "term": "Hausbewertung",
+    "definition": "Die Wertermittlung für ein Wohnhaus, meist ein Einfamilienhaus. Sie kann online durch grobe Vergleichswerte erfolgen oder professionell durch einen Gutachter. Ziel ist es, den Marktwert Immobilie zu bestimmen, z.B. für Verkauf, Finanzierung oder Vermögensübersicht. Eine Hausbewertung umfasst Lageprüfung, Zustandsanalyse, Flächen- und Ausstattungsbewertung sowie Marktvergleich. Im Gutachterwesen entspricht die Hausbewertung einem Verkehrswertgutachten für ein Haus."
+  },
+  {
+    "id": "8135da0a-78be-41e1-b1c8-f49d80064d3c",
+    "term": "Hauskauf Gutachten",
+    "definition": "Ein Wertgutachten oder bautechnisches Gutachten, das vor einem Hauskauf eingeholt wird. Käufer lassen manchmal einen Sachverständigen den Verkehrswert schätzen (Wertgutachten) oder Bauschäden prüfen, um sicherzugehen, dass der aufgerufene Kaufpreis angemessen ist. Ein solches Gutachten vor Kauf ist nicht Pflicht, kann aber teure Fehlkäufe oder Überzahlungen verhindern. Bei größeren Unsicherheiten (Altbau, Sanierungsstau) ist ein Hauskauf-Gutachten sehr zu empfehlen."
+  },
+  {
+    "id": "4068986c-e53e-4df9-85fe-cce04b04b1c8",
+    "term": "Haus verkaufen Energieausweis",
+    "definition": "Beim Hausverkauf ist der Eigentümer gesetzlich verpflichtet, den Käufern einen gültigen Energieausweis vorzulegen. Idealerweise wird schon in der Immobilienanzeige die Energieeffizienzklasse genannt. Der Energieausweis informiert die potenziellen Käufer über die jeweilige energetische Qualität (Klasse von A+ bis H) und die zu erwartenden Heizkosten. Ein schlechter Kennwert (z.B. Klasse G oder H) kann den Verkaufspreis beeinflussen, während ein guter Wert (A oder B) ein Verkaufsargument sein kann."
+  },
+  {
+    "id": "7ed8538e-496d-476a-abc7-1e60f1636a86",
+    "term": "höhere Abschreibung",
+    "definition": "Umgangssprachlich eine über dem Standard liegende Abschreibung für eine Immobilie. Diese lässt sich erreichen, wenn die Restnutzungsdauer per Gutachten geringer angesetzt wird als üblich (z.B. 30 Jahre statt 50 Jahre, was 3,33 % statt 2 % AfA ergäbe). Ebenfalls führen Sonderabschreibungen oder degressive AfA zu zunächst höheren Abschreibungsraten. Eine höhere Abschreibung mindert kurzfristig die Steuerlast stärker (Steuerersparnis Immobilie), reduziert aber auch schneller den abschreibungsfähigen Wert."
+  },
+  {
+    "id": "ed546c4a-f10a-43d5-a4a9-2cc42783938b",
+    "term": "Immobilie bewerten Makler oder Gutachter",
+    "definition": "Die Frage, wer den Immobilienwert ermitteln sollte – ein Makler oder ein Sachverständiger. Ein Makler bietet oft kostenlos eine Preiseinschätzung an, kennt den lokalen Markt gut, ist aber nicht neutral (sein Ziel ist meist ein Verkaufsauftrag) und seine Bewertung wird von Behörden nicht anerkannt. Ein Gutachter (Sachverständiger) kostet ein Honorar, liefert dafür aber eine objektive, methodisch korrekte Wertermittlung, die auch für Gerichte, Banken und Finanzamt Bestand hat."
+  },
+  {
+    "id": "ddfe3dfe-710d-4e46-8af4-2ea256c68b6f",
+    "term": "Immobilienbewertung",
+    "definition": "Die Bestimmung des Werts einer Immobilie (Grundstück mit Gebäude) durch Analyse von Lage, Zustand, Markt und anderen Faktoren. Ziel ist meist der Verkehrswert (Marktwert). In Deutschland werden dafür üblicherweise das Vergleichswert-, Ertragswert- oder Sachwertverfahren genutzt. Eine Immobilienbewertung kann als Online Immobilienbewertung überschlägig erfolgen oder als detailliertes Gutachten durch einen Sachverständigen. Lesen Sie mehr zu Immobilienbewertungen in unserem Artikel."
+  },
+  {
+    "id": "78bd3f8a-f7f3-4be6-a188-565de23dda9f",
+    "term": "Immobilienbewertung Boden",
+    "definition": "Die Wertermittlung des Grundstücksanteils einer Immobilie. Insbesondere im Sachwertverfahren wird der Bodenwert separat über Bodenrichtwerte oder Vergleichspreise bestimmt. Auch für steuerliche Zwecke (z.B. Grundsteuerwert) wird der Bodenwert benötigt. Bei Grundstücken ohne Aufbauten entspricht die Immobilienbewertung quasi dem Bodenwert (Marktwert des unbebauten Grundstücks)."
+  },
+  {
+    "id": "b7b43137-25c7-4e1c-8bd0-7f662581373a",
+    "term": "Immobiliengutachter finden",
+    "definition": "Die Suche nach einem geeigneten Sachverständigen zur Immobilienbewertung. Kriterien für die Auswahl sind Qualifikation (z.B. öffentlich bestellt oder zertifiziert nach DIN 17024), Erfahrung, Referenzen und regionale Marktkenntnis. Oft empfiehlt es sich, auf Berufsverbände oder öffentliche Verzeichnisse zurückzugreifen. Ein guter Gutachter zeichnet sich durch Unabhängigkeit und transparente Arbeitsweise aus – vergleichen Sie ggf. mehrere Anbieter (Gutachterkosten Vergleich)."
+  },
+  {
+    "id": "b9b79bab-6da8-49ff-b74d-9fa90c239027",
+    "term": "Immobiliengutachter Kosten",
+    "definition": "Die Aufwendungen für die Dienstleistung eines Immobiliengutachters. Je nach Umfang des Wertgutachtens und Immobilientyp können die Kosten stark variieren. Ein einfaches Kurzgutachten beginnt bei uns ab 1.150 € netto, während ein ausführliches Verkehrswertgutachten bei 2.300 € netto losgeht. Die Honorarordnung (HOAI) ist für freie Sachverständige nicht bindend; häufig wird ein Pauschalpreis oder Stundensatz vereinbart. Die Preisfaktoren sind Objektgröße, Dokumentenaufwand, Recherche und Reisetätigkeit. Weiteres zu unseren Preisen finden Sie hier."
+  },
+  {
+    "id": "b1451431-a5c1-4418-b803-0239fad9281a",
+    "term": "Immobilienportale",
+    "definition": "Online-Plattformen wie Immobilienscout24, die Immobilien inserieren und oft auch Wertermittlungstools anbieten. Diese Online-Bewertungen kostenlos funktionieren mit einem Algorithmus, der Vergleichsdaten nutzt, um Eigentümern einen schnellen Wertüberblick zu geben. Immobilienportale wollen mit solchen Services Verkäufer anlocken und an Makler vermitteln. Die Bewertungen sind nützlich zur ersten Orientierung, ersetzen aber keine fundierte Gutachteranalyse (siehe Genauigkeit)."
+  },
+  {
+    "id": "711919dc-1601-436c-9091-f207139a0425",
+    "term": "Immobilienwert beeinflussen",
+    "definition": "Faktoren, die den Wert einer Immobilie bestimmen. Dazu gehören insbesondere Lage, Größe (Wohnfläche/Grundstück), Zustand/Baujahr, Ausstattung/Standard, Grundriss, Marktlage und rechtliche Gegebenheiten. Positive Einflüsse (ruhige Lage, Modernisierung, gefragte Region) steigern den Wert, während negative (Lärmbelastung, Sanierungsstau, schlechte Anbindung) ihn mindern. Gutachter sprechen hier von wertbeeinflussenden Merkmalen, die in Summe den Marktwert einer Immobilie ausmachen."
+  },
+  {
+    "id": "64a4f68b-1c13-4265-9521-380cac01a75a",
+    "term": "Immobilienwert berechnen",
+    "definition": "Umgangssprachlich das Ermitteln des Immobilienwerts, oft mithilfe von Online-Rechnern oder Überschlagsmethoden. Eigentümer können erste Abschätzungen vornehmen, indem sie Quadratmeterpreise ähnlicher Objekte heranziehen (Vergleichswertprinzip). Genaue Berechnungen erfolgen aber besser durch einen Sachverständigen, der mittels anerkannter Verfahren (z.B. Ertragswertberechnung mit Liegenschaftszins, Sachwertberechnung mit Baukosten) den Verkehrswert berechnet. Hinweis: „Berechnen“ suggeriert Genauigkeit – doch ohne fundierte Daten ist das Ergebnis unsicher (siehe Genauigkeit)."
+  },
+  {
+    "id": "794c8da0-6291-431b-b4e9-158003f41461",
+    "term": "Immobilienwert Faktoren",
+    "definition": "Siehe Immobilienwert beeinflussen. Gemeint sind die Wertfaktoren Immobilie, also Lage, Zustand, Ausstattung, Grundstückswert etc., die den Marktwert prägen. Jeder dieser Faktoren kann den Wert steigern oder senken – z.B. erhöht eine gute Mikrolage (ruhige Straße, Aussicht) den Wert, während Renovierungsbedarf ihn mindert. In Gutachten werden alle Faktoren systematisch erfasst und bewertet."
+  },
+  {
+    "id": "97e6f603-541e-4425-a400-cab5c66afbbe",
+    "term": "Immobilienwert Rechner",
+    "definition": "Ein Online-Tool zur schnellen Wertschätzung einer Immobilie. Solche Rechner fragen einige Objektparameter ab (Wohnfläche, Zimmer, Baujahr, Ort usw.) und geben dann einen Richtwert aus. Sie basieren auf Durchschnittsdaten und Algorithmen und liefern daher nur grobe Ergebnisse. Ein Immobilienwert-Rechner ist praktisch für eine erste Orientierung („Was könnte mein Haus wert sein?“), ersetzt aber keine individuelle Begutachtung. Oft bieten Makler oder Banken solche Rechner auf ihren Websites an."
+  },
+  {
+    "id": "83a7427f-34fb-4d13-a588-0ce155b1cab3",
+    "term": "Immobilienwertermittlungsverordnung (ImmoWertV)",
+    "definition": "Die zentrale Verordnung, die in Deutschland die Verfahren und Grundlagen der Immobilienbewertung regelt. Die ImmoWertV enthält u.a. Definitionen für Verkehrswert, regelt das Vergleichswertverfahren, Ertragswertverfahren und Sachwertverfahren, sowie die Begriffe Liegenschaftszins, Indexreihen, Marktanpassungsfaktoren und Restnutzungsdauer. Gutachten, die dem gerichtlichen oder offiziellen Standard genügen sollen, werden gemäß ImmoWertV erstellt. (Aktuelle Fassung: ImmoWertV 2021)."
+  },
+  {
+    "id": "906c08bc-eb63-4d35-bba5-2a7c1ce5870e",
+    "term": "Instandhaltung",
+    "definition": "Die laufende Pflege und Reparatur eines Gebäudes, um dessen Gebrauchszustand zu erhalten. Eine regelmäßige Instandhaltung (Dach dicht halten, Fassade ausbessern, Haustechnik warten) verlängert die technische Nutzungsdauer und erhält den Wert der Immobilie. Vernachlässigte Instandhaltung führt zu Bauschäden und Wertverlust. In Ertragswertberechnungen werden Instandhaltungskosten als Teil der Bewirtschaftungskosten vom Rohertrag abgezogen, was den Ertragswert beeinflusst."
+  },
+  {
+    "id": "83ba4812-2384-4e8c-9cb0-856ff570590d",
+    "term": "Instandhaltungspflicht:",
+    "definition": "Die Verpflichtung, eine Immobilie in einem sicheren und gebrauchsfähigen Zustand zu erhalten. Eigentümer – und in Mietwohnungen v. a. Vermieter – müssen notwendige Reparaturen durchführen und Gefahrenquellen beseitigen. Diese Instandhaltungspflicht soll gewährleisten, dass keine Schäden oder Unfälle aufgrund mangelhaften Gebäudezustands auftreten."
+  },
+  {
+    "id": "386ec2b0-df0e-4b60-a302-f9380bb786f4",
+    "term": "Jahresreinertrag",
+    "definition": "Jährlicher Nettoertrag einer Immobilie nach Abzug der Bewirtschaftungskosten vom Jahresrohertrag. Im Ertragswertverfahren entspricht dies dem jährlichen Reinertrag vor Abzug der Bodenwertverzinsung, also dem Betrag, der dem Eigentümer aus dem Objekt tatsächlich zufließt."
+  },
+  {
+    "id": "b74cfbe5-5c8b-4dcc-a76c-d760dda205e9",
+    "term": "Jahresrohertrag",
+    "definition": "Summe aller Brutto-Mieterträge einer Immobilie pro Jahr (Jahresmieteinnahmen inklusive umlagefähiger Betriebskosten). Er bildet die Grundlage im Ertragswertverfahren und zeigt den nachhaltig erzielbaren Gesamtertrag eines Mietobjekts innerhalb eines Jahres."
+  },
+  {
+    "id": "27acda10-1cac-4e44-b6dc-066b202efeaa",
+    "term": "Kapitalisierungszinssatz",
+    "definition": "Zinssatz (oft Cap Rate genannt), mit dem zukünftige Erträge einer Immobilie in einen Barwert umgerechnet werden. Er gibt an, welchen Ertrag eine Immobilie im Verhältnis zu ihrem Wert abwirft, und spiegelt damit die Renditeerwartung sowie das Investitionsrisiko wider."
+  },
+  {
+    "id": "db72432b-cca5-4b66-bcad-91377abbfae8",
+    "term": "Kaufnebenkosten",
+    "definition": "Zusätzliche Kosten beim Immobilienkauf, die zum Kaufpreis hinzukommen. Dazu zählen beispielsweise Grunderwerbsteuer, Notar- und Grundbuchgebühren sowie die Maklerprovision, welche zusammen oft etwa 10-15 % des Kaufpreises ausmachen."
+  },
+  {
+    "id": "05411bc9-e4e8-4738-956d-2647325ad83c",
+    "term": "Kaufpreisaufteilung / Kaufpreisteilung",
+    "definition": "Aufteilung eines Gesamtkaufpreises für ein bebautes Grundstück auf den Boden- und den Gebäudeanteil (bzw. weitere Komponenten). Dies dient insbesondere steuerlichen Zwecken – etwa um die Abschreibung (AfA) für den Gebäudeanteil zu ermitteln – und erfolgt idealerweise im Verhältnis der jeweiligen Verkehrswerte von Boden und Gebäude."
+  },
+  {
+    "id": "cd59c95d-78d2-4c99-af30-b663fd80ce32",
+    "term": "Kaufpreisfaktor",
+    "definition": "Kennzahl, die das Verhältnis zwischen Kaufpreis einer Immobilie und den jährlichen Mieteinnahmen beschreibt. Sie gibt an, wie viele Jahresmieten erforderlich sind, damit der Kaufpreis durch die Mieterträge gedeckt ist (z.B. bedeutet ein Faktor 25, dass 25 Jahresnettokaltmieten dem Kaufpreis entsprechen)."
+  },
+  {
+    "id": "f8e98c3c-fa18-4219-8fb2-0088a199f454",
+    "term": "Lageplan",
+    "definition": "Maßstabsgetreuer Plan eines Grundstücks und seiner unmittelbaren Umgebung. Ein Lageplan zeigt Grundstücksgrenzen, Gebäude sowie Wege und dient als wichtige Unterlage – etwa bei Bauanträgen oder Gutachten – um die genaue örtliche Lage und Bebauung des Grundstücks übersichtlich darzustellen."
+  },
+  {
+    "id": "18036816-e10d-4629-924f-c5bd107bad1d",
+    "term": "Liegenschaftszinssatz",
+    "definition": "Prozentuale Verzinsung des Immobilienkapitals, die in der Marktwertermittlung (Ertragswertverfahren) den üblichen Markt-Ertrag einer Immobilie widerspiegelt. Dieser vom Gutachterausschuss ermittelte Zinssatz wird genutzt, um aus dem Reinertrag durch Kapitalisierung den Verkehrswert einer Renditeimmobilie abzuleiten."
+  },
+  {
+    "id": "2812251c-24b3-4d14-a834-7eefb4a9be8d",
+    "term": "Lineare Abschreibung",
+    "definition": "Abschreibungsmethode, bei der ein Gebäude gleichmäßig über die geschätzte Nutzungsdauer abgeschrieben wird. Jährlich wird ein konstanter Betrag (Anschaffungswert geteilt durch Nutzungsjahre) als Aufwand angesetzt, sodass der Wert des Gebäudes in gleichmäßigen Raten über die Zeit abgeschrieben wird."
+  },
+  {
+    "id": "345d249c-a227-4dc2-9224-a69a7949a50a",
+    "term": "Liquidationswert",
+    "definition": "Zerschlagungswert einer Immobilie, der sich in einer Liquidations- oder Zwangsverkaufssituation ergibt. Dabei wird angenommen, dass die baulichen Anlagen keinen Ertrag mehr erwirtschaften – der Immobilienwert resultiert im Wesentlichen aus dem Bodenwert (abzüglich etwaiger Abrisskosten), da kein Gebäudeertrag mehr berücksichtigt werden kann."
+  },
+  {
+    "id": "5fc03742-47d8-4bee-9fbe-eb179223b205",
+    "term": "Makrolage",
+    "definition": "Die großräumige Lage einer Immobilie im übergeordneten räumlichen Kontext (z. B. Stadt, Region). Faktoren der Makrolage umfassen etwa die Stadt-/Regionalwirtschaft, Infrastruktur, Bevölkerungsstruktur und allgemeine Umfeldbedingungen des Standorts, welche die Attraktivität und Wertentwicklung des Immobilienstandorts beeinflussen."
+  },
+  {
+    "id": "8931a5a1-987b-41cf-982b-75ed30a433f7",
+    "term": "Mietausfallwagnis",
+    "definition": "Das Risiko für Vermieter, dass erwartete Mieteinnahmen ausbleiben. Dieses Wagnis (z.B. durch Leerstand oder Mietausfälle) wird in der Immobilienbewertung durch einen Abschlag vom Ertrag berücksichtigt – üblich ist ein pauschaler prozentualer Abzug von den Mieterträgen, um Mietausfallrisiken finanziell abzubilden."
+  },
+  {
+    "id": "8704ce96-be67-456c-8bef-aee28d0d9ea4",
+    "term": "Mietspiegel",
+    "definition": "Übersicht über die ortsüblichen Vergleichsmieten in einer bestimmten Stadt oder Gemeinde. Ein Mietspiegel wird von Kommunen in Zusammenarbeit mit Mieter- und Vermieterverbänden erstellt und dient als offizieller Anhaltspunkt für das lokale Mietpreisniveau (insbesondere als Grundlage für Mieterhöhungen); man unterscheidet einfachen und qualifizierten Mietspiegel."
+  },
+  {
+    "id": "c5f27182-9c1e-448e-932f-756aaae71dd2",
+    "term": "Mikrolage",
+    "definition": "Die direkte Umgebung einer Immobilie und deren unmittelbares Wohnumfeld. Sie umfasst örtliche Faktoren wie Nachbarschaftsbebauung, Lage im Quartier oder auf dem Grundstück (z. B. Front- oder Hoflage), Lärmeinflüsse, Aussicht sowie die Infrastruktur in nächster Nähe – all diese Merkmale der Mikrolage haben einen direkten Einfluss auf die Nutz- und Wohnqualität und somit den Immobilienwert."
+  },
+  {
+    "id": "d7b6831b-5c0f-41ed-bc10-d80f67e34f4c",
+    "term": "Miteigentumsanteil (MEA)",
+    "definition": "Rechnerischer Bruchteil am gemeinschaftlichen Eigentum in einer Wohnungseigentümergemeinschaft (WEG). Der Miteigentumsanteil wird jedem Sondereigentum (z. B. einer Eigentumswohnung) zugeordnet und bestimmt unter anderem Stimmrechte und Kostenverteilung innerhalb der WEG."
+  },
+  {
+    "id": "70211278-a079-46ca-b757-62c4d374d48c",
+    "term": "Modernisierung",
+    "definition": "Bauliche Verbesserung einer Immobilie über den ursprünglichen Zustand hinaus. Modernisierungen erhöhen den Wohn- oder Nutzwert, etwa durch energieeffiziente Maßnahmen (Wärmedämmung, neue Heizung) oder zeitgemäße Ausstattung. Sie unterscheiden sich von Reparaturen dadurch, dass sie den Standard anheben und können den Immobilienwert steigern."
+  },
+  {
+    "id": "b581f126-c0db-4a88-9f7f-c2d1f4fb8417",
+    "term": "Nießbrauch",
+    "definition": "Ein umfassendes Nutzungsrecht an einer fremden Sache, typischerweise an einer Immobilie. Der Nießbraucher darf das Objekt bewohnen und alle „Früchte“ daraus ziehen (z. B. Mieteinnahmen), ohne Eigentümer zu sein. Ein häufiger Anwendungsfall ist das lebenslange Wohn- und Nutzungsrecht an einer Immobilie zur Altersvorsorge. Im Grundbuch eingetragen, erlischt der Nießbrauch meist mit dem Tod des Berechtigten."
+  },
+  {
+    "id": "4c135059-42dc-4e65-801e-6e012af3a038",
+    "term": "Notarielle Beurkundung",
+    "definition": "Öffentliche Beurkundung eines Vertrags durch einen Notar. Insbesondere Immobilienkaufverträge müssen in Deutschland notariell beurkundet werden, damit sie rechtsgültig sind – der Notar liest den Vertrag vor, bestätigt die Identität und den Willen der Parteien und fertigt eine Niederschrift an, wodurch der Vertrag rechtlich bindend wird."
+  },
+  {
+    "id": "79116d55-26bd-4e5c-a647-3c7d9db6af2d",
+    "term": "Nutzfläche",
+    "definition": "Gesamtheit der nutzbaren Flächen eines Gebäudes, die einem bestimmten Zweck dienen (z. B. Wohnen, Arbeiten, Lagern). Zur Nutzfläche zählen alle Räume, die tatsächlich genutzt werden können – inklusive Wohnfläche – im Unterschied zu Verkehrsflächen (Flure, Treppenhäuser) oder Technikflächen. Sie wird nach DIN 277 ermittelt und umfasst somit alle zweckbestimmten Raumflächen eines Gebäudes."
+  },
+  {
+    "id": "59c2b11e-762e-40d8-a59a-69f055fe3202",
+    "term": "Nutzungsdauer",
+    "definition": "Zeitspanne, für die ein Gebäude oder Bauteil insgesamt wirtschaftlich genutzt werden kann. Man unterscheidet die technische oder wirtschaftliche Gesamtnutzungsdauer (typische Lebensdauer von Neubau bis Nutzungsende) und die Restnutzungsdauer – also die ab dem Bewertungsstichtag verbleibende Nutzungszeit. Letztere ist wichtig für Wertermittlungen und Abschreibungen, da sie angibt, wie lange die Immobilie voraussichtlich noch sinnvoll genutzt werden kann."
+  },
+  {
+    "id": "bd0bf81c-ecbf-4205-a494-c3efa42c3264",
+    "term": "Online Immobilienbewertung",
+    "definition": "Eine internetbasierte Immobilienwert-Einschätzung, meist kostenlos und sofort verfügbar. Eigentümer geben Objektdaten auf einer Plattform ein und erhalten in Minuten einen Schätzwert. Vorteil: Schnell und unverbindlich. Nachteil: Die Berechnung erfolgt automatisiert und kann individuelle Besonderheiten nicht berücksichtigen. Online-Bewertungen eignen sich als grobe Orientierung, sollten aber „mit Bedacht“ betrachtet werden, da ungenaue Vereinfachungen zu Fehlannahmen führen können."
+  },
+  {
+    "id": "bb0510d4-f447-4b49-9bb2-9caef8031f6f",
+    "term": "Online-Bewertung kostenlos",
+    "definition": "Ein gratis Service (häufig von Maklern oder Portalen angeboten) zur Werteinschätzung. Für Verkäufer verlockend, da ohne Kosten direkt ein „Wert“ genannt wird. Allerdings handelt es sich meist um marketinggetriebene Lockangebote – die Bewertung erfolgt oberflächlich und soll vor allem Kontakt zum Eigentümer herstellen. Zudem haben kostenlose Bewertungen keinen rechtssicheren Status für Behörden oder Gerichte. Fazit: Gut als erster Eindruck, aber nicht als endgültige Entscheidungsgrundlage."
+  },
+  {
+    "id": "a4308bb8-b7c7-46eb-91b0-0a46ce3e164c",
+    "term": "Objektivität",
+    "definition": "Die Unparteilichkeit und Neutralität bei der Wertermittlung. Ein Gutachten soll objektiv sein, d.h. frei von Eigeninteressen des Bewerters. Öffentlich bestellte oder zertifizierte Sachverständige sind zu Neutralität verpflichtet – sie haben weder am Kauf/Verkauf teil noch erhalten Provisionen. Ein Makler hingegen könnte tendenziell einen höheren Preis ansetzen, um den Auftrag zu bekommen (Vermarktung vs Bewertung). Objektivität gewährleistet, dass das Ergebnis allein auf Fakten und Marktkenntnis beruht, nicht auf Wünschen einzelner."
+  },
+  {
+    "id": "ee9eb08a-d382-4229-a013-0a7e8fc4d96d",
+    "term": "öffentlich bestellt (Sachverständiger)",
+    "definition": "Titel für Sachverständige, die von einer IHK oder HWK öffentlich bestellt und vereidigt wurden. Dies bescheinigt besondere Qualifikation im Fachgebiet Immobilienbewertung, regelmäßige Überprüfung und Vertrauenswürdigkeit. Öffentlich bestellte Sachverständige (ö.b.u.v.) erstellen Gutachten, die vor Gerichten und Behörden besonderes Ansehen genießen. Für Immobiliengutachter ist dies eine der höchsten Qualitätsgarantien (neben DIN-Zertifizierung). Auftraggeber sollten bei Bedarf gezielt nach ö.b.u.v. Sachverständigen suchen. Mehr über die Auswahl des richtigen Gutachters finden Sie hier."
+  },
+  {
+    "id": "b9953fe5-5f5d-427b-a3a0-5586719899ab",
+    "term": "Preisfaktoren",
+    "definition": "Aspekte, die die Höhe der Gutachterkosten oder des Immobilienwerts beeinflussen – je nach Kontext. Bei Gutachterkosten sind Preisfaktoren z.B. die Objektart (Wohnung vs. Gewerbe), Umfang des Gutachtens, Schwierigkeitsgrad (Denkmalschutz, Erbbaurecht, viele Rechte lasten?) und Anfahrt. Bei Immobilienwert sind Preisfaktoren gleichbedeutend mit Wertfaktoren Immobilie (Lage, Zustand, Größe etc.). Generell meint der Begriff alle Einflussgrößen, die den Preis formen."
+  },
+  {
+    "id": "5bbc4bdf-11e0-4a61-a9b5-7b576554758b",
+    "term": "Preis pro Quadratmeter (€/m²)",
+    "definition": "Der Preis pro Quadratmeter Wohn- oder Nutzfläche, oft genutzt als Kennzahl für Immobilienwerte. Er wird meist aus tatsächlichen Verkäufen in der Umgebung ermittelt. Zum Beispiel bedeutet ein Quadratmeterpreis von 3.500 €/m², dass ein Haus mit 100 m² Wohnfläche rund 350.000 € wert sein könnte. Vorsicht: Quadratmeterpreise sind Durchschnittswerte – besondere Merkmale des Objekts (Garten, Luxusausstattung, Renovierungsstau) müssen durch Zuschläge oder Abschläge berücksichtigt werden. Dennoch ist der Quadratmeterpreis ein wichtiges Vergleichskriterium bei der Marktanalyse."
+  },
+  {
+    "id": "9e4dc415-33a1-458c-b818-5eaeecb218a4",
+    "term": "Renovierung",
+    "definition": "Überbegriff für Maßnahmen zur Auffrischung und Instandsetzung einer Immobilie, ohne grundlegende Veränderungen vorzunehmen. Renovierungen beseitigen Gebrauchsspuren und Verschleiß (z. B. Malern, Böden ausbessern) und stellen den ursprünglichen Zustand wieder her. Anders als Modernisierung zielen Renovierungen hauptsächlich auf die Wiederherstellung der Wohnqualität, nicht auf Standarderhöhungen."
+  },
+  {
+    "id": "90366998-3fc8-429d-bf97-db4301f72468",
+    "term": "Restnutzungsdauer Immobilie",
+    "definition": "Beispiel: Ein 50 Jahre altes Wohnhaus, gut gepflegt, könnte noch eine Restnutzungsdauer von 30 Jahren haben. Dieselbe Immobilie in marodem Zustand vielleicht nur 15 Jahre. Die technische Lebensdauer kann von der wirtschaftlichen Restnutzungsdauer abweichen, wenn das Gebäude zwar physisch länger steht, aber vorher unzeitgemäß oder unwirtschaftlich wird."
+  },
+  {
+    "id": "f1187f75-03c3-4ea0-a6e8-eaa28612d7c7",
+    "term": "Restnutzungsdauer berechnen",
+    "definition": "Die Ermittlung der Restnutzungsdauer – meist durch den Gutachter auf Basis von Baujahr, Bauweise, Zustand, durchgeführten Sanierungen und Vergleichswerten ähnlicher Objekte. Es gibt keine starre Formel; jedoch bieten z.B. die ImmoWertV und die Erfahrung Anhaltspunkte (viele Wohngebäude haben ursprünglich 60-80 Jahre Gesamtdauer, hochwertige Gebäude mehr). Manche Gutachter nutzen Tabellen oder spezielle Software. Für steuerliche Abschreibung darf die Restnutzungsdauer nicht einfach pauschal verkürzt werden, sondern muss begründet sein (siehe Restnutzungsdauergutachten)."
+  },
+  {
+    "id": "08dffee9-5d28-41d4-986e-83176df8c4e5",
+    "term": "Restnutzungsdauergutachten",
+    "definition": "Ein spezielles Gutachten, das die verbleibende Nutzungsdauer eines Gebäudes ermittelt. Es wird oft erstellt, um eine verkürzte Abschreibung gegenüber dem Finanzamt zu rechtfertigen. Der Sachverständige beurteilt Bauzustand, Konstruktion, Schäden und Modernisierungen, um eine Restnutzungsdauer (z.B. 30 statt 50 Jahre) festzulegen. Ein solches Gutachten muss hohen Anforderungen genügen, da es vom Finanzamt kritisch geprüft wird – es soll nicht einfach ein Abschreibungsmodell aus einem Verkehrswertgutachten übernehmen, sondern dezidiert auf die Substanz eingehen. In welchen Fällen für Sie ein Restnutzungsdauergutachten sinnvoll sein könnte, lesen Sie hier."
+  },
+  {
+    "id": "ebedcae6-a303-4d4d-a59a-25baf6388e38",
+    "term": "Sacheinlage Immobilienbewertung",
+    "definition": "Bei Einbringung einer Immobilie als Sacheinlage in ein Unternehmen (z.B. GmbH) ist eine Bewertung zum Einlagezweck nötig. Ein Gutachter ermittelt dann den Verkehrswert, der als Einlagewert dient. Dieser Begriff gehört zur speziellen Bewertungsanlässen, auf die hier nur hingewiesen sei."
+  },
+  {
+    "id": "7c0a50f5-79d2-43df-bb75-3cfd4dbdb401",
+    "term": "Sachverständigen-Gutachten",
+    "definition": "Ein von einem qualifizierten Gutachter erstelltes Wertgutachten für eine Immobilie. Es ist umfassend, begründet und nach anerkannten Regeln (z.B. ImmoWertV) ausgearbeitet. Ein solches Gutachten – oft synonym Wertgutachten oder Verkehrswertgutachten genannt – wird bei Gericht, Behörden oder Banken akzeptiert. Es enthält neben der Berechnung des Werts auch eine detaillierte Beschreibung des Objekts, der Marktlage und der Bewertungsannahmen. Sachverständigen-Gutachten steht im Gegensatz zur einfachen Wertschätzung (Makler/Laien), da ersteres gerichtsfest ist."
+  },
+  {
+    "id": "ce8cbf8e-f4e2-4351-9e13-a0769e3232ef",
+    "term": "Sachverständiger",
+    "definition": "Ein Experte mit besonderer Sachkunde, hier für Immobilienbewertung. Ein Sachverständiger (Gutachter) untersucht und bewertet ein Objekt fachgerecht. Da die Bezeichnung rechtlich nicht geschützt ist, sollte auf Qualifikationen geachtet werden (z.B. öffentlich bestellter oder zertifizierter Sachverständiger). Qualifizierte Sachverständige arbeiten nach festgelegten Standards und sind zur Neutralität verpflichtet. Ihre Gutachten dienen als verlässliche Entscheidungsgrundlage bei Kauf, Verkauf, Finanzierung, Scheidung, Erbschaft etc."
+  },
+  {
+    "id": "c0855d2c-b53c-4078-839f-ad26cfaa5cb5",
+    "term": "Sachverständiger Qualifikation",
+    "definition": "Die Ausbildung und Zertifizierung eines Immobiliengutachters. Während ein Makler keine formale Bewertungsqualifikation benötigt, haben Sachverständige in der Regel ein intensives Fachstudium oder eine Prüfung (z.B. DIHK-Zertifikat, Hochschulstudium in Immobilienbewertung) absolviert. Öffentlich bestellte Gutachter werden von der IHK geprüft und vereidigt; zertifizierte Gutachter (DIN 17024) durchlaufen ein Zertifizierungsverfahren. Diese Qualifikationen stellen zudem sicher, dass der zertifizierte Gutachter über fundiertes Wissen und Erfahrung verfügt. Das sollten allerdings nicht die einzigen Gesichtspunkte bei der Gutachterwahl sein. Für eine genauere Aufstellung lesen Sie gerne unseren Artikel dazu."
+  },
+  {
+    "id": "5a11fd6f-cf3b-4063-8553-ddfb49e0d299",
+    "term": "Sachwert",
+    "definition": "Der Wert einer Immobilie nach dem Sachwertverfahren. Er setzt sich aus dem Zeitwert der Gebäude und Außenanlagen plus dem Bodenwert zusammen. Der Sachwert spiegelt die (durch Abschreibung geminderte) Substanzkosten wider, ggf. durch Marktanpassungsfaktoren korrigiert. Bei typischen selbstgenutzten Wohnimmobilien wird der Verkehrswert oft aus dem Sachwert abgeleitet, sofern kein ausreichender Markt für Vergleichswerte vorhanden ist."
+  },
+  {
+    "id": "900a7505-a1bd-400e-abc6-c2f1ff97c0ea",
+    "term": "Sachwertverfahren",
+    "definition": "Ein Wertermittlungsverfahren für Immobilien, das von den Herstellungskosten ausgeht. Es ist in §§ 35-39 ImmoWertV geregelt. Zuerst wird der Gebäudesachwert ermittelt: Neubaukosten minus Altersabschreibung. Dazu kommt der Bodenwert. Dieser vorläufige Sachwert wird dann mit einem Marktanpassungsfaktor an die Marktlage angepasst. Das Sachwertverfahren findet v.a. bei selbstgenutzten Wohnimmobilien Anwendung, wo keine Mieterträge für ein Ertragswertverfahren vorliegen und Vergleichspreise rar sind."
+  },
+  {
+    "id": "42773a04-858a-4ae1-a67e-95319b8f317c",
+    "term": "Sanierungspflichten",
+    "definition": "Verpflichtungen zur energetischen Sanierung, die gesetzlich vorgeschrieben sind (z.B. im Gebäudeenergiegesetz GEG). Ab 2024 gelten etwa Auflagen beim Eigentümerwechsel: Neue Eigentümer müssen z.B. innerhalb von 2 Jahren alte Heizkessel (älter als 30 Jahre) austauschen oder oberste Geschossdecken dämmen. Solche Pflichten beeinflussen den Immobilienwert – Käufer kalkulieren die Kosten ein oder fordern Preisnachlässe. Verkäufer sollten diese Punkte kennen, da ein Kaufpreis auch davon abhängt, ob Sanierungsstau besteht."
+  },
+  {
+    "id": "70198c58-c35f-4c94-959c-c0dd4b65107d",
+    "term": "Scheidung Immobilienbewertung",
+    "definition": "Bei einer Scheidung muss gemeinsames Immobilieneigentum oft bewertet werden, um einen fairen Ausgleich zu schaffen. Ein unabhängiges Gutachten ist hier sinnvoll oder wird vom Gericht beauftragt, um Streit über den Hauswert zu vermeiden. Das Gutachten liefert den Verkehrswert, der als Grundlage dient, einen Ehepartner auszuzahlen oder das Objekt zu veräußern. Im Scheidungsfall ist besonders wichtig, dass die Bewertung neutral erfolgt (siehe Objektivität), da beide Parteien ihr Ergebnis daran orientieren."
+  },
+  {
+    "id": "f7632219-9951-4c62-b2ba-b7c9b696b185",
+    "term": "Schenkungssteuer (Immobilien)",
+    "definition": "Steuer auf unentgeltliche Übertragungen von Immobilien unter Lebenden. Sie ist der Erbschaftsteuer sehr ähnlich und hat die gleichen Freibeträge und Steuersätze. Schenkungssteuer fällt z. B. an, wenn Eltern ihren Kindern eine Immobilie zu Lebzeiten übertragen; häufig werden hohe Freibeträge durch gestaffelte Schenkungen genutzt, um Steuer zu vermeiden."
+  },
+  {
+    "id": "38ed2d0e-c3f6-4b97-be19-4cb1a0cd1552",
+    "term": "Sonderabschreibung Neubau",
+    "definition": "Eine zusätzliche Abschreibungsmöglichkeit (nach § 7b EStG) für bestimmte Neubaumaßnahmen, etwa den Bau neuer Mietwohnungen. Aktuell können bei Erfüllung bestimmter Energie-Standards (EH40 mit QNG-Siegel) jährlich 5 % der Herstellungskosten für 4 Jahre zusätzlich abgeschrieben werden. Diese Sonder-AfA Wohnungsneubau ist befristet bis 2029 und kann mit linearer und degressiver AfA kombiniert werden, um den Wohnungsbau steuerlich attraktiver zu machen."
+  },
+  {
+    "id": "53e1d428-7a68-4a25-b2a1-7cc58f1c8c92",
+    "term": "Sonder-AfA Wohnungsneubau",
+    "definition": "Siehe Sonderabschreibung Neubau. Gemeint ist die steuerliche Sonderabschreibung nach § 7b EStG für neu geschaffenen Mietwohnraum. Sie beträgt 5 % p.a. über vier Jahre (insgesamt also bis zu 20 % zusätzlich) und setzt u.a. einen bestimmten energetischen Standard und Begrenzungen der Baukosten voraus. Zusammen mit der degressiven und linearen AfA können so in den ersten Jahren bis zu 8 % oder mehr pro Jahr abgeschrieben werden – ein erheblicher Steuervorteil für Investoren."
+  },
+  {
+    "id": "ed5bb583-86f0-44ba-afc6-0c34e099d2a1",
+    "term": "Staffelmiete",
+    "definition": "Mietvereinbarung, bei der schon im Mietvertrag feste Mieterhöhungen zu festgelegten Zeitpunkten vereinbart sind. Die Miete steigt also staffelweise automatisch, z. B. jährlich um einen bestimmten Betrag. Eine Staffelmiete muss mindestens ein Jahr unverändert bleiben pro Staffel und die Erhöhungsbeträge als Geldbetrag ausweisen. Vorteil: Planbarkeit für beide Seiten; Nachteil: bei stark steigenden Vergleichsmieten kann die Staffelmiete unflexibel sein."
+  },
+  {
+    "id": "f149584d-1a5e-4dbf-a758-e5be93dd5a3e",
+    "term": "Steuer (Erbschaft/Schenkung)",
+    "definition": "Die Besteuerung von Immobilienwerten bei Erbe oder Schenkung. Überschreitet der Immobilienwert Freibeträge, wird Erbschaft- oder Schenkungsteuer fällig. Das Finanzamt berechnet den Wert nach pauschalierten Verfahren (vereinfacht dem Verkehrswert angenähert). Erben/Beschenkte können ein eigenes Gutachten vorlegen, wenn sie nachweisen möchten, dass der tatsächliche Verkehrswert niedriger ist als der vom Finanzamt angesetzte Wert – was die Steuerlast senken kann. Achtung: Nicht immer erkennt das Finanzamt jeden Gutachtenwert an; er muss plausibel sein."
+  },
+  {
+    "id": "0090891e-6c43-4f50-b04d-1e3762c800c4",
+    "term": "Steuerersparnis Immobilie",
+    "definition": "Die Reduktion der Steuerlast durch Investition in Immobilien. Beispiele: Abschreibungen (AfA) auf vermietete Gebäude mindern das zu versteuernde Einkommen, Kreditzinsen sind als Werbungskosten absetzbar, energetische Sanierungen werden teils steuerlich gefördert. Auch Verkäufe nach der Spekulationsfrist (10 Jahre Haltezeit) sind einkommensteuerfrei. Durch clevere Aufteilung (hoher Gebäudewert) lässt sich die Einkommensteuer in den ersten Jahren deutlich reduzieren – aber Vorsicht vor Überbewertungen, die das Finanzamt nicht akzeptiert."
+  },
+  {
+    "id": "3c014794-d842-48a0-9549-8807adbb961a",
+    "term": "Stundensatz Gutachter",
+    "definition": "Die Vergütung eines Gutachters pro Arbeitsstunde. Manche Sachverständige rechnen statt Pauschalen oder wertabhängiger Honorare auch nach Stunden ab. Übliche Stundensätze können zwischen 100 und 200 Euro (zzgl. MwSt) liegen, abhängig von Erfahrung und Region. Bei komplexen Fällen (Gerichtsgutachten) wird nach dem Justizvergütungs- und -entschädigungsgesetz (JVEG) teils ein Stundenhonorar festgelegt. Für Auftraggeber ist ein klar vereinbarter Stundensatz plus Kostenvoranschlag sinnvoll, um Transparenz zu haben."
+  },
+  {
+    "id": "fefd96f8-9bf7-472f-8568-bc46656ce826",
+    "term": "technische Nutzungsdauer",
+    "definition": "Der Zeitraum, in dem ein Gebäude oder Bauteil bei ordnungsgemäßer Nutzung technisch funktionsfähig bleibt. Sie hängt von Bauweise, Materialqualität, Wartung und Modernisierungen ab. Die technische Nutzungsdauer bildet die Obergrenze der wirtschaftlichen Nutzbarkeit und dient im Sachwertverfahren (§§ 35–39 ImmoWertV) als Basis zur Ermittlung der Alterswertminderung. Sie unterscheidet sich von der Restnutzungsdauer, die angibt, wie lange ein Objekt am Bewertungsstichtag voraussichtlich noch wirtschaftlich genutzt werden kann."
+  },
+  {
+    "id": "b75c29d2-4058-44c1-a581-8429486de4d1",
+    "term": "typische Lebensdauer (z.B. 80 Jahre)",
+    "definition": "Ein Richtwert für die Gesamtdauer, die ein Gebäude üblicherweise genutzt werden kann. Oft wird für Wohnhäuser von ~80 Jahren ausgegangen, was als „typische Lebensdauer“ gilt, bevor Totalsanierung oder Abriss wirtschaftlich sinnvoll werden. Dieser Wert ist jedoch nur ein Anhaltspunkt – Massivbauten können durchaus 100 Jahre und mehr halten, während schlecht gebaute Häuser früher am Ende sind. In Wertermittlungen fließt diese Vorstellung in die Wahl der Gesamtnutzungsdauer ein (z.B. 80 Jahre minus Alter ergibt Restnutzungsdauer). Eine Modernisierung kann die typische Lebensdauer verlängern."
+  },
+  {
+    "id": "d6b24866-8c09-4150-91f8-abcdd31300f5",
+    "term": "Umfang Gutachten (Seiten)",
+    "definition": "Der typische Umfang eines Immobiliengutachtens in Bezug auf die Seitenzahl. Ein Kurzgutachten fällt relativ knapp aus (häufig ~10-20 Seiten), da es sich auf die wichtigsten Punkte beschränkt. Ein ausführliches Verkehrswertgutachten (Vollgutachten) hingegen beinhaltet detaillierte Objektbeschreibungen, Berechnungen und Anhänge und kann 50 Seiten oder mehr umfassen. Der Seitenumfang allein sagt zwar nichts über die Qualität aus, spiegelt aber wider, wie tiefgehend die Analyse dokumentiert ist. Gerichtsfeste Gutachten sind meist sehr umfangreich, um alle Argumente nachvollziehbar darzustellen."
+  },
+  {
+    "id": "dcace277-b224-4636-a8fc-04db6ae7ce6a",
+    "term": "Unterschied Gutachter Makler",
+    "definition": "Der Vergleich zwischen einem Sachverständigen und einem Immobilienmakler in Bezug auf die Wertermittlung. Hauptunterschiede: Qualifikation: Der Gutachter ist speziell ausgebildet/geprüft, der Makler nicht zwingend. Methode: Gutachter nutzt ImmoWertV-Methoden und Gutachterausschussdaten, Makler eher grobe Marktkenntnis. Neutralität: Gutachter ist unabhängig (kein Verkaufsinteresse), Makler hat Eigeninteresse am Auftrag. Anerkennung: Gutachten sind nachvollziehbar und werden von Behörden anerkannt, Maklerbewertungen dienen nur als interne Preisempfehlung und werden von Banken/Behörden nicht akzeptiert."
+  },
+  {
+    "id": "e0168d61-8601-4902-b53a-d35b45186688",
+    "term": "Unterschied Kurzgutachten Verkehrswertgutachten",
+    "definition": "Die Abgrenzung zwischen einem einfachen Kurzgutachten und einem ausführlichen Verkehrswertgutachten (Vollgutachten). Ein Kurzgutachten enthält eine Wertschätzung mit begrenzter Dokumentation – geeignet für interne Zwecke oder Orientierung, aber meist nicht gerichtsfähig. Ein Verkehrswertgutachten nach ImmoWertV ist umfangreich, erläutert alle wertrelevanten Faktoren und Berechnungsschritte und wird z.B. von Gerichten oder Finanzämtern anerkannt. Hauptunterschiede liegen in Detailgrad, Verwendungszweck und Kosten (Kurzgutachten günstiger, Vollgutachten teurer)."
+  },
+  {
+    "id": "1739a352-9efd-4f49-b84c-0933c2beb005",
+    "term": "Verbleibende Nutzungsdauer",
+    "definition": "Siehe Restnutzungsdauer. Gemeint ist die noch verbleibende Zeit, während der die Immobilie sinnvoll genutzt werden kann. Dieser Begriff wird oft synonym mit Restnutzungsdauer verwendet und betont, dass es um die Zukunft ab jetzt geht. Im Kontext eines Mietvertrags könnte man auch die verbleibende Vertragslaufzeit so nennen, aber hier fokussieren wir auf Gebäudelebensdauer."
+  },
+  {
+    "id": "495960aa-4ede-4269-8060-20be03c41f8e",
+    "term": "Vergleichswertverfahren",
+    "definition": "Ein Wertermittlungsverfahren für Immobilien, das auf real erzielten Kaufpreisen vergleichbarer Objekte basiert. Es ist in §§ 24-26 ImmoWertV geregelt. Grundlage sind aktuelle Markttransaktionen, die in Lage, Nutzung, Zustand und Ausstattung mit dem Bewertungsobjekt vergleichbar sind. Abweichungen werden durch Zu- oder Abschläge korrigiert. Das Vergleichswertverfahren gilt als besonders marktnah und wird vor allem bei Eigentumswohnungen, Reihenhäusern und Baugrundstücken eingesetzt – also dort, wo ausreichend vergleichbare Verkäufe vorliegen."
+  },
+  {
+    "id": "e75f86bf-39e5-411e-afea-627c05f26aa7",
+    "term": "Verkehrssicherungspflicht",
+    "definition": "Pflicht des Eigentümers (oder Besitzers), für Sicherheit auf seinem Grundstück und Gebäude zu sorgen, damit niemand durch dessen Zustand zu Schaden kommt. Zur Verkehrssicherungspflicht gehören z. B. das Räumen von Schnee und Eis, die Sicherung loseer Bauteile und Beleuchtung in gemeinschaftlichen Flächen. Vernachlässigt der Verantwortliche diese Pflicht und es kommt zu einem Unfall, haftet er für Schäden."
+  },
+  {
+    "id": "c6e73496-74d1-4e17-a5d9-7db5d186f223",
+    "term": "Vermietung Steuern sparen",
+    "definition": "Der Effekt, dass man durch Vermietung einer Immobilie steuerliche Vorteile nutzen kann. Insbesondere können Werbungskosten (Zinsen, Reparaturen, Abschreibung etc.) von den Mieteinnahmen abgezogen werden, sodass die Steuerlast oft geringer ist. Durch die AfA lässt sich ein Teil des Kaufpreises steuerlich geltend machen. In einigen Fällen führt dies zu einem steuerlichen Verlust, der mit anderen Einkommen verrechnet werden kann – so „spart“ man Steuern. Allerdings sollten Immobilien nicht allein aus Steuergründen gekauft werden; die Rentabilität muss insgesamt stimmen."
+  },
+  {
+    "id": "4398e647-c95a-4b86-a702-19ee6c60c413",
+    "term": "Vermarktung vs Bewertung",
+    "definition": "Die unterschiedliche Zielsetzung zwischen einem Makler, der eine Immobilie vermarktet, und einem Gutachter, der sie bewertet. Vermarktung zielt darauf ab, einen möglichst hohen Verkaufspreis zu erzielen und die Immobilie attraktiv zu präsentieren – ein Makler könnte daher einen optimistischen Preis ansetzen und betont Vorzüge für Interessenten. Bewertung hingegen bedeutet die neutrale, sachliche Wertermittlung des wahrscheinlich am Markt erzielbaren Preises. Während die Bewertung eine Grundlage liefert (Marktwert als solide Basis für den Angebotspreis), entscheidet in der Vermarktung letztlich die Nachfrage. Kurz: Makler „verkaufen“ eine Immobilie, Gutachter „ermitteln“ ihren Wert."
+  },
+  {
+    "id": "9627a8aa-f908-42a7-98be-e42f700151cb",
+    "term": "Versicherungsschaden",
+    "definition": "Ein Schaden an einer Immobilie (z.B. Brand, Leitungswasser, Sturm), für den eine Gebäudeversicherung aufkommen soll. In solchen Fällen wird oft ein Gutachter beauftragt, den Schaden zu begutachten und die Kosten der Wiederherstellung zu beziffern. Dieses Gutachten dient der Versicherung zur Regulierung (Schadenbewertung). Bei größeren Schäden kann auch der Verkehrswert vor und nach dem Ereignis relevant sein (z.B. bei einer Teilentschädigung). Für Immobilieneigentümer ist wichtig, alle Schäden genau dokumentieren zu lassen, um den vollen Anspruch zu erhalten."
+  },
+  {
+    "id": "96f92ddd-e470-4cd6-b752-e93495e07a76",
+    "term": "Verkehrswert",
+    "definition": "Der Marktwert einer Immobilie, also der geschätzte Preis, der zum Wertermittlungsstichtag am Markt voraussichtlich erzielt werden kann. Er wird gemäß § 194 BauGB ohne Rücksicht auf ungewöhnliche oder persönliche Verhältnisse bestimmt. Umgangssprachlich auch Marktwert genannt. Der Verkehrswert wird durch Sachverständige mittels der normierten Verfahren ermittelt und stellt den objektivierten Wert dar, nicht unbedingt den maximal erzielbaren Preis (der kann in Einzelfällen höher oder niedriger liegen). Wichtig ist das Verständnis, dass Verkehrswert ≠ Beleihungswert (der liegt darunter) und Verkehrswert ungleich Kaufpreis im Einzelfall (der kann abweichen). In Kurzform: Verkehrswert = objektivierter Marktpreis einer Immobilie zum Stichtag."
+  },
+  {
+    "id": "d94d8380-c552-4450-8d09-1ee568230972",
+    "term": "Verkehrswert BauGB",
+    "definition": "Die im Baugesetzbuch festgelegte Definition des Verkehrswerts (siehe § 194 BauGB). Das BauGB verankert damit den Begriff Marktwert im deutschen Recht und bildet die Grundlage für die ImmoWertV. Jeder Gutachter muss sich an diese Legaldefinition halten. Kernpunkte: gewöhnlicher Geschäftsverkehr, rechtliche und tatsächliche Eigenschaften des Grundstücks, Zeitpunkt der Wertermittlung, Ausschluss persönlicher Umstände."
+  },
+  {
+    "id": "342e5034-06ec-4f8d-9a41-8af81930d60f",
+    "term": "Verkehrswert ermitteln",
+    "definition": "Die Durchführung einer Immobilienbewertung, um den Verkehrswert zu berechnen. Ein Gutachter wird hierzu alle wertrelevanten Merkmale erfassen (Lage, Fläche, Zustand, Wertfaktoren Immobilie etc.), Marktdaten sammeln (Vergleichspreise, Mieten, Bodenrichtwerte) und dann je nach Objekt das geeignete Verfahren anwenden. Das Ergebnis ist die Verkehrswertzahl in Euro. Beispielsweise ermittelt man bei einem vermieteten Haus den Wert, indem man den jährlichen Ertrag mit dem Liegenschaftszins kapitalisiert und den Bodenwert addiert – plus Marktanpassung. Am Ende steht etwa: „Verkehrswert = X €“."
+  },
+  {
+    "id": "2001d8fc-67c0-4e1c-8e1d-cb99a91164b4",
+    "term": "Verkehrswertgutachten",
+    "definition": "Ein umfassendes Wertgutachten, das den Verkehrswert einer Immobilie bestimmt. Synonym auch Wertgutachten oder Marktwertgutachten genannt. Es enthält einen ausführlichen Textteil (Beschreibung von Objekt, Rechte, Standort, Markt) und einen Wertermittlungsteil mit Herleitung des Werts. Verkehrswertgutachten werden von Sachverständigen erstellt und z.B. für Gerichtsverfahren, Beleihungen oder Vermögensaufteilungen genutzt. Sie sind inhaltlich deutlich detaillierter als einfache Schätzungen und gelten als gerichtsfest. In welchen Fällen ein Verkehrswertgutachten sinnvoll ist, lesen Sie hier."
+  },
+  {
+    "id": "a797b518-e185-4e03-927a-454774d222a1",
+    "term": "Vermietungsstand (Ertragswert)",
+    "definition": "Der aktuelle Zustand der Vermietung einer Immobilie, wichtig für die Ertragswertermittlung. Ist das Objekt voll vermietet, fließen die Ist-Mieten in den Rohertrag. Bei Leerstand muss der Gutachter entscheiden, ob dieser dauerhaft (strukturell) ist oder ob fiktiv eine Marktmiete angesetzt wird. Ein schlechter Vermietungsstand (viele Leerstände) kann den Wert drücken, während volle Vermietung den Ertragswert erhöht. Dies ist ein wertbeeinflussendes Merkmal insbesondere bei Gewerbeimmobilien."
+  },
+  {
+    "id": "4f48f5bf-a6f0-4064-a56b-d98702e09e0e",
+    "term": "Versicherungsschaden Gutachter",
+    "definition": "Versicherungsschaden Gutachter: (Verwandt zu Versicherungsschaden) Oft schicken Versicherer eigene Gutachter oder akzeptieren freie Sachverständige zur Beurteilung eines Schadens. Der Gutachter schätzt die Kosten der Schadensbeseitigung oder den Wertverlust. Bei strittigen Schadensfällen (z.B. Ursachenklärung, Umfang) kann ein unabhängiger Gutachter hinzugezogen werden. Für den Immobilieneigentümer ist wichtig, dass der Gutachter alle Schadenspositionen erkennt, damit die Versicherung ausreichend zahlt."
+  },
+  {
+    "id": "fa4f18b7-a19a-4a6d-804f-669854936646",
+    "term": "Vollgutachten",
+    "definition": "Umgangssprachlich ein vollständiges, detailreiches Verkehrswertgutachten (Marktwertgutachten), das alle Aspekte der Bewertung dokumentiert. Im Gegensatz zum Kurzgutachten enthält ein Vollgutachten ausführliche Objekt- und Lagebeschreibungen, Fotos, Berechnungen nach ImmoWertV und Anhänge mit Nachweisen. Es ist meist gerichtsfähig und wird vor Behörden und Banken anerkannt. Immobiliengutachter unterscheiden oft zwischen Kurzgutachten (für private Info, nicht offiziell) und Vollgutachten (für offizielle Zwecke). Natürlich sind die Kosten für ein Vollgutachten höher, aber es bietet maximale Sicherheit in der Wertfrage."
+  },
+  {
+    "id": "4b870658-bbcd-4477-8f67-297073539f17",
+    "term": "Vorkaufsrecht",
+    "definition": "Ein Recht, eine zum Verkauf stehende Immobilie bevorzugt zu erwerben. Hat jemand ein Vorkaufsrecht für ein Objekt, muss der Eigentümer dieser Person den abgeschlossenen Kaufvertrag mit einem Dritten vorlegen und ihr die Möglichkeit geben, zu denselben Konditionen in den Vertrag einzusteigen. Gesetzliche Vorkaufsrechte bestehen z. B. für Mieter (bei Umwandlung in Eigentumswohnungen) und Gemeinden (nach BauGB), daneben können vertragliche und dingliche Vorkaufsrechte im Grundbuch vereinbart werden."
+  },
+  {
+    "id": "dbd3d60b-3147-43ae-9e84-07fc59ce2668",
+    "term": "Wachstumschancengesetz Abschreibung",
+    "definition": "Ein Gesetzespaket von 2023, das steuerliche Investitionsanreize schaffen soll. Für Immobilien bedeutete es insbesondere die Einführung der degressiven AfA von 5 % für Wohngebäude und die Erhöhung der linearen AfA auf 3 %. Außerdem wurden die Bedingungen der Sonder-AfA Neubau verbessert (höhere Kostenobergrenzen, verlängert bis 2029). Durch diese Änderungen können Investoren schneller und mehr abschreiben – was die Anfangsrendite von Neubauprojekten erhöht."
+  },
+  {
+    "id": "3315b833-5eee-4417-90c0-80b5a7827a0d",
+    "term": "Wert Haus bestimmen",
+    "definition": "Siehe Verkehrswert ermitteln. Gemeint ist, den Wert eines Hauses zu schätzen. Eigentümer können dafür zunächst Online-Rechner oder Makler nutzen, sollten aber für eine präzise Bestimmung einen Sachverständigen hinzuziehen. Ein Hauswert wird bestimmt durch Lage, Größe, Zustand, Ausstattung etc. – Laien berücksichtigen oft nicht alle Faktoren (z.B. Rechte am Grundstück, Bodenwertentwicklung). Darum liefert ein professionelles Gutachten den verlässlichsten Wert."
+  },
+  {
+    "id": "9a8705d9-6d6e-461d-928f-abe96ab3591b",
+    "term": "Wertermittlung",
+    "definition": "Allgemein die Feststellung des Werts einer Immobilie. Eine Wertermittlung kann formlos erfolgen (z.B. Makler schätzt einen Preis) oder formal als Gutachten nach den ImmoWertV-Verfahren. Das Ergebnis der Wertermittlung ist häufig der Verkehrswert. Gesetzlich ist gefordert, dass sich die Wertermittlung auf den bestimmten Zeitpunkt (Stichtag) bezieht und üblichen Geschäftsverkehr annimmt. In der Praxis versteht man unter Wertermittlung oft den Prozess, den ein Gutachter durchführt – Datenerhebung, Verfahrenswahl, Berechnung, Ergebnis."
+  },
+  {
+    "id": "fc5e7c4d-a372-4e98-a609-83fb314951e3",
+    "term": "Wertermittlung Immobilie",
+    "definition": "Synonym zu Immobilienbewertung. Es umfasst alle Schritte, um für ein Grundstück mit Gebäude den Marktwert zu finden. Hierbei werden üblicherweise Vergleichs-, Ertrags- und Sachwertverfahren angewendet, ggf. parallel, um zum finalen Wert zu gelangen. Im Unterschied zur reinen Preisvorstellung (z.B. eines Verkäufers) soll die Wertermittlung objektiv und nachvollziehbar sein."
+  },
+  {
+    "id": "e77ab697-479e-4b21-89e3-81b9fd9f8980",
+    "term": "Wertermittlungsstichtag",
+    "definition": "Der Zeitpunkt, auf den sich die Immobilienbewertung bezieht. Da Preise sich ändern, ist es wichtig, den Stichtag festzulegen – meist der Tag der Besichtigung oder ein vorgegebener Datum (z.B. bei Bilanzbewertungen der 31.12.). Der Verkehrswert ist immer zeitpunktbezogen. In Gutachten wird der Wertermittlungsstichtag explizit genannt. Liegt zwischen Stichtag und Gutachtenerstellung viel Zeit, wird auf Marktveränderungen hingewiesen. Für steuerliche Zwecke (Erbschaft/Schenkung) ist der Stichtag häufig der Todestag bzw. Schenkungszeitpunkt."
+  },
+  {
+    "id": "a537865a-5e09-4f63-9711-d79a898afe25",
+    "term": "Wertfaktoren Immobilie",
+    "definition": "Die einzelnen Merkmale, die den Wert einer Immobilie beeinflussen (siehe Immobilienwert beeinflussen). Hauptfaktoren sind: Makro- und Mikro-Lage, Grundstücks- und Objektgröße, Bauart und Bauzustand (Bausubstanz), Ausstattung und Modernisierungsgrad, Marktumfeld (Nachfrage), und besondere Umstände (z.B. Erbbaurecht, Denkmalschutz, Mietbindung). Jeder Wertfaktor wird vom Gutachter qualitativ und quantitativ bewertet – z.B. führt eine gute Lage zu Zuschlägen, ein Renovierungsbedarf zu Abschlägen. Das Zusammenspiel dieser Faktoren ergibt den Gesamtwert."
+  },
+  {
+    "id": "96a2a26c-d362-4a21-be7f-2116bd60990f",
+    "term": "Wertgutachten",
+    "definition": "Ein Gutachten, das den Wert (meist Verkehrswert) einer Immobilie feststellt. Es ist gleichbedeutend mit Verkehrswertgutachten und wird z.B. bei Scheidung, steuerlichen Anlässen, Finanzierungen oder Verkäufen erstellt. Im Wertgutachten werden Anlass, Grundlagen, Objektbeschreibung, Bewertungsverfahren und Ergebnis dokumentiert. Ein ausführliches Wertgutachten durch einen Sachverständigen gilt als verlässliche Wertermittlung. (Manchmal wird „Wertgutachten“ auch für einfachere Kurzgutachten verwendet, was aber unsauber ist – hier meinen wir das umfassende Gutachten.)"
+  },
+  {
+    "id": "bb1c0803-a544-4d73-a3d1-5c98549dcc6c",
+    "term": "Wertgutachten Honorar",
+    "definition": "Die Gebühr, die für die Erstellung eines Wertgutachtens anfällt. Sie kann nach Aufwand (Stundensatz, Tagewerk) oder nach Objektwert bemessen werden. Es gibt Honorarempfehlungen von Kammern und Verbänden, aber letztlich ist das Honorar frei verhandelbar. Typischerweise liegen die Kosten bei Wohnimmobilien um einige Promille bis Prozent vom Wert (z.B. 1.000-2.000 € für ein EFH). Komplexe Fälle (Gewerbe, Portfolio, Rechte belastet) können mehr kosten. Wichtig: Ein hoher Preis garantiert nicht automatisch ein besseres Gutachten, aber Dumpingpreise können auf mangelnde Sorgfalt hindeuten."
+  },
+  {
+    "id": "a904cd13-c56f-4cec-967f-174a0fa16552",
+    "term": "Wertminderung",
+    "definition": "Ein Abschlag vom Wert einer Immobilie aufgrund von Mängeln, Schäden oder ungünstigen Umständen. In Gutachten werden besondere objektspezifische Grundstücksmerkmale wie Altlasten, Baumängel, Instandhaltungsrückstau oder Wegerechte wertmindernd angesetzt. Auch äußere Faktoren (z.B. Lärmbelastung) können eine Wertminderung bewirken. Die Wertminderung wird entweder prozentual oder absolut vom Wert abgezogen. Ein Beispiel: Feuchtes Mauerwerk mindert den Verkehrswert, weil der Käufer Sanierungskosten einpreist."
+  },
+  {
+    "id": "98c285a5-bd0c-4a9d-89a5-912b5d5e2674",
+    "term": "Wohnflächenverordnung",
+    "definition": "Die Verordnung, die die Berechnung der Wohnfläche regelt (WoFlV). Sie ist bei öffentlich gefördertem Wohnraum verbindlich und wird oft auch im frei finanzierten Bereich herangezogen. Für Bewertungen ist die exakte Wohnflächenermittlung wichtig – z.B. zählen Dachschrägenflächen nur anteilig. Die Wohnflächenverordnung stellt sicher, dass überall nach gleichen Regeln gemessen wird, was für Vergleich und Marktanalyse relevant ist."
+  },
+  {
+    "id": "22462e4f-43a7-4965-9764-681087285a3a",
+    "term": "Wirtschaftliche Nutzungsdauer",
+    "definition": "Die Zeit, in der ein Gebäude wirtschaftlich sinnvoll genutzt werden kann. Sie kann von der technischen Nutzungsdauer abweichen – ein Haus könnte zwar 120 Jahre stehen (technisch), aber vielleicht nach 80 Jahren wegen hoher Betriebskosten oder nicht mehr zeitgemäßer Ausstattung unattraktiv sein (wirtschaftlich verbraucht). Für die Restnutzungsdauer in der Bewertung ist die wirtschaftliche Sicht maßgeblich. Bei Mietobjekten endet die wirtschaftliche Nutzungsdauer oft, wenn trotz Investitionen keine marktgerechten Mieten mehr erzielbar sind. Diese Größe ist auch für Abschreibungen relevant, da das Finanzamt im Grunde von einer pauschalen wirtschaftlichen ND (50/33 Jahre) ausgeht, sofern kein Nachweis erfolgt."
+  },
+  {
+    "id": "22792019-c2e9-4f02-8bdf-443d505ecb6d",
+    "term": "zertifizierter Gutachter",
+    "definition": "Ein Sachverständiger für Immobilienbewertung, der durch eine akkreditierte Stelle nach DIN EN ISO/IEC 17024 geprüft und zertifiziert wurde. Die Zertifizierung bestätigt besondere Fachkompetenz, Berufserfahrung und Unabhängigkeit. Zertifizierte Gutachter erfüllen höchste Qualitätsstandards und werden häufig von Gerichten, Behörden, Banken und Investoren bevorzugt. Sie erstellen z. B. Verkehrswertgutachten nach § 194 BauGB sowie Bewertungen nach ImmoWertV. Die Zertifizierung ist zeitlich befristet und erfordert regelmäßige Weiterbildungen und Rezertifizierungen."
+  },
+  {
+    "id": "e5018723-5a21-4de0-bad2-0a2d13e72ef3",
+    "term": "Zustand",
+    "definition": "Der bauliche und technische Zustand einer Immobilie. Er reicht von neuwertig (kurz nach Renovierung, keinerlei Mängel) bis sanierungsbedürftig (erhebliche Schäden, Abnutzungen). Der Zustand beeinflusst den Wert stark – ein gepflegtes Objekt erzielt deutlich höhere Preise als ein vergleichbares mit Mängeln. Gutachter bewerten den Zustand qualitativ und berücksichtigen ihn bei der Verfahrenswahl: z.B. fließen Bauschäden als Wertminderung ein, und im Sachwert wird über die Alterswertminderung der Zustand teilweise abgebildet. Käufer achten auf den Zustand, da er zukünftige Instandhaltungskosten indiziert."
+  },
+  {
+    "id": "545061ea-1674-4a7e-aa1b-8d9188ee5476",
+    "term": "Zwangsversteigerung (Immobilie)",
+    "definition": "Eine Verwertung einer Immobilie durch gerichtliche Versteigerung, meist weil der Eigentümer zahlungsunfähig ist. Im Verfahren wird ein amtliches Gutachten zum Verkehrswert erstellt, der als festgesetzter Wert dient. Versteigerungswerte liegen oft darunter. Für Interessenten ist das Gutachten eine Infoquelle zu Objekt und Wert. In der Regel erreichen Objekte in der Zwangsversteigerung nicht den vollen Marktpreis, je nach Bieterstimmung und Objektqualität kann der Zuschlag deutlich unter dem Gutachtenwert liegen. Trotzdem bildet der Verkehrswert aus dem Gutachten einen Anhaltspunkt für Bieter."
+  },
+  {
+    "id": "23c2e4a1-7da3-47f8-ab11-2ce4a3321b56",
+    "term": "Zwecke Gutachten (intern/privat vs offiziell)",
+    "definition": "Der Verwendungszweck eines Immobiliengutachtens. Interne oder private Zwecke sind z.B. Vermögensübersicht, Entscheidungsfindung für Verkauf/Kauf, grobe Preisorientierung – hier kann auch ein einfacheres Kurzgutachten genügen. Offizielle Zwecke sind Erbschaft/Scheidung, Finanzierung, Gerichtsstreit, Bilanzierung. Dafür wird meist ein ausführliches, gerichtsfähiges Gutachten benötigt. Es ist wichtig, dem Gutachter den Zweck zu nennen, damit er das Gutachten entsprechend gestaltet (Form, Tiefe, eventuelle Beweissicherung). Oft wird bei privaten Zwecken aus Kostengründen zunächst ein kürzeres Gutachten beauftragt und bei Bedarf erweitert."
+  }
+]

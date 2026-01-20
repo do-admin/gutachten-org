@@ -1,0 +1,102 @@
+{
+  "name": "RecommendedLinks",
+  "version": "1.0.0",
+  "description": "Link-Grid für weiterführende Ressourcen mit Hover-Effekt und responsiven Spalten.",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Überschrift des Abschnitts"
+    },
+    "links": {
+      "type": "array",
+      "required": true,
+      "description": "Anzuzeigende Linkkarten",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "excerpt": {
+            "type": "string",
+            "required": true
+          },
+          "href": {
+            "type": "string",
+            "required": true
+          },
+          "target": {
+            "type": "enum",
+            "values": ["_blank", "_self"],
+            "required": false
+          },
+          "rel": {
+            "type": "string",
+            "required": false
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "required": false,
+      "default": "recommended-links"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "gridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "requires": ["lib/utils", "lucide-react"],
+  "npm": {
+    "dependencies": ["lucide-react@^0.446.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Standard Links",
+      "description": "Drei Spalten mit Links zu wichtigen Ressourcen.",
+      "props": {
+        "title": "Weitere Angebote"
+      }
+    },
+    {
+      "name": "Individuelle Links",
+      "description": "Eigene Linkliste mit zwei Karten.",
+      "props": {
+        "title": "Services entdecken",
+        "links": [
+          {
+            "title": "Immobilienbewertung",
+            "excerpt": "Lassen Sie Ihre Immobilie professionell bewerten.",
+            "href": "#bewertung"
+          },
+          {
+            "title": "Kostenlose Erstberatung",
+            "excerpt": "Erhalten Sie eine unverbindliche Einschätzung.",
+            "href": "#beratung"
+          }
+        ]
+      }
+    }
+  ]
+}

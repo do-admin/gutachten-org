@@ -1,0 +1,41 @@
+{
+  "variables": {
+    "city_name": "",
+    "stadtteile": [],
+    "umgebung_staedte": []
+  },
+  "faq": [
+    {
+      "question": "Was ist ein Verkehrswertgutachten?",
+      "answer": "Ein Verkehrswertgutachten ist ein Gutachten zur Ermittlung des Marktwerts (Verkehrswerts) einer Immobilie, also dem Preis, der bei einem Verkauf unter normalen Marktbedingungen erzielt werden könnte."
+    },
+    {
+      "question": "Wofür wird ein Verkehrswertgutachten in {{city_name}} benötigt?",
+      "answer": "Ein Verkehrswertgutachten wird oft benötigt für: Kauf oder Verkauf einer Immobilie (objektive Preisfindung), Erbauseinandersetzungen (z. B. bei Streit um den Wert einer geerbten Immobilie), Scheidungen (z. B. zur fairen Vermögensaufteilung), Finanzierungen (Banken fordern manchmal ein unabhängiges Gutachten), Zwangsversteigerungen (gerichtlich angeordnetes Wertgutachten) sowie steuerliche Zwecke (z. B. bei Schenkung oder Erbschaftsteuer)."
+    },
+    {
+      "question": "Was beinhaltet ein Verkehrswertgutachten in {{city_name}}?",
+      "answer": "Ein vollständiges Gutachten umfasst in der Regel: Beschreibung des Bewertungsobjekts (Lage, Grundstück, Gebäude, Ausstattung, Zustand, Nutzung, rechtliche Gegebenheiten wie Erbbaurecht oder Baulasten), Marktanalyse (aktuelle Marktentwicklung, Vergleichspreise, Lagefaktoren), Wahl des Wertermittlungsverfahrens je nach Immobilientyp (Vergleichswertverfahren bei Eigentumswohnungen oder Baugrundstücken, Ertragswertverfahren bei vermieteten Immobilien, Sachwertverfahren bei eigengenutzten Ein- und Zweifamilienhäusern), Berechnung des Verkehrswerts inklusive Begründung und Dokumentation sowie Fotos, Pläne, Karten und Grundbuchauszüge zur Nachvollziehbarkeit."
+    },
+    {
+      "question": "Was kostet ein Verkehrswertgutachten in {{city_name}}?",
+      "answer": "In {{city_name}} kostet Sie das Verkehrswertgutachten pro Einheit und durchgeführt von unseren zertifizierten Gutachtern: Kurzbewertung ab 900,00 € netto, zzgl. 19% Mehrwertsteuer 1.071,00 €, Vollgutachten ab 1.800,00 € netto, zzgl. 19% Mehrwertsteuer 2.142,00 €. Bitte beachten Sie, dass sich der exakte Preis nach dem jeweiligen Wert der Immobilie richtet. Details können Sie der folgenden Tabelle entnehmen."
+    },
+    {
+      "question": "Wo kann ich die Bodenrichtwerte für {{city_name}} einsehen?",
+      "answer": "Die Bodenrichtwerte für {{city_name}} finden Sie im BORIS-D (Bodenrichtwertinformationssystem Deutschland). Link: https://www.bodenrichtwerte-boris.de/boris-d/index.html?lang=de. Hinweis: Meist kostenlos, aber einige Bundesländer verlangen Gebühren für detaillierte Auskünfte oder schriftliche Auszüge. Sie können nach Adresse, Flurstück oder Gemarkung suchen. Die Werte werden in der Regel alle zwei Jahre aktualisiert, Stichtag ist meistens der 1. Januar eines geraden Jahres."
+    },
+    {
+      "question": "In welchen Stadtteilen von {{city_name}} bieten Sie Verkehrswertgutachten an?",
+      "answer": "Wir sind in den folgenden Stadtteilen für Sie da: {{stadtteile}}."
+    },
+    {
+      "question": "Bieten Sie auch Verkehrswertgutachten in der Umgebung von {{city_name}} an?",
+      "answer": "Als Gutachter arbeiten wir nicht nur in {{city_name}} selbst, sondern auch im Umland. Gerne sind wir in folgenden Städten für Sie da: {{umgebung_staedte}}."
+    },
+    {
+      "question": "Bieten Sie auch andere Immobiliengutachten in {{city_name}} und Umgebung an?",
+      "answer": "Ja, sowohl in {{city_name}} als auch in den Städten {{umgebung_staedte}} bieten wir Ihnen auch weitere Immobiliengutachten an, wie Restnutzungsdauergutachten, Kaufpreisteilungsberechnung, Energieausweis Bedarf, Energieausweis Verbrauch sowie eine technische Kaufberatung."
+    }
+  ]
+}

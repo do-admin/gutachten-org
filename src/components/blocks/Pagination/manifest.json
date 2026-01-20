@@ -1,0 +1,78 @@
+{
+  "name": "Pagination",
+  "version": "1.0.0",
+  "description": "Pagination component with Zurück/Weiter buttons and page numbers, matching the exact design specification",
+  "props": {
+    "currentPage": {
+      "type": "number",
+      "required": true,
+      "description": "Current active page (1-indexed)"
+    },
+    "totalPages": {
+      "type": "number",
+      "required": true,
+      "description": "Total number of pages"
+    },
+    "onPageChange": {
+      "type": "function",
+      "required": true,
+      "description": "Callback function when page changes. Receives the new page number as argument."
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Custom className for the container"
+    },
+    "backLabel": {
+      "type": "string",
+      "required": false,
+      "default": "Zurück",
+      "description": "Custom text for the Back button"
+    },
+    "nextLabel": {
+      "type": "string",
+      "required": false,
+      "default": "Weiter",
+      "description": "Custom text for the Next button"
+    },
+    "maxVisiblePages": {
+      "type": "number",
+      "required": false,
+      "default": 2,
+      "description": "Maximum number of page numbers to show before/after current page"
+    }
+  },
+  "requires": ["lib/utils"],
+  "npm": {
+    "dependencies": [
+      "react@^19.0.0",
+      "lucide-react@^0.544.0",
+      "clsx@^2.0.0",
+      "tailwind-merge@^3.3.1"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Basic Pagination",
+      "description": "Simple pagination with 8 pages, currently on page 1",
+      "props": {
+        "currentPage": 1,
+        "totalPages": 8,
+        "onPageChange": "(page) => console.log('Page changed to:', page)"
+      }
+    },
+    {
+      "name": "Custom Labels",
+      "description": "Pagination with custom button labels",
+      "props": {
+        "currentPage": 3,
+        "totalPages": 10,
+        "backLabel": "Previous",
+        "nextLabel": "Next",
+        "onPageChange": "(page) => console.log('Page changed to:', page)"
+      }
+    }
+  ]
+}

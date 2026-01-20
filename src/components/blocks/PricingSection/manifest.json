@@ -1,0 +1,194 @@
+{
+  "name": "PricingSection",
+  "version": "1.0.0",
+  "description": "Generic pricing section component displaying pricing information with a header CTA, main pricing box, and additional information boxes in a two-column layout.",
+  "props": {
+    "sectionId": {
+      "type": "string",
+      "required": false,
+      "default": "pricing-section",
+      "description": "HTML id attribute used for in-page navigation."
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Main headline for the pricing section."
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the title."
+    },
+    "cta": {
+      "type": "object",
+      "required": false,
+      "description": "Call-to-action button configuration in the header.",
+      "properties": {
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "href": {
+          "type": "string",
+          "required": true
+        },
+        "icon": {
+          "type": "LucideIcon",
+          "required": false
+        },
+        "external": {
+          "type": "boolean",
+          "required": false
+        }
+      }
+    },
+    "ctaIconClassName": {
+      "type": "string",
+      "required": false,
+      "default": "text-[#FF985C]",
+      "description": "CSS classes for the CTA icon."
+    },
+    "fairPricesBox": {
+      "type": "object",
+      "required": false,
+      "description": "Configuration for the fair prices box (left column).",
+      "properties": {
+        "iconImage": {
+          "type": "string",
+          "required": false,
+          "description": "Optional image source path for the icon."
+        },
+        "iconImageAlt": {
+          "type": "string",
+          "required": false,
+          "description": "Alt text for the icon image."
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "description": "Title of the pricing box."
+        },
+        "description": {
+          "type": "string",
+          "required": true,
+          "description": "Description text for the pricing box."
+        },
+        "priceGross": {
+          "type": "string",
+          "required": true,
+          "description": "Gross price display text."
+        },
+        "priceNet": {
+          "type": "string",
+          "required": true,
+          "description": "Net price display text."
+        }
+      }
+    },
+    "inspectionBox": {
+      "type": "object",
+      "required": false,
+      "description": "Configuration for the inspection costs box (right column, top).",
+      "properties": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "description": "Title of the inspection box."
+        },
+        "description": {
+          "type": "string",
+          "required": true,
+          "description": "Description text for the inspection box."
+        }
+      }
+    },
+    "priceListBox": {
+      "type": "object",
+      "required": false,
+      "description": "Configuration for the price list box (right column, bottom).",
+      "properties": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "description": "Title of the price list box."
+        },
+        "description": {
+          "type": "string",
+          "required": true,
+          "description": "Description text for the price list box."
+        },
+        "priceListLink": {
+          "type": "string",
+          "required": true,
+          "description": "URL to the price list page."
+        },
+        "priceListLinkText": {
+          "type": "string",
+          "required": true,
+          "description": "Text for the price list link."
+        }
+      }
+    },
+    "backgroundClassName": {
+      "type": "string",
+      "required": false,
+      "default": "bg-[#F8FAFB]",
+      "description": "Background color utility classes applied to the section."
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "CSS classes for the container element."
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the section element."
+    }
+  },
+  "requires": ["ui/section", "ui/card", "ui/button", "lib/icon-utils", "lib/utils"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "sections",
+  "examples": [
+    {
+      "name": "Nutzungsdauergutachten Pricing",
+      "description": "Pricing section for Nutzungsdauergutachten with fair prices, inspection costs, and price list information.",
+      "props": {
+        "title": "Was kostet ein Nutzungsdauergutachten?",
+        "cta": {
+          "label": "Kostenlose Ersteinschätzung",
+          "href": "/restnutzungsdauergutachten-ersteinschaetzung",
+          "icon": "ArrowUpRight",
+          "external": true
+        },
+        "fairPricesBox": {
+          "iconImage": "/images/{{siteId}}/afa-rechner/house-icon.webp",
+          "iconImageAlt": "Faire Preise",
+          "title": "Faire Preise - keine versteckten Zusatzkosten",
+          "description": "Bei uns kostet ein Nutzungsdauergutachten ab 950,00 € brutto (798,32€ netto) - bis zu einer Größe von 150m2. Danach steigt der Preis - nach Größe - leicht an.",
+          "priceGross": "ab €950.00",
+          "priceNet": "ab €798.32"
+        },
+        "inspectionBox": {
+          "title": "Zusatzkosten durch Besichtigung",
+          "description": "Optional - und von uns empfohlen - können Sie eine Besichtigung dazubuchen, um die Wertigkeit Ihres Gutachtens zu erhöhen."
+        },
+        "priceListBox": {
+          "title": "Preisliste",
+          "description": "Die finalen Kosten Ihres Gutachtens entnehmen Sie unserer Preisliste.",
+          "priceListLink": "/nutzungsdauergutachten-preisliste",
+          "priceListLinkText": "Preisliste"
+        },
+        "containerClassName": "container-gutachten"
+      }
+    }
+  ]
+}
+

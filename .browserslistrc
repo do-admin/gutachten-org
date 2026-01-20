@@ -1,0 +1,13 @@
+# Target modern browsers that natively support ES2021/ES2022 features
+# This prevents unnecessary polyfills for:
+# - Array.prototype.at (Chrome 92+, Firefox 90+, Safari 15.4+)
+# - Array.prototype.flat (Chrome 69+, Firefox 62+, Safari 12+)
+# - Object.fromEntries (Chrome 73+, Firefox 63+, Safari 12.1+)
+# - Object.hasOwn (Chrome 93+, Firefox 92+, Safari 15.4+)
+# - String.prototype.trimStart/trimEnd (Chrome 66+, Firefox 61+, Safari 12+)
+
+chrome >= 93
+firefox >= 92
+safari >= 15.4
+edge >= 93
+

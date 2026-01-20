@@ -1,0 +1,199 @@
+{
+  "name": "Services",
+  "version": "1.0.0",
+  "description": "Services section component with icons, descriptions, bullet points, and action buttons",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the services section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "services": {
+      "type": "array",
+      "required": true,
+      "description": "Array of service items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "LucideIcon",
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": false
+          },
+          "bullets": {
+            "type": "array",
+            "required": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "buttonText": {
+            "type": "string",
+            "required": false
+          },
+          "buttonHref": {
+            "type": "string",
+            "required": false
+          },
+          "buttonVariant": {
+            "type": "enum",
+            "values": [
+              "default",
+              "destructive",
+              "outline",
+              "secondary",
+              "ghost",
+              "link",
+              "accent"
+            ],
+            "default": "outline"
+          },
+          "onButtonClick": {
+            "type": "function",
+            "required": false
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "services"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "secondary"],
+      "default": "default"
+    },
+    "columns": {
+      "type": "enum",
+      "values": [1, 2, 3, 4],
+      "default": 2
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": [
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "2xl",
+        "3xl",
+        "4xl",
+        "5xl",
+        "6xl",
+        "full"
+      ],
+      "default": "7xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "default": "center"
+    },
+    "iconSize": {
+      "type": "enum",
+      "values": ["sm", "md", "lg"],
+      "default": "md"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "gridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "iconWrapperClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "default": true
+    },
+    "animationDelay": {
+      "type": "number",
+      "default": 0.1
+    },
+    "enableScrollTo": {
+      "type": "boolean",
+      "default": true
+    },
+    "defaultButtonText": {
+      "type": "string",
+      "default": "Learn more"
+    },
+    "defaultScrollTarget": {
+      "type": "string",
+      "default": "#contact"
+    },
+    "showButtons": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "requires": ["ui/section", "ui/card", "ui/button", "lucide-react"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Real Estate Services",
+      "description": "Display various real estate services with icons and bullet points",
+      "props": {
+        "title": "Unsere Leistungen",
+        "subtitle": "Umfassende Immobiliendienstleistungen für Eigentümer und Investoren",
+        "services": [
+          {
+            "title": "Verkauf",
+            "bullets": [
+              "Individuelle Verkaufsstrategie für Ihre Immobilie",
+              "Hochwertiges Exposé mit Fotos & 3D-Rundgang",
+              "Interessentenqualifizierung & Besichtigungen",
+              "Verhandlungsführung & Notartermin-Begleitung"
+            ],
+            "buttonText": "Mehr erfahren"
+          }
+        ]
+      }
+    }
+  ]
+}

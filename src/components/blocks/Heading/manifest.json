@@ -1,0 +1,81 @@
+{
+  "name": "Heading",
+  "version": "1.0.0",
+  "description": "Flexible heading component that keeps semantic HTML and visual design in sync with customizable levels, variants, and styling",
+  "props": {
+    "level": {
+      "type": "enum",
+      "values": [1, 2, 3, 4, 5, 6],
+      "required": false,
+      "default": 1,
+      "description": "Semantic heading level (1–6)"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "primary", "accent", "muted"],
+      "required": false,
+      "default": "primary",
+      "description": "Visual tone / color"
+    },
+    "as": {
+      "type": "string",
+      "required": false,
+      "description": "Override the rendered tag while keeping accessible semantics"
+    },
+    "underline": {
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Whether to show the underline decoration"
+    },
+    "underlineClassName": {
+      "type": "string",
+      "required": false,
+      "default": "w-24 h-1 bg-accent rounded-full mx-auto mt-2",
+      "description": "Custom className for the underline element"
+    },
+    "center": {
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Whether to center the heading"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes"
+    },
+    "children": {
+      "type": "React.ReactNode",
+      "required": true,
+      "description": "Heading text content"
+    }
+  },
+  "requires": ["lib/utils"],
+  "npm": {
+    "dependencies": ["react@^18.0.0", "clsx@^2.0.0", "tailwind-merge@^2.0.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Basic Heading",
+      "description": "Simple heading with default styling",
+      "props": {
+        "level": 1,
+        "children": "Page Title"
+      }
+    },
+    {
+      "name": "Heading with Underline",
+      "description": "Heading with underline decoration",
+      "props": {
+        "level": 2,
+        "variant": "primary",
+        "underline": true,
+        "center": true,
+        "children": "Section Title"
+      }
+    }
+  ]
+}

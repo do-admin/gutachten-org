@@ -1,0 +1,157 @@
+{
+  "name": "ProcessOverview",
+  "version": "1.0.0",
+  "description": "Dreistufiger Prozessüberblick mit Highlights, CTA-Link und optionalem Bild.",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Überschrift des Abschnitts"
+    },
+    "highlights": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Liste der Stichpunkte im linken Bereich",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    },
+    "descriptionIntro": {
+      "type": "string",
+      "required": false,
+      "description": "Einleitender Text neben den Highlights"
+    },
+    "steps": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Darzustellende Prozessschritte",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step": {
+            "type": "string",
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    },
+    "callToAction": {
+      "type": "object",
+      "required": false,
+      "description": "Konfiguration des Links",
+      "properties": {
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "href": {
+          "type": "string",
+          "required": true
+        },
+        "target": {
+          "type": "enum",
+          "values": ["_blank", "_self"],
+          "required": false
+        },
+        "rel": {
+          "type": "string",
+          "required": false
+        }
+      }
+    },
+    "media": {
+      "type": "object",
+      "required": false,
+      "description": "Hintergrundbild für den rechten Bereich",
+      "properties": {
+        "src": {
+          "type": "string",
+          "required": true
+        },
+        "alt": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "required": false
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "headerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "stepsClassName": {
+      "type": "string",
+      "required": false
+    },
+    "mediaClassName": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "requires": ["lib/utils", "lucide-react"],
+  "npm": {
+    "dependencies": ["lucide-react@^0.446.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Standard Prozess",
+      "description": "Drei Schritte mit Standardtexten und CTA-Link.",
+      "props": {
+        "title": "Der Ablauf"
+      }
+    },
+    {
+      "name": "Projektprozess mit eigenem Bild",
+      "description": "Angepasste Schritte und individuelles Bild.",
+      "props": {
+        "title": "So arbeiten wir gemeinsam",
+        "highlights": [{ "text": "Individuell" }, { "text": "Transparent" }],
+        "steps": [
+          {
+            "step": "1",
+            "title": "Analyse",
+            "description": "Wir prüfen alle Unterlagen und geben Feedback."
+          },
+          {
+            "step": "2",
+            "title": "Umsetzung",
+            "description": "Wir setzen definierte Maßnahmen um."
+          }
+        ],
+        "media": {
+          "src": "/images/process.jpg",
+          "alt": "Team bei der Arbeit"
+        }
+      }
+    }
+  ]
+}

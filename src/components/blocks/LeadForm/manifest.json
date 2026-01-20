@@ -1,0 +1,227 @@
+{
+  "name": "LeadForm",
+  "version": "1.0.0",
+  "description": "Flexible lead form component with customizable fields, sections, and validation",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the form section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "cardTitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional title for the form card"
+    },
+    "sections": {
+      "type": "array",
+      "required": true,
+      "description": "Array of form sections with fields",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "required": false
+          },
+          "fields": {
+            "type": "array",
+            "required": true,
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "required": true
+                },
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "label": {
+                  "type": "string",
+                  "required": true
+                },
+                "type": {
+                  "type": "enum",
+                  "values": [
+                    "text",
+                    "email",
+                    "tel",
+                    "number",
+                    "select",
+                    "checkbox"
+                  ],
+                  "required": true
+                },
+                "placeholder": {
+                  "type": "string",
+                  "required": false
+                },
+                "required": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "options": {
+                  "type": "array",
+                  "required": false,
+                  "description": "For select fields only"
+                },
+                "gridSpan": {
+                  "type": "enum",
+                  "values": [1, 2, 3],
+                  "default": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "submitButtonText": {
+      "type": "string",
+      "default": "Submit"
+    },
+    "successTitle": {
+      "type": "string",
+      "default": "Success!"
+    },
+    "successMessage": {
+      "type": "string",
+      "default": "Thank you for your submission. We will get back to you soon."
+    },
+    "successIcon": {
+      "type": "string",
+      "default": "✓"
+    },
+    "resetButtonText": {
+      "type": "string",
+      "default": "Submit Another"
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "lead-form"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "secondary"],
+      "default": "secondary"
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl", "2xl", "3xl", "4xl"],
+      "default": "2xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "default": "center"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "formClassName": {
+      "type": "string",
+      "required": false
+    },
+    "onSubmit": {
+      "type": "function",
+      "required": false,
+      "description": "Custom submit handler"
+    },
+    "enableToast": {
+      "type": "boolean",
+      "default": true
+    },
+    "toastSuccessTitle": {
+      "type": "string",
+      "default": "Success!"
+    },
+    "toastSuccessDescription": {
+      "type": "string",
+      "default": "We will get back to you within 24 hours."
+    },
+    "toastErrorTitle": {
+      "type": "string",
+      "default": "Error"
+    },
+    "toastErrorDescription": {
+      "type": "string",
+      "default": "Please accept the privacy policy."
+    },
+    "privacyFieldId": {
+      "type": "string",
+      "default": "privacy"
+    },
+    "customValidation": {
+      "type": "function",
+      "required": false
+    }
+  },
+  "requires": [
+    "ui/section",
+    "ui/card",
+    "ui/button",
+    "ui/input",
+    "ui/label",
+    "ui/checkbox",
+    "ui/select",
+    "hooks/use-toast"
+  ],
+  "npm": {
+    "dependencies": ["clsx@^2.0.0", "tailwind-merge@^2.0.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Property Evaluation Form",
+      "description": "Complete property evaluation lead form with multiple sections",
+      "props": {
+        "title": "Kostenlose Immobilienbewertung",
+        "subtitle": "In wenigen Minuten zur ersten Einschätzung – unverbindlich & kostenfrei",
+        "cardTitle": "Ihre Immobilie",
+        "submitButtonText": "Kostenlose Bewertung anfordern",
+        "sections": [
+          {
+            "fields": [
+              {
+                "id": "propertyType",
+                "name": "propertyType",
+                "label": "Objektart",
+                "type": "select",
+                "required": true,
+                "options": [
+                  { "value": "house", "label": "Einfamilienhaus" },
+                  { "value": "apartment", "label": "Eigentumswohnung" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

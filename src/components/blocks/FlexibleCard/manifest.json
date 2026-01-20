@@ -1,0 +1,222 @@
+{
+  "name": "FlexibleCard",
+  "version": "1.0.0",
+  "description": "Flexible card component with customizable content, actions, icons, and styling variants",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main title of the card"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Optional description text below the title"
+    },
+    "category": {
+      "type": "string",
+      "required": false,
+      "description": "Optional category badge text"
+    },
+    "icon": {
+      "type": "LucideIcon",
+      "required": false,
+      "description": "Lucide icon component to display"
+    },
+    "iconAriaLabel": {
+      "type": "string",
+      "required": false,
+      "description": "ARIA label for the icon"
+    },
+    "keyPoints": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of key point strings",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyPointsTitle": {
+      "type": "string",
+      "required": false,
+      "default": "Kernpunkte:",
+      "description": "Title for the key points section"
+    },
+    "primaryAction": {
+      "type": "object",
+      "required": false,
+      "description": "Primary action button configuration",
+      "properties": {
+        "href": {
+          "type": "string",
+          "required": true
+        },
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "external": {
+          "type": "boolean",
+          "required": false
+        },
+        "icon": {
+          "type": "LucideIcon",
+          "required": false
+        }
+      }
+    },
+    "secondaryActions": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of secondary action button configurations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string",
+            "required": true
+          },
+          "label": {
+            "type": "string",
+            "required": true
+          },
+          "external": {
+            "type": "boolean",
+            "required": false
+          },
+          "icon": {
+            "type": "LucideIcon",
+            "required": false
+          }
+        }
+      }
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "primary", "secondary", "accent", "outline"],
+      "required": false,
+      "default": "default",
+      "description": "Visual variant of the card"
+    },
+    "size": {
+      "type": "enum",
+      "values": ["sm", "md", "lg"],
+      "required": false,
+      "default": "md",
+      "description": "Size variant of the card"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "headerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "contentClassName": {
+      "type": "string",
+      "required": false
+    },
+    "footerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "showIcon": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "showCategory": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "showKeyPoints": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "showActions": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "fullHeight": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "iconColor": {
+      "type": "enum",
+      "values": ["primary", "secondary", "accent", "muted"],
+      "required": false,
+      "default": "primary"
+    },
+    "categoryVariant": {
+      "type": "enum",
+      "values": ["default", "secondary", "outline", "destructive"],
+      "required": false,
+      "default": "secondary"
+    },
+    "primaryActionVariant": {
+      "type": "enum",
+      "values": [
+        "default",
+        "secondary",
+        "outline",
+        "ghost",
+        "link",
+        "destructive",
+        "accent"
+      ],
+      "required": false,
+      "default": "default"
+    },
+    "secondaryActionVariant": {
+      "type": "enum",
+      "values": [
+        "default",
+        "secondary",
+        "outline",
+        "ghost",
+        "link",
+        "destructive",
+        "accent"
+      ],
+      "required": false,
+      "default": "outline"
+    }
+  },
+  "requires": ["ui/card", "ui/button", "ui/badge", "next/link", "lucide-react"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "next@^14.0.0",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Basic Card with Actions",
+      "description": "Simple card with title, description, and action buttons",
+      "props": {
+        "title": "Immobilienverwaltung",
+        "description": "Professionelle Verwaltung Ihrer Immobilie",
+        "keyPoints": ["Mietverwaltung", "Instandhaltung", "Abrechnung"],
+        "primaryAction": {
+          "href": "/services/verwaltung",
+          "label": "Mehr erfahren"
+        }
+      }
+    }
+  ]
+}

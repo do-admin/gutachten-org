@@ -1,0 +1,97 @@
+{
+  "name": "EmbedScript",
+  "description": "A reusable component for embedding external scripts and widgets like job boards, calendars, forms, etc.",
+  "version": "1.0.0",
+  "category": "embed",
+  "tags": ["embed", "script", "widget", "external", "integration"],
+  "props": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "description": "Unique identifier for the embed container"
+    },
+    "scriptSrc": {
+      "type": "string",
+      "required": true,
+      "description": "The script source URL to load"
+    },
+    "mountId": {
+      "type": "string",
+      "required": true,
+      "description": "The container ID where the script should mount its content"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Optional title for the section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle/description text"
+    },
+    "titleLevel": {
+      "type": "number",
+      "required": false,
+      "default": 2,
+      "enum": [1, 2, 3, 4, 5, 6],
+      "description": "Heading level for the title (1-6)"
+    },
+    "scriptAttributes": {
+      "type": "object",
+      "required": false,
+      "default": {},
+      "description": "Additional script attributes as key-value pairs (e.g., data-mount-in)"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the section container"
+    },
+    "titleContainerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the title container"
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the title"
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the subtitle"
+    },
+    "embedContainerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the embed container div"
+    },
+    "defer": {
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Whether to defer script loading"
+    },
+    "async": {
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Whether to async load script"
+    },
+    "scriptType": {
+      "type": "string",
+      "required": false,
+      "default": "text/javascript",
+      "description": "Script type attribute"
+    }
+  },
+  "examples": [
+    {
+      "name": "Join.com Job Widget",
+      "description": "Embed a Join.com job board widget",
+      "code": "createComponent<EmbedScriptComponent>({\n  type: 'EmbedScript',\n  id: 'join-widget',\n  scriptSrc: 'https://join.com/api/widget/bundle/...',\n  mountId: 'join-widget',\n  title: 'Offene Stellen',\n  subtitle: 'Entdecken Sie unsere aktuellen Karrieremöglichkeiten',\n  scriptAttributes: {\n    'data-mount-in': '#join-widget'\n  }\n})"
+    }
+  ]
+}

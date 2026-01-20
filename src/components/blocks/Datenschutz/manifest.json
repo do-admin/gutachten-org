@@ -1,0 +1,119 @@
+{
+  "name": "Datenschutz",
+  "version": "1.0.0",
+  "description": "Privacy policy component (Datenschutzerklärung) with customizable sections, contact information, and legal content",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Datenschutzerklärung",
+      "description": "Main title of the privacy policy page"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "default": "Informationen zum Datenschutz und zur Verarbeitung Ihrer personenbezogenen Daten",
+      "description": "Subtitle text below the title"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "required": false,
+      "description": "Last update date of the privacy policy"
+    },
+    "companyName": {
+      "type": "string",
+      "required": false,
+      "default": "Unternehmen",
+      "description": "Name of the company"
+    },
+    "sections": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of privacy policy sections",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "content": {
+            "type": "string",
+            "required": true
+          },
+          "subsections": {
+            "type": "array",
+            "required": false,
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "required": true
+                },
+                "content": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "contactInfo": {
+      "type": "object",
+      "required": false,
+      "default": {},
+      "description": "Contact information for privacy-related inquiries",
+      "properties": {
+        "email": {
+          "type": "string",
+          "required": false
+        },
+        "phone": {
+          "type": "string",
+          "required": false
+        },
+        "address": {
+          "type": "string",
+          "required": false
+        },
+        "website": {
+          "type": "string",
+          "required": false
+        }
+      }
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "default": ""
+    }
+  },
+  "requires": ["blocks/Heading", "lucide-react"],
+  "npm": {
+    "dependencies": ["lucide-react@^0.263"],
+    "devDependencies": []
+  },
+  "category": "legal",
+  "examples": [
+    {
+      "name": "Basic Privacy Policy",
+      "description": "Privacy policy page with default sections",
+      "props": {
+        "companyName": "Immoverde Hannover",
+        "contactInfo": {
+          "email": "datenschutz@immoverde.de",
+          "phone": "+49 511 123456",
+          "address": "Musterstraße 1, 30159 Hannover"
+        }
+      }
+    }
+  ]
+}

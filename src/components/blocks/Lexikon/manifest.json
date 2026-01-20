@@ -1,0 +1,181 @@
+{
+  "name": "Lexikon",
+  "version": "1.0.0",
+  "description": "Lexicon/glossary component with alphabetical navigation, table of contents, and cross-referenced entries",
+  "props": {
+    "lexicon": {
+      "type": "object",
+      "required": true,
+      "description": "Object with term definitions where keys are terms and values are definitions",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Main heading for the lexicon section (shown when showHero is true)"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Subtitle text below the title (shown when showHero is true)"
+    },
+    "icon": {
+      "type": "LucideIcon",
+      "required": false,
+      "description": "Lucide icon component to display"
+    },
+    "iconAriaLabel": {
+      "type": "string",
+      "required": false,
+      "description": "ARIA label for the icon"
+    },
+    "iconOnTop": {
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "description": "Whether to display icon above the title"
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": false,
+      "description": "Path to header image"
+    },
+    "imageAlt": {
+      "type": "string",
+      "required": false,
+      "description": "Alt text for the header image"
+    },
+    "showHero": {
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Whether to show the hero section (title, subtitle, icon, image)"
+    },
+    "showImage": {
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Whether to display the image in hero section"
+    },
+    "showTableOfContents": {
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "description": "Whether to display the alphabetical table of contents"
+    },
+    "headingLevel": {
+      "type": "enum",
+      "values": [1, 2, 3, 4, 5, 6],
+      "required": false,
+      "default": 1,
+      "description": "Heading level for the title"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "contentClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "backgroundClassName": {
+      "type": "string",
+      "required": false,
+      "default": "min-h-screen bg-gradient-to-br from-slate-50 via-white to-amber-50 pt-16"
+    },
+    "tableOfContentsClassName": {
+      "type": "string",
+      "required": false,
+      "default": "mb-12 p-6 bg-gray-50 rounded-lg"
+    },
+    "entryClassName": {
+      "type": "string",
+      "required": false,
+      "default": "border-l-4 border-amber-500 pl-4 scroll-mt-20"
+    },
+    "tableOfContentsTitle": {
+      "type": "string",
+      "required": false,
+      "default": "Inhaltsverzeichnis",
+      "description": "Title for the table of contents section"
+    },
+    "sortBy": {
+      "type": "enum",
+      "values": ["alphabetical", "custom"],
+      "required": false,
+      "default": "alphabetical",
+      "description": "Sort order for entries (currently only alphabetical is implemented)"
+    },
+    "locale": {
+      "type": "string",
+      "required": false,
+      "default": "de",
+      "description": "Locale for sorting entries"
+    },
+    "children": {
+      "type": "ReactNode",
+      "required": false,
+      "description": "Additional content to render at the bottom"
+    }
+  },
+  "requires": [
+    "ui/card",
+    "blocks/Heading",
+    "blocks/SmoothScrollButton",
+    "next/image",
+    "lucide-react"
+  ],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "next@^14.0.0",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Basic Lexicon",
+      "description": "Simple lexicon with term definitions",
+      "props": {
+        "title": "Immobilien Lexikon",
+        "subtitle": "Wichtige Begriffe einfach erklärt",
+        "lexicon": {
+          "Immobilie": "Ein Grundstück samt darauf befindlichen Bauten.",
+          "Makler": "Ein Vermittler von Immobiliengeschäften."
+        }
+      }
+    },
+    {
+      "name": "Lexicon with Image and Icon",
+      "description": "Lexicon with header image and icon",
+      "props": {
+        "title": "Immobilien Lexikon",
+        "subtitle": "Wichtige Begriffe einfach erklärt",
+        "lexicon": {
+          "Immobilie": "Ein Grundstück samt darauf befindlichen Bauten.",
+          "Makler": "Ein Vermittler von Immobiliengeschäften."
+        },
+        "imageSrc": "/images/lexikon-header.png",
+        "imageAlt": "Immobilien Lexikon",
+        "showImage": true
+      }
+    }
+  ]
+}

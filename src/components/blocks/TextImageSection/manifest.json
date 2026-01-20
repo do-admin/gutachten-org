@@ -1,0 +1,189 @@
+{
+  "name": "TextImageSection",
+  "version": "1.0.0",
+  "description": "Text and image section component with flexible layout, content blocks, features, and customizable styling",
+  "props": {
+    "variant": {
+      "type": "enum",
+      "values": ["default", "saving", "taxSavings"],
+      "required": false,
+      "default": "default",
+      "description": "Choose between the classic text-image layout, the savings marketing layout, or the dedicated tax savings variant"
+    },
+    "cta": {
+      "type": "object",
+      "required": false,
+      "description": "Optional call-to-action button configuration for default and saving variants"
+    },
+    "ctaIconClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Optional additional classes for styling the CTA icon"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the section"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Optional description text below the title"
+    },
+    "contentBlocks": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of content blocks (paragraphs or highlight boxes)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "enum",
+            "values": ["paragraph", "highlightBox"],
+            "required": true
+          },
+          "content": {
+            "type": "object",
+            "required": true
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "required": false,
+      "default": [],
+      "description": "Array of feature items with icons, titles, and descriptions",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "string",
+            "required": false
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": false,
+      "description": "Path to the image file"
+    },
+    "imageAlt": {
+      "type": "string",
+      "required": false,
+      "description": "Alt text for the image"
+    },
+    "imageWidth": {
+      "type": "number",
+      "required": false,
+      "default": 500,
+      "description": "Width of the image in pixels"
+    },
+    "imageHeight": {
+      "type": "number",
+      "required": false,
+      "default": 500,
+      "description": "Height of the image in pixels"
+    },
+    "textPosition": {
+      "type": "enum",
+      "values": ["left", "right"],
+      "required": false,
+      "default": "left",
+      "description": "Position of the text relative to the image"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": false,
+      "default": "bg-white",
+      "description": "Background color class"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "default": ""
+    },
+    "taxSavingsProps": {
+      "type": "object",
+      "required": false,
+      "description": "Konfiguration für das integrierte Steuerspar-Layout"
+    }
+  },
+  "requires": [
+    "blocks/Heading",
+    "ui/card",
+    "next/image",
+    "lib/icon-utils",
+    "lucide-react"
+  ],
+  "npm": {
+    "dependencies": ["next@^14.0.0", "clsx@^2.0.0", "tailwind-merge@^2.0.0"],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Text Image Section with Features",
+      "description": "Section with text, image, and feature items",
+      "props": {
+        "variant": "default",
+        "title": "Unsere Leistungen",
+        "description": "Professionelle Immobilienverwaltung aus einer Hand",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Wir bieten umfassende Dienstleistungen für Ihre Immobilie.",
+              "highlightWords": ["umfassende"],
+              "highlightClassName": "text-accent font-semibold"
+            }
+          }
+        ],
+        "features": [
+          {
+            "icon": "Home",
+            "title": "Verwaltung",
+            "description": "Professionelle Mietverwaltung"
+          }
+        ],
+        "imageSrc": "/images/services.jpg",
+        "imageAlt": "Immobilienverwaltung",
+        "textPosition": "left"
+      }
+    },
+    {
+      "name": "Tax Savings Variant",
+      "description": "Uses the tax savings marketing layout with CTA and benefits list",
+      "props": {
+        "variant": "taxSavings",
+        "taxSavingsProps": {
+          "title": "Steuern sparen mit verkürzter Abschreibungsdauer",
+          "intro": "Nutzen Sie die Expertise unserer Sachverständigen, um Ihre Steuerlast zu senken.",
+          "benefits": [
+            {
+              "content": "Abschreibungsdauer prüfen und verkürzen",
+              "emphasis": "verkürzen"
+            },
+            {
+              "content": "Nettoertrag nachhaltig steigern"
+            }
+          ],
+          "callToAction": {
+            "label": "Kostenlose Ersteinschätzung sichern",
+            "href": "https://www.gutachten.org/restnutzungsdauergutachten-ersteinschaetzung/"
+          }
+        }
+      }
+    }
+  ]
+}

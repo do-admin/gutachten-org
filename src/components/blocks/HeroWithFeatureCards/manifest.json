@@ -1,0 +1,293 @@
+{
+  "name": "HeroWithFeatureCards",
+  "version": "1.0.0",
+  "description": "Hero section with feature cards grid, logos, and two-column layout with content and image",
+  "props": {
+    "h1Text": {
+      "type": "string",
+      "required": false,
+      "description": "Main heading text (HeroSection style)"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Main heading text (Hero/Hero style)"
+    },
+    "titleHighlight": {
+      "type": "string",
+      "required": false,
+      "description": "Text to highlight within the title (HeroSection style)"
+    },
+    "highlightText": {
+      "type": "string",
+      "required": false,
+      "description": "Text to highlight within the title (Hero/Hero style)"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Subtitle text"
+    },
+    "subtitleHighlight": {
+      "type": "string",
+      "required": false,
+      "description": "Text to highlight within the subtitle"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Description text"
+    },
+    "subHeading": {
+      "type": "string",
+      "required": false,
+      "description": "Additional h2 sub-heading"
+    },
+    "image": {
+      "type": "object",
+      "required": false,
+      "description": "Hero image configuration",
+      "properties": {
+        "src": {
+          "type": "string",
+          "required": true
+        },
+        "alt": {
+          "type": "string",
+          "required": true
+        },
+        "width": {
+          "type": "number",
+          "required": false
+        },
+        "height": {
+          "type": "number",
+          "required": false
+        },
+        "priority": {
+          "type": "boolean",
+          "required": false
+        },
+        "sizes": {
+          "type": "string",
+          "required": false
+        },
+        "mobileSrc": {
+          "type": "string",
+          "required": false
+        },
+        "desktopSrc": {
+          "type": "string",
+          "required": false
+        },
+        "srcSet": {
+          "type": "string",
+          "required": false
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "required": false,
+      "description": "Array of feature cards to display in grid",
+      "items": {
+        "type": "object"
+      }
+    },
+    "logos": {
+      "type": "array",
+      "required": false,
+      "description": "Array of logos to display above the title",
+      "items": {
+        "type": "object"
+      }
+    },
+    "imageOverlay": {
+      "type": "object",
+      "required": false,
+      "description": "Overlay text to display on the image. Supports profileCard for hero-programatic-image variant",
+      "properties": {
+        "title": {
+          "type": "string",
+          "required": false
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false
+        },
+        "profileCard": {
+          "type": "object",
+          "required": false,
+          "description": "Profile card overlay (for hero-programatic-image variant)"
+        }
+      }
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["hero-links", "hero-programatic-image"],
+      "required": false,
+      "default": "hero-links",
+      "description": "Layout variant: 'hero-links' (default) or 'hero-programatic-image'"
+    },
+    "cta": {
+      "type": "object",
+      "required": false,
+      "description": "Call-to-action button configuration",
+      "properties": {
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "href": {
+          "type": "string",
+          "required": true
+        },
+        "external": {
+          "type": "boolean",
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "required": false
+        },
+        "variant": {
+          "type": "string",
+          "required": false
+        },
+        "icon": {
+          "type": "string",
+          "required": false
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "required": false,
+      "default": "hero",
+      "description": "HTML id attribute for the section"
+    },
+    "paddingTop": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl"],
+      "required": false,
+      "description": "Top padding size"
+    },
+    "paddingBottom": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl"],
+      "required": false,
+      "description": "Bottom padding size"
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the section"
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the container"
+    },
+    "contentClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the content area"
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the title"
+    },
+    "subHeadingClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the sub-heading"
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the subtitle"
+    },
+    "descriptionClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the description"
+    },
+    "imageWrapperClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the image wrapper"
+    },
+    "imageClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the image container"
+    },
+    "imgClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the image element"
+    },
+    "customBackgroundClass": {
+      "type": "string",
+      "required": false,
+      "description": "Custom background CSS class"
+    },
+    "logosContainerClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for the logos container wrapper"
+    },
+    "logoItemClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for individual logo items"
+    },
+    "logoImageClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for logo images"
+    },
+    "logoTextClassName": {
+      "type": "string",
+      "required": false,
+      "description": "Additional CSS classes for text-based logos"
+    }
+  },
+  "requires": [
+    "components/ui/button",
+    "components/ui/section",
+    "components/ui/optimized-image",
+    "lib/utils",
+    "lib/icon-utils",
+    "next/link",
+    "next/image",
+    "lucide-react"
+  ],
+  "npm": {
+    "dependencies": ["next@^14.0.0", "lucide-react@^0.446.0"],
+    "devDependencies": []
+  },
+  "category": "hero",
+  "examples": [
+    {
+      "name": "Basic Hero with Feature Cards",
+      "description": "Hero section with title, description, image, and feature cards grid",
+      "props": {
+        "title": "Welcome to Our Platform",
+        "description": "Building the future with modern technology",
+        "image": {
+          "src": "/images/hero.jpg",
+          "alt": "Hero image"
+        },
+        "features": [
+          {
+            "title": "Feature 1",
+            "description": "Description of feature 1",
+            "href": "/feature-1"
+          }
+        ]
+      }
+    }
+  ]
+}

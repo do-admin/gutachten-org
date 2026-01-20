@@ -1,0 +1,108 @@
+{
+  "sites": [
+    {
+      "id": "nutzungsdauer",
+      "name": "Nutzungsdauer",
+      "description": "Professional service solutions for your business needs",
+      "domain": "nutzungsdauer.org",
+      "logo": {
+        "light": "/images/nutzungsdauer/logo/nutzungsdauer-light.png",
+        "dark": "/images/nutzungsdauer/logo/nutzungsdauer-dark.png"
+      },
+      "favicon": "/favicon.ico",
+      "fonts": {
+        "primary": {
+          "id": "94140eb0-1d0d-4fe6-866e-f890dda26a34",
+          "name": "Poppins",
+          "fallback": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+          "weights": [400, 500, 600, 700],
+          "display": "swap"
+        },
+        "secondary": {
+          "id": "1c9b7ded-7717-48b4-a88b-c330d5187463",
+          "name": "Fira Code",
+          "fallback": "ui-monospace, SFMono-Regular, \"SF Mono\", Consolas, \"Liberation Mono\", Menlo, monospace",
+          "weights": [400, 500, 600],
+          "display": "swap"
+        },
+        "heading": {
+          "id": "40d50e4b-26af-4d41-ae48-18af159f3cf3",
+          "name": "Playfair Display",
+          "fallback": "Georgia, \"Times New Roman\", Times, serif",
+          "weights": [400, 600, 700],
+          "display": "swap"
+        }
+      },
+      "colors": {
+        "primary": "oklch(0.3211 0 0)",
+        "primaryForeground": "oklch(1 0 0)",
+        "secondary": "oklch(0.97 0 0)",
+        "secondaryForeground": "oklch(0.205 0 0)",
+        "accent": "oklch(0.7 0.19 45.54)",
+        "accentForeground": "oklch(0.985 0 0)",
+        "background": "oklch(1 0 0)",
+        "foreground": "oklch(0.3211 0 0)",
+        "muted": "oklch(0.97 0 0)",
+        "mutedForeground": "oklch(0.3211 0 0)",
+        "border": "oklch(0.922 0 0)",
+        "input": "oklch(0.922 0 0)",
+        "ring": "oklch(0.708 0 0)",
+        "destructive": "oklch(0.577 0.245 27.325)"
+      },
+      "layout": {
+        "navigation": "./layout/navigation.ts",
+        "footer": "./layout/footer.ts",
+        "cookieBanner": "./layout/cookieBanner.ts",
+        "analytics": "./layout/analytics.ts"
+      },
+      "contact": {
+        "email": "contact@service1.example.com",
+        "phone": "+49 123 456 789",
+        "address": {
+          "street": "Service Street 123",
+          "location": "Berlin",
+          "postalCode": "10115",
+          "country": "Germany"
+        }
+      },
+      "social": {
+        "facebook": "https://facebook.com/service1",
+        "twitter": "https://twitter.com/service1",
+        "instagram": "https://instagram.com/service1",
+        "linkedin": "https://linkedin.com/company/service1"
+      },
+      "seo": {
+        "id": "b2b83718-9f45-4398-addb-5cfe51843a70",
+        "title": "Service 1 - Professional Solutions | Expert Business Services",
+        "description": "Professional service solutions for your business. Expert team, fast delivery, 24/7 support. Get started today!",
+        "canonical": "https://service1.example.com"
+      },
+      "programmatic": {
+        "programmaticInstances": [
+          "Hamburg",
+          "Berlin",
+          "München",
+          "Köln",
+          "Frankfurt",
+          "Stuttgart",
+          "Düsseldorf",
+          "Dortmund",
+          "Essen",
+          "Leipzig",
+          "Bremen",
+          "Dresden",
+          "Hannover",
+          "Nürnberg",
+          "Duisburg",
+          "Bochum",
+          "Wuppertal",
+          "Bielefeld",
+          "Bonn",
+          "Münster"
+        ],
+        "slugStructure": "{programmaticInstanceName}",
+        "pages": ["home"]
+      }
+    }
+  ]
+}

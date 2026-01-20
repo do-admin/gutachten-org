@@ -1,0 +1,211 @@
+{
+  "name": "Cta",
+  "version": "1.0.0",
+  "description": "Call-to-action component with multiple variants including banner, default, primary, secondary, and accent styles",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the CTA section"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Optional description text below the title"
+    },
+    "button": {
+      "type": "object",
+      "required": true,
+      "description": "Button configuration",
+      "properties": {
+        "text": {
+          "type": "string",
+          "required": true
+        },
+        "href": {
+          "type": "string",
+          "required": true
+        },
+        "alt": {
+          "type": "string",
+          "required": false
+        },
+        "icon": {
+          "type": "string",
+          "required": false
+        },
+        "variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "destructive",
+            "outline",
+            "secondary",
+            "ghost",
+            "link",
+            "accent"
+          ],
+          "required": false
+        },
+        "size": {
+          "type": "enum",
+          "values": ["default", "sm", "lg", "icon"],
+          "required": false
+        }
+      }
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "primary", "secondary", "accent", "banner"],
+      "required": false,
+      "default": "default",
+      "description": "Visual variant of the CTA"
+    },
+    "size": {
+      "type": "enum",
+      "values": ["sm", "md", "lg"],
+      "required": false,
+      "default": "md"
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl", "2xl", "4xl", "6xl", "full"],
+      "required": false,
+      "default": "4xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "required": false,
+      "default": "center"
+    },
+    "showDisclaimer": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "disclaimerTitle": {
+      "type": "string",
+      "required": false,
+      "default": "Rechtlicher Hinweis"
+    },
+    "disclaimerContent": {
+      "type": "string|React.ReactNode",
+      "required": false
+    },
+    "icon": {
+      "type": "string",
+      "required": false,
+      "description": "Main icon for banner variant"
+    },
+    "features": {
+      "type": "array",
+      "required": false,
+      "description": "Feature items for banner variant",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "string",
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "trustText": {
+      "type": "string",
+      "required": false,
+      "description": "Trust text for banner variant"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "contentClassName": {
+      "type": "string",
+      "required": false
+    },
+    "buttonClassName": {
+      "type": "string",
+      "required": false
+    },
+    "disclaimerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": false
+    },
+    "padding": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl"],
+      "required": false,
+      "default": "md"
+    },
+    "margin": {
+      "type": "enum",
+      "values": ["sm", "md", "lg", "xl"],
+      "required": false,
+      "default": "md"
+    }
+  },
+  "requires": ["ui/button", "ui/card", "next/link", "lib/icon-utils"],
+  "npm": {
+    "dependencies": ["next@^14.0.0", "clsx@^2.0.0", "tailwind-merge@^2.0.0"],
+    "devDependencies": []
+  },
+  "category": "cta",
+  "examples": [
+    {
+      "name": "Default CTA",
+      "description": "Standard call-to-action with title, description, and button",
+      "props": {
+        "title": "Bereit für den nächsten Schritt?",
+        "description": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung.",
+        "button": {
+          "text": "Jetzt Kontakt aufnehmen",
+          "href": "/kontakt"
+        }
+      }
+    },
+    {
+      "name": "Banner CTA",
+      "description": "Full-width banner variant with features and trust text",
+      "props": {
+        "variant": "banner",
+        "title": "Kostenlose Immobilienbewertung",
+        "description": "Erfahren Sie den aktuellen Marktwert Ihrer Immobilie",
+        "icon": "Home",
+        "features": [
+          {
+            "icon": "Check",
+            "title": "Kostenlos",
+            "description": "Unverbindlich"
+          }
+        ],
+        "trustText": "Über 1000 zufriedene Kunden",
+        "button": {
+          "text": "Jetzt bewerten lassen",
+          "href": "#bewertung"
+        }
+      }
+    }
+  ]
+}

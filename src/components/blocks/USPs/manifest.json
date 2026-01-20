@@ -1,0 +1,169 @@
+{
+  "name": "USPs",
+  "version": "1.0.0",
+  "description": "Unique Selling Points (USPs) section component with icons, titles, and descriptions",
+  "props": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Main heading for the USPs section"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "description": "Optional subtitle text below the title"
+    },
+    "usps": {
+      "type": "array",
+      "required": true,
+      "description": "Array of USP items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "LucideIcon",
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "sectionId": {
+      "type": "string",
+      "default": "usps"
+    },
+    "variant": {
+      "type": "enum",
+      "values": ["default", "secondary"],
+      "default": "secondary"
+    },
+    "columns": {
+      "type": "enum",
+      "values": [2, 3, 4],
+      "default": 4
+    },
+    "maxWidth": {
+      "type": "enum",
+      "values": [
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "2xl",
+        "3xl",
+        "4xl",
+        "5xl",
+        "6xl",
+        "full"
+      ],
+      "default": "7xl"
+    },
+    "textAlign": {
+      "type": "enum",
+      "values": ["left", "center", "right"],
+      "default": "center"
+    },
+    "iconSize": {
+      "type": "enum",
+      "values": ["sm", "md", "lg"],
+      "default": "md"
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "subtitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "gridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": false
+    },
+    "iconWrapperClassName": {
+      "type": "string",
+      "required": false
+    },
+    "iconClassName": {
+      "type": "string",
+      "required": false
+    },
+    "contentClassName": {
+      "type": "string",
+      "required": false
+    },
+    "enableAnimation": {
+      "type": "boolean",
+      "default": true
+    },
+    "animationDelay": {
+      "type": "number",
+      "default": 0.1
+    },
+    "enableHoverEffect": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "requires": ["ui/section", "ui/card", "lucide-react"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "components",
+  "examples": [
+    {
+      "name": "Company USPs",
+      "description": "Display unique selling points with icons and descriptions",
+      "props": {
+        "title": "Warum Immoverde?",
+        "subtitle": "Ihr verlässlicher Partner für erfolgreiche Immobiliengeschäfte in Hannover",
+        "usps": [
+          {
+            "title": "Lokale Marktkenntnis",
+            "description": "Hannover & Region: fundierte Wertermittlung auf Basis aktueller Vergleichsdaten und jahrelanger Erfahrung vor Ort."
+          },
+          {
+            "title": "Rundum-Service",
+            "description": "Von Exposé über Besichtigungen bis Notartermin – wir managen alles professionell und zuverlässig für Sie."
+          },
+          {
+            "title": "Digitale Sichtbarkeit",
+            "description": "Premium-Platzierungen & Zielgruppen-Ads für maximale Reichweite und qualifizierte Interessenten."
+          },
+          {
+            "title": "Rechtliche Sicherheit",
+            "description": "Sorgfältige Dokumentenprüfung & rechtssichere Verträge für einen reibungslosen Ablauf ohne Risiken."
+          }
+        ]
+      }
+    }
+  ]
+}

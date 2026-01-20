@@ -1,0 +1,261 @@
+{
+  "name": "BaresGeldSparenSection",
+  "version": "1.0.0",
+  "description": "Section for highlighting Restnutzungsdauergutachten benefits with checklist, summary text, CTA and advantage cards.",
+  "props": {
+    "sectionId": {
+      "type": "string",
+      "required": false,
+      "default": "bares-geld-sparen"
+    },
+    "eyebrow": {
+      "type": "string",
+      "required": false,
+      "description": "Uppercase eyebrow label displayed above the headline."
+    },
+    "eyebrowClassName": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "description": "Main headline for the section."
+    },
+    "titleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "bulletItems": {
+      "type": "array",
+      "required": true,
+      "description": "Checklist style bullet items rendered with icons.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "required": true
+          },
+          "icon": {
+            "type": "LucideIcon",
+            "required": false
+          },
+          "iconImage": {
+            "type": "string",
+            "required": false,
+            "description": "Optional image source path for the bullet icon."
+          },
+          "iconImageAlt": {
+            "type": "string",
+            "required": false,
+            "description": "Alt text for the bullet icon image."
+          },
+          "iconClassName": {
+            "type": "string",
+            "required": false
+          },
+          "iconImageClassName": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "bulletListClassName": {
+      "type": "string",
+      "required": false
+    },
+    "bulletTextClassName": {
+      "type": "string",
+      "required": false
+    },
+    "summary": {
+      "type": "array",
+      "required": false,
+      "description": "Paragraphs of descriptive copy displayed next to the bullet list.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summaryClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cta": {
+      "type": "object",
+      "required": false,
+      "description": "Primary call-to-action button configuration.",
+      "properties": {
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "href": {
+          "type": "string",
+          "required": true
+        },
+        "icon": {
+          "type": "LucideIcon",
+          "required": false
+        },
+        "external": {
+          "type": "boolean",
+          "required": false
+        },
+        "variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "destructive",
+            "outline",
+            "secondary",
+            "ghost",
+            "link",
+            "accent"
+          ],
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "required": false
+        }
+      }
+    },
+    "cards": {
+      "type": "array",
+      "required": true,
+      "description": "Grid of benefit cards displayed below the main content.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          },
+          "icon": {
+            "type": "LucideIcon",
+            "required": false
+          },
+          "iconImage": {
+            "type": "string",
+            "required": false,
+            "description": "Optional image source path for the card icon."
+          },
+          "iconImageAlt": {
+            "type": "string",
+            "required": false,
+            "description": "Alt text for the card icon image."
+          },
+          "iconClassName": {
+            "type": "string",
+            "required": false
+          },
+          "iconImageClassName": {
+            "type": "string",
+            "required": false
+          },
+          "className": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    },
+    "cardsGridClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardTitleClassName": {
+      "type": "string",
+      "required": false
+    },
+    "cardDescriptionClassName": {
+      "type": "string",
+      "required": false
+    },
+    "backgroundClassName": {
+      "type": "string",
+      "required": false,
+      "default": "bg-white"
+    },
+    "containerClassName": {
+      "type": "string",
+      "required": false
+    },
+    "className": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "requires": ["ui/section", "ui/card", "ui/button", "lib/icon-utils"],
+  "npm": {
+    "dependencies": [
+      "lucide-react@^0.263",
+      "clsx@^2.0.0",
+      "tailwind-merge@^2.0.0"
+    ],
+    "devDependencies": []
+  },
+  "category": "sections",
+  "examples": [
+    {
+      "name": "Restnutzungsdauergutachten Vorteile",
+      "description": "Checklist and CTA highlighting the benefits of a Restnutzungsdauergutachten.",
+      "props": {
+        "eyebrow": "Bares Geld sparen",
+        "title": "Nutzungsdauergutachten",
+        "bulletItems": [
+          {
+            "text": "Erhöhen Sie gezielt Ihre Abschreibungen durch professionelle Gutachten.",
+            "iconImage": "/images/{{siteId}}/home/bitcoin-icons_verify-filled.webp",
+            "iconImageAlt": "Check Icon"
+          },
+          {
+            "text": "Planen Sie Investitionen realistisch dank fundierter Restnutzungsdauer-Analyse.",
+            "iconImage": "/images/{{siteId}}/home/bitcoin-icons_verify-filled.webp",
+            "iconImageAlt": "Check Icon"
+          },
+          {
+            "text": "Nutzen Sie steuerliche Vorteile rechtssicher mit anerkannten Sachverständigen.",
+            "iconImage": "/images/{{siteId}}/home/bitcoin-icons_verify-filled.webp",
+            "iconImageAlt": "Check Icon"
+          }
+        ],
+        "summary": [
+          "Vermeiden Sie Fehlinvestitionen, planen Sie realistisch und nutzen Sie steuerliche Vorteile – mit einer fundierten Einschätzung der Restnutzungsdauer durch unsere Sachverständigen."
+        ],
+        "cta": {
+          "label": "Kostenlose Ersteinschätzung",
+          "href": "/angebote",
+          "icon": "ArrowUpRight",
+          "variant": "default"
+        },
+        "cards": [
+          {
+            "title": "Steuerlast senken",
+            "description": "Erhöhen Sie Ihre Abschreibungen gezielt mit einem professionellen Nutzungsdauergutachten.",
+            "iconImage": "/images/{{siteId}}/home/money-invest.webp",
+            "iconImageAlt": "Geld investieren"
+          },
+          {
+            "title": "Nettoeinkommen steigern",
+            "description": "Sparen Sie Steuern mit smarter Abschreibung – spürbar mehr Geld im Jahr.",
+            "iconImage": "/images/{{siteId}}/home/pie-chart.webp",
+            "iconImageAlt": "Diagramm"
+          },
+          {
+            "title": "Zertifizierte Expertise",
+            "description": "Anerkannte Gutachten von DIN ISO/IEC 17024 Experten – garantiert finanzamtskonform.",
+            "iconImage": "/images/{{siteId}}/home/strategy-success.webp",
+            "iconImageAlt": "Strategie"
+          }
+        ]
+      }
+    }
+  ]
+}
