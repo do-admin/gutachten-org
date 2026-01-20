@@ -1,13 +1,9 @@
 import { withSentryConfig } from "@sentry/nextjs";
 
 const nextConfig = {
-  output: "export" as const,
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: process.env.NODE_ENV === "production",
-  },
-  images: {
-    unoptimized: true,
   },
   compiler: {
     // Remove console logs only in production
